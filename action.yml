@@ -6,6 +6,8 @@ outputs:
     description: The environment name for the releaseEnv
   calcId:
     description: The standardized identifier of the calculator for the repo
+  imageTag:
+    description: The unique tag name for the generated container
 runs:
   using: 'node16'
   main: 'dist/index.js'

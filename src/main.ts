@@ -18,6 +18,9 @@ async function run(): Promise<void> {
     }
     core.setOutput('calcId', descriptor.calcId)
     core.info(`calcId: "${descriptor.calcId}"`)
+    const imageTag = `${releaseEnv}-sha-${context.sha.slice(0, 7)}`
+    core.setOutput('imageTag', imageTag)
+    core.info(`imageTag: "${imageTag}"`)
   } catch (error) {
     if (error instanceof Error) core.setFailed(error.message)
   }
