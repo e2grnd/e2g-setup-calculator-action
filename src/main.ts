@@ -1,16 +1,21 @@
 import * as core from '@actions/core'
-import {wait} from './wait'
+import * as github from '@actions/github'
+
+import {calculators} from './calculators'
 
 async function run(): Promise<void> {
   try {
-    const ms: string = core.getInput('milliseconds')
-    core.debug(`Waiting ${ms} milliseconds ...`) // debug is only output if you set the secret `ACTIONS_STEP_DEBUG` to true
-
-    core.debug(new Date().toTimeString())
-    await wait(parseInt(ms, 10))
-    core.debug(new Date().toTimeString())
-
-    core.setOutput('time', new Date().toTimeString())
+    const context = github.context
+    core.setOutput('repo', context.repo.repo)
+    const releaseEnv = context.ref.startsWith('refs/heads/release/')
+      ? context.ref.toLowerCase().replace('refs/heads/release/', '')
+      : undefined
+    core.setOutput('envTag', releaseEnv)
+    const descriptor = calculators[context.repo.repo]
+    if (!descriptor) {
+      throw new Error('No calcId found for this repo!')
+    }
+    core.setOutput('calcId', descriptor.calcId)
   } catch (error) {
     if (error instanceof Error) core.setFailed(error.message)
   }
