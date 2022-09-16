@@ -2,8 +2,10 @@ name: 'e2g-setup-calculator-action'
 description: 'Internal use'
 author: 'Equity Engineering Group'
 outputs:
-  sum:
-    description: 'The sum of the inputs'
+  releaseEnv:
+    description: The environment name for the releaseEnv
+  calcId:
+    description: The standardized identifier of the calculator for the repo
 runs:
   using: 'node16'
   main: 'dist/index.js'
