@@ -10,12 +10,14 @@ async function run(): Promise<void> {
     const releaseEnv = context.ref.startsWith('refs/heads/release/')
       ? context.ref.toLowerCase().replace('refs/heads/release/', '')
       : undefined
-    core.setOutput('envTag', releaseEnv)
+    core.setOutput('releaseEnv', releaseEnv)
+    core.info(`releaseEnv: "${releaseEnv}"`)
     const descriptor = calculators[context.repo.repo]
     if (!descriptor) {
       throw new Error('No calcId found for this repo!')
     }
     core.setOutput('calcId', descriptor.calcId)
+    core.info(`calcId: "${descriptor.calcId}"`)
   } catch (error) {
     if (error instanceof Error) core.setFailed(error.message)
   }
