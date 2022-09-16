@@ -11,6 +11,12 @@ exports.calculators = void 0;
 exports.calculators = {
     tbreak: {
         calcId: 'tbreak'
+    },
+    'idinterp-calculator': {
+        calcId: 'idinterp'
+    },
+    can2WeatherData: {
+        calcId: 'weather-data'
     }
 };
 
