@@ -25,8 +25,7 @@ const libpyConfig = [
         name: 'corrSolutions',
         repo: 'pyCorrSolutionsDA.git',
         module: 'pyDaEecCalculator.Calculator',
-        function: 'calculateCorrSolutions',
-        base_image: true
+        function: 'calculateCorrSolutions'
     },
     {
         name: 'epriAmp',
@@ -204,6 +203,7 @@ const libpyConfig = [
     },
     {
         name: 'asmeB31g',
+        serviceName: 'asme-b31g',
         repo: 'asmeB31G-calculator.git',
         module: 'B31GCalculator.Calculator',
         function: 'submit_asmeB31G_calculation_to_sage'
@@ -476,8 +476,7 @@ const libpyConfig = [
         name: 'crackAttack',
         repo: 'crackattack-calculator.git',
         module: 'CrackAttackCalculator.CrackAttackCalculator',
-        function: 'crack_attack_input_file_generator',
-        docker_path: '../workers/crack-attack'
+        function: 'crack_attack_input_file_generator'
     },
     {
         name: 'thermowell',
@@ -487,44 +486,38 @@ const libpyConfig = [
     },
     {
         name: 'asme-b31g-ccx',
-        repo: 'worker-asme-b31g-ccx.git',
-        docker_path: '../workers/asme-b31g-ccx'
+        repo: 'worker-asme-b31g-ccx.git'
     },
     {
         name: 'calculix',
-        language: 'go',
-        repo: 'worker-calculix.git',
-        docker_path: '../workers/calculix',
-        env: {
-            OMP_NUM_THREADS: '2',
-            CCX_NPROC_RESULTS: '2',
-            CCX_NPROC_EQUATION_SOLVER: '2',
-            NUMBER_OF_CPUS: '2'
-        }
+        repo: 'worker-calculix.git'
     },
     {
         name: 'frdtoex2',
-        repo: 'worker-frdtoex2.git',
-        docker_path: '../workers/frdtoex2'
+        repo: 'worker-frdtoex2.git'
     },
     {
         name: 'gmsh',
-        language: 'go',
-        repo: 'worker-gmsh.git',
-        docker_path: '../workers/gmsh'
+        repo: 'worker-gmsh.git'
     }
 ];
 const calcsByRepo = libpyConfig.reduce((acc, conf) => {
     const repoName = conf.repo.replace(/\.git$/, '');
-    acc[repoName] = { calcId: conf.name };
+    acc[repoName] = {
+        imageName: conf.imageName || conf.name,
+        serviceName: conf.serviceName || conf.name
+    };
     return acc;
 }, {});
 exports.calculators = Object.assign(Object.assign({}, calcsByRepo), { tbreak: {
-        calcId: 'tbreak'
+        imageName: 'tbreak',
+        serviceName: 'tbreak'
     }, 'idinterp-calculator': {
-        calcId: 'idinterp'
+        imageName: 'idinterp',
+        serviceName: 'idinterp'
     }, can2WeatherData: {
-        calcId: 'weather-data'
+        imageName: 'weather-data',
+        serviceName: 'weather-data'
     } });
 
 
@@ -583,10 +576,12 @@ function run() {
             core.info(`releaseEnv: "${releaseEnv}"`);
             const descriptor = calculators_1.calculators[context.repo.repo];
             if (!descriptor) {
-                throw new Error('No calcId found for this repo!');
+                throw new Error('No descriptor definition found for this repo!');
             }
-            core.setOutput('calcId', descriptor.calcId);
-            core.info(`calcId: "${descriptor.calcId}"`);
+            core.setOutput('imageName', descriptor.imageName);
+            core.info(`imageName: "${descriptor.imageName}"`);
+            core.setOutput('serviceName', descriptor.serviceName);
+            core.info(`serviceName: "${descriptor.serviceName}"`);
             const imageTag = `${releaseEnv}-sha-${context.sha.slice(0, 7)}`;
             core.setOutput('imageTag', imageTag);
             core.info(`imageTag: "${imageTag}"`);

@@ -14,10 +14,12 @@ async function run(): Promise<void> {
     core.info(`releaseEnv: "${releaseEnv}"`)
     const descriptor = calculators[context.repo.repo]
     if (!descriptor) {
-      throw new Error('No calcId found for this repo!')
+      throw new Error('No descriptor definition found for this repo!')
     }
-    core.setOutput('calcId', descriptor.calcId)
-    core.info(`calcId: "${descriptor.calcId}"`)
+    core.setOutput('imageName', descriptor.imageName)
+    core.info(`imageName: "${descriptor.imageName}"`)
+    core.setOutput('serviceName', descriptor.serviceName)
+    core.info(`serviceName: "${descriptor.serviceName}"`)
     const imageTag = `${releaseEnv}-sha-${context.sha.slice(0, 7)}`
     core.setOutput('imageTag', imageTag)
     core.info(`imageTag: "${imageTag}"`)
