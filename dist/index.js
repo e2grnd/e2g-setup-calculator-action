@@ -8,17 +8,524 @@ require('./sourcemap-register.js');/******/ (() => { // webpackBootstrap
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.calculators = void 0;
-exports.calculators = {
-    tbreak: {
-        calcId: 'tbreak'
+const libpyConfig = [
+    {
+        name: 'idinterp',
+        repo: 'idinterp-calculator.git',
+        module: 'IDInterp_calculator',
+        function: 'calculate_IDInterp'
     },
-    'idinterp-calculator': {
-        calcId: 'idinterp'
+    {
+        name: 'can2GrowthRate',
+        repo: 'can2AnnualGrowthRate.git',
+        module: 'can2AnnualGrowthCalc.calculator',
+        function: 'calculateGrowthRate'
     },
-    can2WeatherData: {
-        calcId: 'weather-data'
+    {
+        name: 'corrSolutions',
+        repo: 'pyCorrSolutionsDA.git',
+        module: 'pyDaEecCalculator.Calculator',
+        function: 'calculateCorrSolutions',
+        base_image: true
+    },
+    {
+        name: 'epriAmp',
+        repo: 'epriAmpCalculator.git',
+        module: 'epriAmpCalc.Calculator',
+        function: 'calculateEpriAmp'
+    },
+    {
+        name: 'bestRate',
+        repo: 'bestRateCalculator.git',
+        module: 'bestRateCalc.Calculator',
+        function: 'calculateBestRate'
+    },
+    {
+        name: 'bayes',
+        repo: 'bayes-utils2.git',
+        module: 'bayesUtilities.Calculator',
+        function: 'calculate_bayesBuilder'
+    },
+    {
+        name: 'fast2',
+        repo: 'fast2-calculator.git',
+        module: 'Fast2Calculator.Calculator',
+        function: 'submit_fast2_calculation_to_sage'
+    },
+    {
+        name: 'hthaSteadyState',
+        repo: 'htha-steady-state.git',
+        module: 'SteadyCalculator.Calculator',
+        function: 'calculate_steady_state_alpha_omega'
+    },
+    {
+        name: 'upgrade',
+        repo: 'upgrade.git',
+        module: 'upgradeCalculator.gradeComment',
+        function: 'generate_inspection_grade'
+    },
+    {
+        name: 'openIAM',
+        repo: 'openIAMWrapper.git',
+        module: 'openIAMWrapperCalc.Calculator',
+        function: 'calculate_openIAM'
+    },
+    {
+        name: 'cmlOptimization',
+        repo: 'cmlOptimizationWrapper.git',
+        module: 'cmlOptimizationWrapperCalc.Calculator',
+        function: 'calculate_cmlOptimization'
+    },
+    {
+        name: 'htha',
+        repo: 'htha-backend-src.git',
+        module: 'HTHACalculator.Calculators',
+        function: 'calculate_htha_damage'
+    },
+    {
+        name: 'bakeout',
+        repo: 'bakeout-backend.git',
+        module: 'BakeOut.BakeOutCalculator',
+        function: 'calculate_hydrogen_bakeout'
+    },
+    {
+        name: 'mpt',
+        repo: 'MPT-backend.git',
+        module: 'MPTCalculator.CalculateMPT',
+        function: 'calculate_mpt'
+    },
+    {
+        name: 'fatigueDamage',
+        repo: 'FatigueDamageApp.git',
+        module: 'FatigueDamageCalculator.GetInputDictionary',
+        function: 'Calculate'
+    },
+    {
+        name: 'fatigue',
+        repo: 'FatigueDataAnalysisApp.git',
+        module: 'FatigueDataAnalysisCalculator.sandbox',
+        function: 'calculate'
+    },
+    {
+        name: 'fatigueDataExplorer',
+        repo: 'FatigueDataExplorerApp.git',
+        module: 'FatigueExplorerCalculator.sandbox',
+        function: 'calculate'
+    },
+    {
+        name: 'weldedJointFatigue',
+        repo: 'WeldedJointFatigueLifeApp.git',
+        module: 'WeldedJointCalculator.sandbox',
+        function: 'calculate'
+    },
+    {
+        name: 'insulation',
+        repo: 'insulation-calculator.git',
+        module: 'InsulationCalculator.Calculator',
+        function: 'calculate_Insulation_Thickness'
+    },
+    {
+        name: 'circuitCorrosion',
+        repo: 'cmlwise-calculator.git',
+        module: 'CMLWiseCalculator.Calculator',
+        function: 'submit_cmlwise_calculation_to_sage'
+    },
+    {
+        name: 'hottap',
+        repo: 'hottap-calculator.git',
+        module: 'HottapCalculator.Calculator',
+        function: 'submit_hottap_calculation_to_sage'
+    },
+    {
+        name: 'burstPressure',
+        repo: 'burstp-calculator.git',
+        module: 'BurstpCalculator.Calculator',
+        function: 'submit_burstp_calculation_to_sage'
+    },
+    {
+        name: 'exemption',
+        repo: 'exemption-backend.git',
+        module: 'ExemptionCurveCalculator.GenerateExemptionCurve',
+        function: 'generate_exemption_curves'
+    },
+    {
+        name: 'shutdown',
+        repo: 'shutdown-backend.git',
+        module: 'Shutdown.ShutdownCalculator',
+        function: 'calculate_hydrogen_shutdown'
+    },
+    {
+        name: 'creepLife',
+        repo: 'creep-life-calculator.git',
+        module: 'CreepLifeCalculator.creepLife',
+        function: 'calculate_creep_life'
+    },
+    {
+        name: 'toughness',
+        repo: 'toughness-backend.git',
+        module: 'ToughnessCalculator.CalculateToughnessCurve',
+        function: 'calculate_toughness_curve'
+    },
+    {
+        name: 'shell',
+        repo: 'shell-pt-calculator.git',
+        module: 'ShellPTCalculator',
+        function: 'submit_shell_calc_to_sage'
+    },
+    {
+        name: 'pipe',
+        repo: 'pipe-pt-calculator.git',
+        module: 'PipeCalculator.PipePTCalculator',
+        function: 'submit_pipe_pt_calc_to_sage'
+    },
+    {
+        name: 'pipeSpan',
+        repo: 'pipe-span-calculator.git',
+        module: 'PipeSpanCalculator.Calculator',
+        function: 'submit_pipe_span_calc_to_sage'
+    },
+    {
+        name: 'mixer',
+        repo: 'fluid-explorer-backend.git',
+        module: 'FluidExplorerCalculator.Calculator',
+        function: 'submit_mixer_calculation_to_sage'
+    },
+    {
+        name: 'bpc',
+        repo: 'buriedPipelinesCalculator.git',
+        module: 'BPC_Calculator.Calculator',
+        function: 'calculate_buried_pipeline_crossings'
+    },
+    {
+        name: 'flange',
+        repo: 'flange-calculator.git',
+        module: 'FlangeCalculator',
+        function: 'submit_flange_calculation_to_sage'
+    },
+    {
+        name: 'asmeB31g',
+        repo: 'asmeB31G-calculator.git',
+        module: 'B31GCalculator.Calculator',
+        function: 'submit_asmeB31G_calculation_to_sage'
+    },
+    {
+        name: 'materialExplorer',
+        repo: 'material-explorer-calculator.git',
+        module: 'MatDatCalculator',
+        function: 'submit_matdat_calculation_to_sage'
+    },
+    {
+        name: 'charpy',
+        repo: 'charpy-calculator.git',
+        module: 'CharpyCalculator',
+        function: 'submit_charpy_calculation_to_sage'
+    },
+    {
+        name: 'prvSizing',
+        repo: 'PRELIEFD-Calculator.git',
+        module: 'PRELIEFDCalculator',
+        function: 'submit_preliefd_calculation_to_sage'
+    },
+    {
+        name: 'galvanicCorrosion',
+        repo: 'GalvanicCorrosionRateApp.git',
+        module: 'CalculateGalvanicCorrosion.GetInputDictionary',
+        function: 'Calculate'
+    },
+    {
+        name: 'boilerTube',
+        repo: 'boiler-tube-calculator.git',
+        module: 'BoilerTubeCalculator',
+        function: 'submit_boiler_tube_calculation_to_sage'
+    },
+    {
+        name: 'branch',
+        repo: 'branch-calculator.git',
+        module: 'BranchCalculator.Calculator',
+        function: 'submit_branch_calculation_to_sage'
+    },
+    {
+        name: 'corrodingPipeLife',
+        repo: 'ProbabilityPipelineCorrosionFailure.git',
+        module: 'ProbCorrFailureCalculator.GetInputDictionary',
+        function: 'CalculateFromInputWrapper'
+    },
+    {
+        name: 'cpDesign',
+        repo: 'CPDesignCalculators.git',
+        module: 'CPDesignCalcs.GetInputDictionary',
+        function: 'CalculateFromInputWrapper'
+    },
+    {
+        name: 'chaboche',
+        repo: 'chabocheFittingNew.git',
+        module: 'chabocheFitCalc.GetInputDictionary',
+        function: 'Calculate'
+    },
+    {
+        name: 'smoothBarFatigue',
+        repo: 'SmoothBarFatigueLife.git',
+        module: 'SBCalculator.GetInputDictionary',
+        function: 'call_calculator'
+    },
+    {
+        name: 'cpDesignOffshore',
+        repo: 'cpDesignOffshore.git',
+        module: 'CPDesignCalcsOffshore.GetInputDictionary',
+        function: 'CalculateFromInputWrapper'
+    },
+    {
+        name: 'coatingQuantity',
+        repo: 'coatingQuantityApp.git',
+        module: 'CoatingQuantityCalculator.GetInputDictionary',
+        function: 'CalculateFromInputWrapper'
+    },
+    {
+        name: 'ffsThinning',
+        repo: 'ffs-thinning-calculator.git',
+        module: 'FFSThinningCalculator.Calculator',
+        function: 'submit_ffsthinning_calculation_to_sage'
+    },
+    {
+        name: 'ffsPitting',
+        repo: 'ffs-pitting-calculator.git',
+        module: 'FFSPittingCalculator.Calculator',
+        function: 'submit_ffspitting_calculation_to_sage'
+    },
+    {
+        name: 'ffsCreep',
+        repo: 'ffs-creep-calculator.git',
+        module: 'FFSCreepCalculator.Calculator',
+        function: 'submit_ffscreep_calculation_to_sage'
+    },
+    {
+        name: 'ffsCrackGrowth',
+        repo: 'ffs-crack-growth-calculator.git',
+        module: 'CrackGrowthCalculator.Calculator',
+        function: 'submit_crack_growth_calculation_to_sage'
+    },
+    {
+        name: 'ffsCrackLike',
+        repo: 'ffs-cracking-calculator.git',
+        module: 'CrackingCalculator.Calculator',
+        function: 'submit_apiffs_cracking_calculation_to_sage'
+    },
+    {
+        name: 'ffsBrittle',
+        repo: 'ffs-brittle-calculator.git',
+        module: 'BrittleCalculator.Calculator',
+        function: 'submit_apiffs_brittle_calculation_to_sage'
+    },
+    {
+        name: 'ffsMisalignment',
+        repo: 'ffs-misalignment-calculator.git',
+        module: 'MisalignmentCalculator.Calculator',
+        function: 'submit_apiffs_misalignment_calculation_to_sage'
+    },
+    {
+        name: 'ffsHydrogen',
+        repo: 'ffs-hydrogen-calculator.git',
+        module: 'HydrogenCalculator.Calculator',
+        function: 'submit_apiffs_hydrogen_calculation_to_sage'
+    },
+    {
+        name: 'ffsDentGouge',
+        repo: 'ffs-dent-gouge-calculator.git',
+        module: 'DentGougeCalculator.Calculator',
+        function: 'submit_apiffs_dent_gouge_calculation_to_sage'
+    },
+    {
+        name: 'ffsLamination',
+        repo: 'ffs-laminations-calculator.git',
+        module: 'LaminationCalculator.Calculator',
+        function: 'submit_apiffs_laminations_calculation_to_sage'
+    },
+    {
+        name: 'ffsFireDamage',
+        repo: 'ffs-fire-damage-calculator.git',
+        module: 'FireDamageCalculator.Calculator',
+        function: 'submit_apiffs_fire_damage_calculation_to_sage'
+    },
+    {
+        name: 'creep',
+        repo: 'lot_centered_analysis.git',
+        module: 'lotcenteredanalysis.Calculator',
+        function: 'calculate_Creep_LMP'
+    },
+    {
+        name: 'plffsThinning',
+        repo: 'pipeline-ffs-thinning-calculator.git',
+        module: 'PipelineThinningCalculator.Calculator',
+        function: 'submit_pipeline_ffsthinning_calculation_to_sage'
+    },
+    {
+        name: 'plffsPitting',
+        repo: 'pipeline-ffs-pitting-calculator.git',
+        module: 'PipelinePittingCalculator.Calculator',
+        function: 'submit_pipeline_ffspitting_calculation_to_sage'
+    },
+    {
+        name: 'plffsCreep',
+        repo: 'pipeline-ffs-creep-calculator.git',
+        module: 'PipelineCreepCalculator.Calculator',
+        function: 'submit_pipeline_ffscreep_calculation_to_sage'
+    },
+    {
+        name: 'plffsCrackLike',
+        repo: 'pipeline-ffs-cracking-calculator.git',
+        module: 'PipelineCrackingCalculator.Calculator',
+        function: 'submit_pipeline_apiffs_cracking_calculation_to_sage'
+    },
+    {
+        name: 'plffsBrittle',
+        repo: 'pipeline-ffs-brittle-calculator.git',
+        module: 'PipelineBrittleCalculator.Calculator',
+        function: 'submit_pipeline_apiffs_brittle_calculation_to_sage'
+    },
+    {
+        name: 'plffsMisalignment',
+        repo: 'pipeline-ffs-misalignment-calculator.git',
+        module: 'PipelineMisalignmentCalculator.Calculator',
+        function: 'submit_pipeline_apiffs_misalignment_calculation_to_sage'
+    },
+    {
+        name: 'plffsHydrogen',
+        repo: 'pipeline-ffs-hydrogen-calculator.git',
+        module: 'PipelineHydrogenCalculator.Calculator',
+        function: 'submit_pipeline_apiffs_hydrogen_calculation_to_sage'
+    },
+    {
+        name: 'plffsDentGouge',
+        repo: 'pipeline-ffs-dent-gouge-calculator.git',
+        module: 'PipelineDentGougeCalculator.Calculator',
+        function: 'submit_pipeline_apiffs_dent_gouge_calculation_to_sage'
+    },
+    {
+        name: 'plffsLamination',
+        repo: 'pipeline-ffs-laminations-calculator.git',
+        module: 'PipelineLaminationCalculator.Calculator',
+        function: 'submit_pipeline_apiffs_laminations_calculation_to_sage'
+    },
+    {
+        name: 'plffsFireDamage',
+        repo: 'pipeline-ffs-fire-damage-calculator.git',
+        module: 'PipelineFireDamageCalculator.Calculator',
+        function: 'submit_pipeline_apiffs_fire_damage_calculation_to_sage'
+    },
+    {
+        name: 'simflex',
+        repo: 'simflexCalculator.git',
+        module: 'SimflexCalc.Calculator',
+        function: 'submit_calculation_to_simflex'
+    },
+    {
+        name: 'omega',
+        repo: 'omegaFitting.git',
+        module: 'omegaFitCalculator.omega_plots',
+        function: 'calculate_Omega'
+    },
+    {
+        name: 'prdUpdate',
+        repo: 'PRDUpdating.git',
+        module: 'PRDCalculator.sandbox',
+        function: 'Calculate'
+    },
+    {
+        name: 'nozzle',
+        repo: 'nozzle-calculator.git',
+        module: 'NozzleCalculator.Calculator',
+        function: 'submit_nozzle_calculation_to_sage'
+    },
+    {
+        name: 'tank',
+        repo: 'tank-thickness-calculator.git',
+        module: 'TankThicknessCalculator.Calculator',
+        function: 'submit_tank_thickness_calculation_to_sage'
+    },
+    {
+        name: 'tankSettlement',
+        repo: 'tank-settlement-calculator.git',
+        module: 'TankSettlementCalculator.Calculator',
+        function: 'submit_tank_settlement_calculation_to_sage'
+    },
+    {
+        name: 'bijlaard',
+        repo: 'bijlaard-calculator.git',
+        module: 'calculator.bijlaard_calculator',
+        function: 'submit_bijlaard_calc_to_sage'
+    },
+    {
+        name: 'storedEnergy',
+        repo: 'stored-energy-calculator.git',
+        module: 'StoredEnergyCalculator.StoredEnergy',
+        function: 'calculate_stored_energy'
+    },
+    {
+        name: 'sageX',
+        repo: 'sageLimitless.git',
+        module: 'sageLimitlessCalculator.calculate',
+        function: 'submit_calculation_to_sage'
+    },
+    {
+        name: 'inspectionReport',
+        repo: 'inspection-report-calculator.git',
+        module: 'inspectionReportGenerator.InspectionReport',
+        function: 'generate_inspection_report'
+    },
+    {
+        name: 'crackAttack',
+        repo: 'crackattack-calculator.git',
+        module: 'CrackAttackCalculator.CrackAttackCalculator',
+        function: 'crack_attack_input_file_generator',
+        docker_path: '../workers/crack-attack'
+    },
+    {
+        name: 'thermowell',
+        repo: 'thermowellsCalculator.git',
+        module: 'thermowells_Calculator.ThermowellsCalculator',
+        function: 'calculate_ThermoWell'
+    },
+    {
+        name: 'asme-b31g-ccx',
+        repo: 'worker-asme-b31g-ccx.git',
+        docker_path: '../workers/asme-b31g-ccx'
+    },
+    {
+        name: 'calculix',
+        language: 'go',
+        repo: 'worker-calculix.git',
+        docker_path: '../workers/calculix',
+        env: {
+            OMP_NUM_THREADS: '2',
+            CCX_NPROC_RESULTS: '2',
+            CCX_NPROC_EQUATION_SOLVER: '2',
+            NUMBER_OF_CPUS: '2'
+        }
+    },
+    {
+        name: 'frdtoex2',
+        repo: 'worker-frdtoex2.git',
+        docker_path: '../workers/frdtoex2'
+    },
+    {
+        name: 'gmsh',
+        language: 'go',
+        repo: 'worker-gmsh.git',
+        docker_path: '../workers/gmsh'
     }
-};
+];
+const calcsByRepo = libpyConfig.reduce((acc, conf) => {
+    const repoName = conf.repo.replace(/\.git$/, '');
+    acc[repoName] = { calcId: conf.name };
+    return acc;
+}, {});
+exports.calculators = Object.assign(Object.assign({}, calcsByRepo), { tbreak: {
+        calcId: 'tbreak'
+    }, 'idinterp-calculator': {
+        calcId: 'idinterp'
+    }, can2WeatherData: {
+        calcId: 'weather-data'
+    } });
 
 
 /***/ }),
