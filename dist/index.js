@@ -519,6 +519,9 @@ exports.calculators = Object.assign(Object.assign({}, calcsByRepo), { tbreak: {
     }, 'idinterp-calculator': {
         imageName: 'idinterp',
         serviceName: 'idinterp'
+    }, weldResidualStress: {
+        imageName: 'weld-residual-stress',
+        serviceName: 'weld-residual-stress'
     }, can2WeatherData: {
         imageName: 'weather-data',
         serviceName: 'weather-data'

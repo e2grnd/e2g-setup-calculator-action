@@ -525,6 +525,10 @@ export const calculators: Record<string, CalcConfig> = {
     imageName: 'idinterp',
     serviceName: 'idinterp'
   },
+  weldResidualStress: {
+    imageName: 'weld-residual-stress',
+    serviceName: 'weld-residual-stress'
+  },
   can2WeatherData: {
     imageName: 'weather-data',
     serviceName: 'weather-data'
