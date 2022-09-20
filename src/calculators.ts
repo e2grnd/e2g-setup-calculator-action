@@ -509,7 +509,7 @@ const libpyConfig: LibPyConfig[] = [
 const calcsByRepo = libpyConfig.reduce((acc, conf) => {
   const repoName = conf.repo.replace(/\.git$/, '')
   acc[repoName] = {
-    imageName: conf.imageName || conf.name,
+    imageName: conf.imageName || kebab(conf.name),
     serviceName: conf.serviceName || kebab(conf.name)
   }
   return acc
