@@ -1,10 +1,20 @@
 import kebab from 'lodash.kebabcase'
 
 type CalcConfig = {
+  /**
+   * The name of the container image in the registry
+   */
   imageName: string
+  /**
+   * The name of the service directory in the kustomize repo
+   */
   serviceName: string
 }
 
+/**
+ * This was coppied verbatim from the lib-py config and converted to ts as a
+ * quick way to flesh out the CalcConfig array.
+ */
 type LibPyConfig = {
   name: string
   repo: string
