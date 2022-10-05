@@ -542,5 +542,21 @@ export const calculators: Record<string, CalcConfig> = {
   can2WeatherData: {
     imageName: 'weather-data',
     serviceName: 'weather-data'
+  },
+  depositionDensity: {
+    imageName: 'deposition-density',
+    serviceName: 'deposition-density'
+  },
+  can2AnnualGrowthRate: {
+    imageName: 'can2-growth-rate',
+    serviceName: 'can2-growth-rate'
+  },
+  can2TemperatureCorrelation: {
+    imageName: 'canister-temperature',
+    serviceName: 'canister-temperature'
+  },
+  PittingCorrosionRateApp: {
+    imageName: 'pitting-corrosion-rate',
+    serviceName: 'pitting-corrosion-rate'
   }
 }
