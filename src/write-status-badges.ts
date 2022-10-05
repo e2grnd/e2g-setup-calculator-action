@@ -5,13 +5,18 @@ import {calculators} from './calculators'
 const fs = fsAll.promises
 
 async function run(): Promise<void> {
-  let md = '# Calculator Repo Publish Action Status\n\n---\n\n'
+  let md = `# Calculator Repo Publish Action Status
+
+
+| Service | Status |
+| ------------- | ------------- |
+  `
   Object.entries(calculators)
     .sort((a, b) => {
       return a[1].serviceName.localeCompare(b[1].serviceName)
     })
     .forEach(([repoName, calcConfig]) => {
-      md += `- ${calcConfig.serviceName}: [![${calcConfig.serviceName}](https://github.com/e2grnd/${repoName}/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/${repoName}/actions/workflows/publish.yml)\n\n`
+      md += `| ${calcConfig.serviceName} | [![${calcConfig.serviceName}](https://github.com/e2grnd/${repoName}/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/${repoName}/actions/workflows/publish.yml) |\n`
     })
   await fs.writeFile('status.md', md)
 }
