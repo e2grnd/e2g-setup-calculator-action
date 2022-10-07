@@ -20,6 +20,7 @@ type LibPyConfig = {
   repo: string
   module?: string
   function?: string
+  deprecated?: boolean
 } & Partial<CalcConfig>
 
 const libpyConfig: LibPyConfig[] = [
@@ -81,7 +82,8 @@ const libpyConfig: LibPyConfig[] = [
     name: 'openIAM',
     repo: 'openIAMWrapper.git',
     module: 'openIAMWrapperCalc.Calculator',
-    function: 'calculate_openIAM'
+    function: 'calculate_openIAM',
+    deprecated: true
   },
   {
     name: 'cmlOptimization',
@@ -105,7 +107,8 @@ const libpyConfig: LibPyConfig[] = [
     name: 'mpt',
     repo: 'MPT-backend.git',
     module: 'MPTCalculator.CalculateMPT',
-    function: 'calculate_mpt'
+    function: 'calculate_mpt',
+    deprecated: true
   },
   {
     name: 'fatigueDamage',
@@ -141,7 +144,8 @@ const libpyConfig: LibPyConfig[] = [
     name: 'circuitCorrosion',
     repo: 'cmlwise-calculator.git',
     module: 'CMLWiseCalculator.Calculator',
-    function: 'submit_cmlwise_calculation_to_sage'
+    function: 'submit_cmlwise_calculation_to_sage',
+    deprecated: true
   },
   {
     name: 'hottap',
@@ -238,13 +242,15 @@ const libpyConfig: LibPyConfig[] = [
     name: 'prvSizing',
     repo: 'PRELIEFD-Calculator.git',
     module: 'PRELIEFDCalculator',
-    function: 'submit_preliefd_calculation_to_sage'
+    function: 'submit_preliefd_calculation_to_sage',
+    deprecated: true
   },
   {
     name: 'galvanicCorrosion',
     repo: 'GalvanicCorrosionRateApp.git',
     module: 'CalculateGalvanicCorrosion.GetInputDictionary',
-    function: 'Calculate'
+    function: 'Calculate',
+    deprecated: true
   },
   {
     name: 'boilerTube',
@@ -274,7 +280,8 @@ const libpyConfig: LibPyConfig[] = [
     name: 'chaboche',
     repo: 'chabocheFittingNew.git',
     module: 'chabocheFitCalc.GetInputDictionary',
-    function: 'Calculate'
+    function: 'Calculate',
+    deprecated: true
   },
   {
     name: 'smoothBarFatigue',
@@ -292,7 +299,8 @@ const libpyConfig: LibPyConfig[] = [
     name: 'coatingQuantity',
     repo: 'coatingQuantityApp.git',
     module: 'CoatingQuantityCalculator.GetInputDictionary',
-    function: 'CalculateFromInputWrapper'
+    function: 'CalculateFromInputWrapper',
+    deprecated: true
   },
   {
     name: 'ffsThinning',
@@ -370,61 +378,71 @@ const libpyConfig: LibPyConfig[] = [
     name: 'plffsThinning',
     repo: 'pipeline-ffs-thinning-calculator.git',
     module: 'PipelineThinningCalculator.Calculator',
-    function: 'submit_pipeline_ffsthinning_calculation_to_sage'
+    function: 'submit_pipeline_ffsthinning_calculation_to_sage',
+    deprecated: true
   },
   {
     name: 'plffsPitting',
     repo: 'pipeline-ffs-pitting-calculator.git',
     module: 'PipelinePittingCalculator.Calculator',
-    function: 'submit_pipeline_ffspitting_calculation_to_sage'
+    function: 'submit_pipeline_ffspitting_calculation_to_sage',
+    deprecated: true
   },
   {
     name: 'plffsCreep',
     repo: 'pipeline-ffs-creep-calculator.git',
     module: 'PipelineCreepCalculator.Calculator',
-    function: 'submit_pipeline_ffscreep_calculation_to_sage'
+    function: 'submit_pipeline_ffscreep_calculation_to_sage',
+    deprecated: true
   },
   {
     name: 'plffsCrackLike',
     repo: 'pipeline-ffs-cracking-calculator.git',
     module: 'PipelineCrackingCalculator.Calculator',
-    function: 'submit_pipeline_apiffs_cracking_calculation_to_sage'
+    function: 'submit_pipeline_apiffs_cracking_calculation_to_sage',
+    deprecated: true
   },
   {
     name: 'plffsBrittle',
     repo: 'pipeline-ffs-brittle-calculator.git',
     module: 'PipelineBrittleCalculator.Calculator',
-    function: 'submit_pipeline_apiffs_brittle_calculation_to_sage'
+    function: 'submit_pipeline_apiffs_brittle_calculation_to_sage',
+    deprecated: true
   },
   {
     name: 'plffsMisalignment',
     repo: 'pipeline-ffs-misalignment-calculator.git',
     module: 'PipelineMisalignmentCalculator.Calculator',
-    function: 'submit_pipeline_apiffs_misalignment_calculation_to_sage'
+    function: 'submit_pipeline_apiffs_misalignment_calculation_to_sage',
+    deprecated: true
   },
   {
     name: 'plffsHydrogen',
     repo: 'pipeline-ffs-hydrogen-calculator.git',
     module: 'PipelineHydrogenCalculator.Calculator',
-    function: 'submit_pipeline_apiffs_hydrogen_calculation_to_sage'
+    function: 'submit_pipeline_apiffs_hydrogen_calculation_to_sage',
+    deprecated: true
   },
   {
     name: 'plffsDentGouge',
     repo: 'pipeline-ffs-dent-gouge-calculator.git',
     module: 'PipelineDentGougeCalculator.Calculator',
-    function: 'submit_pipeline_apiffs_dent_gouge_calculation_to_sage'
+    function: 'submit_pipeline_apiffs_dent_gouge_calculation_to_sage',
+    deprecated: true
   },
   {
     name: 'plffsLamination',
     repo: 'pipeline-ffs-laminations-calculator.git',
     module: 'PipelineLaminationCalculator.Calculator',
-    function: 'submit_pipeline_apiffs_laminations_calculation_to_sage'
+    function: 'submit_pipeline_apiffs_laminations_calculation_to_sage',
+    deprecated: true
   },
   {
     name: 'plffsFireDamage',
     repo: 'pipeline-ffs-fire-damage-calculator.git',
     module: 'PipelineFireDamageCalculator.Calculator',
-    function: 'submit_pipeline_apiffs_fire_damage_calculation_to_sage'
+    function: 'submit_pipeline_apiffs_fire_damage_calculation_to_sage',
+    deprecated: true
   },
   {
     name: 'simflex',
@@ -500,7 +518,8 @@ const libpyConfig: LibPyConfig[] = [
   },
   {
     name: 'asme-b31g-ccx',
-    repo: 'worker-asme-b31g-ccx.git'
+    repo: 'worker-asme-b31g-ccx.git',
+    deprecated: true
   },
   {
     name: 'calculix',
@@ -517,6 +536,7 @@ const libpyConfig: LibPyConfig[] = [
 ]
 
 const calcsByRepo = libpyConfig.reduce((acc, conf) => {
+  if (conf.deprecated) return acc
   const repoName = conf.repo.replace(/\.git$/, '')
   acc[repoName] = {
     imageName: conf.imageName || kebab(conf.name),

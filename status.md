@@ -3,8 +3,7 @@
 
 | Service | Status |
 | ------------- | ------------- |
-  | asme-b-31-g-ccx | [![asme-b-31-g-ccx](https://github.com/e2grnd/worker-asme-b31g-ccx/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/worker-asme-b31g-ccx/actions/workflows/publish.yml) |
-| asme-b31g | [![asme-b31g](https://github.com/e2grnd/asmeB31G-calculator/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/asmeB31G-calculator/actions/workflows/publish.yml) |
+  | asme-b31g | [![asme-b31g](https://github.com/e2grnd/asmeB31G-calculator/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/asmeB31G-calculator/actions/workflows/publish.yml) |
 | bakeout | [![bakeout](https://github.com/e2grnd/bakeout-backend/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/bakeout-backend/actions/workflows/publish.yml) |
 | bayes | [![bayes](https://github.com/e2grnd/bayes-utils2/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/bayes-utils2/actions/workflows/publish.yml) |
 | best-rate | [![best-rate](https://github.com/e2grnd/bestRateCalculator/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/bestRateCalculator/actions/workflows/publish.yml) |
@@ -16,11 +15,8 @@
 | calculix | [![calculix](https://github.com/e2grnd/worker-calculix/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/worker-calculix/actions/workflows/publish.yml) |
 | can2-growth-rate | [![can2-growth-rate](https://github.com/e2grnd/can2AnnualGrowthRate/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/can2AnnualGrowthRate/actions/workflows/publish.yml) |
 | canister-temperature | [![canister-temperature](https://github.com/e2grnd/can2TemperatureCorrelation/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/can2TemperatureCorrelation/actions/workflows/publish.yml) |
-| chaboche | [![chaboche](https://github.com/e2grnd/chabocheFittingNew/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/chabocheFittingNew/actions/workflows/publish.yml) |
 | charpy | [![charpy](https://github.com/e2grnd/charpy-calculator/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/charpy-calculator/actions/workflows/publish.yml) |
-| circuit-corrosion | [![circuit-corrosion](https://github.com/e2grnd/cmlwise-calculator/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/cmlwise-calculator/actions/workflows/publish.yml) |
 | cml-optimization | [![cml-optimization](https://github.com/e2grnd/cmlOptimizationWrapper/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/cmlOptimizationWrapper/actions/workflows/publish.yml) |
-| coating-quantity | [![coating-quantity](https://github.com/e2grnd/coatingQuantityApp/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/coatingQuantityApp/actions/workflows/publish.yml) |
 | corr-solutions | [![corr-solutions](https://github.com/e2grnd/pyCorrSolutionsDA/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/pyCorrSolutionsDA/actions/workflows/publish.yml) |
 | corroding-pipe-life | [![corroding-pipe-life](https://github.com/e2grnd/ProbabilityPipelineCorrosionFailure/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/ProbabilityPipelineCorrosionFailure/actions/workflows/publish.yml) |
 | cp-design | [![cp-design](https://github.com/e2grnd/CPDesignCalculators/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/CPDesignCalculators/actions/workflows/publish.yml) |
@@ -48,7 +44,6 @@
 | ffs-thinning | [![ffs-thinning](https://github.com/e2grnd/ffs-thinning-calculator/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/ffs-thinning-calculator/actions/workflows/publish.yml) |
 | flange | [![flange](https://github.com/e2grnd/flange-calculator/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/flange-calculator/actions/workflows/publish.yml) |
 | frdtoex-2 | [![frdtoex-2](https://github.com/e2grnd/worker-frdtoex2/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/worker-frdtoex2/actions/workflows/publish.yml) |
-| galvanic-corrosion | [![galvanic-corrosion](https://github.com/e2grnd/GalvanicCorrosionRateApp/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/GalvanicCorrosionRateApp/actions/workflows/publish.yml) |
 | gmsh | [![gmsh](https://github.com/e2grnd/worker-gmsh/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/worker-gmsh/actions/workflows/publish.yml) |
 | hottap | [![hottap](https://github.com/e2grnd/hottap-calculator/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/hottap-calculator/actions/workflows/publish.yml) |
 | htha | [![htha](https://github.com/e2grnd/htha-backend-src/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/htha-backend-src/actions/workflows/publish.yml) |
@@ -58,25 +53,12 @@
 | insulation | [![insulation](https://github.com/e2grnd/insulation-calculator/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/insulation-calculator/actions/workflows/publish.yml) |
 | material-explorer | [![material-explorer](https://github.com/e2grnd/material-explorer-calculator/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/material-explorer-calculator/actions/workflows/publish.yml) |
 | mixer | [![mixer](https://github.com/e2grnd/fluid-explorer-backend/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/fluid-explorer-backend/actions/workflows/publish.yml) |
-| mpt | [![mpt](https://github.com/e2grnd/MPT-backend/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/MPT-backend/actions/workflows/publish.yml) |
 | nozzle | [![nozzle](https://github.com/e2grnd/nozzle-calculator/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/nozzle-calculator/actions/workflows/publish.yml) |
 | omega | [![omega](https://github.com/e2grnd/omegaFitting/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/omegaFitting/actions/workflows/publish.yml) |
-| open-iam | [![open-iam](https://github.com/e2grnd/openIAMWrapper/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/openIAMWrapper/actions/workflows/publish.yml) |
 | pipe | [![pipe](https://github.com/e2grnd/pipe-pt-calculator/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/pipe-pt-calculator/actions/workflows/publish.yml) |
 | pipe-span | [![pipe-span](https://github.com/e2grnd/pipe-span-calculator/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/pipe-span-calculator/actions/workflows/publish.yml) |
 | pitting-corrosion-rate | [![pitting-corrosion-rate](https://github.com/e2grnd/PittingCorrosionRateApp/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/PittingCorrosionRateApp/actions/workflows/publish.yml) |
-| plffs-brittle | [![plffs-brittle](https://github.com/e2grnd/pipeline-ffs-brittle-calculator/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/pipeline-ffs-brittle-calculator/actions/workflows/publish.yml) |
-| plffs-crack-like | [![plffs-crack-like](https://github.com/e2grnd/pipeline-ffs-cracking-calculator/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/pipeline-ffs-cracking-calculator/actions/workflows/publish.yml) |
-| plffs-creep | [![plffs-creep](https://github.com/e2grnd/pipeline-ffs-creep-calculator/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/pipeline-ffs-creep-calculator/actions/workflows/publish.yml) |
-| plffs-dent-gouge | [![plffs-dent-gouge](https://github.com/e2grnd/pipeline-ffs-dent-gouge-calculator/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/pipeline-ffs-dent-gouge-calculator/actions/workflows/publish.yml) |
-| plffs-fire-damage | [![plffs-fire-damage](https://github.com/e2grnd/pipeline-ffs-fire-damage-calculator/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/pipeline-ffs-fire-damage-calculator/actions/workflows/publish.yml) |
-| plffs-hydrogen | [![plffs-hydrogen](https://github.com/e2grnd/pipeline-ffs-hydrogen-calculator/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/pipeline-ffs-hydrogen-calculator/actions/workflows/publish.yml) |
-| plffs-lamination | [![plffs-lamination](https://github.com/e2grnd/pipeline-ffs-laminations-calculator/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/pipeline-ffs-laminations-calculator/actions/workflows/publish.yml) |
-| plffs-misalignment | [![plffs-misalignment](https://github.com/e2grnd/pipeline-ffs-misalignment-calculator/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/pipeline-ffs-misalignment-calculator/actions/workflows/publish.yml) |
-| plffs-pitting | [![plffs-pitting](https://github.com/e2grnd/pipeline-ffs-pitting-calculator/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/pipeline-ffs-pitting-calculator/actions/workflows/publish.yml) |
-| plffs-thinning | [![plffs-thinning](https://github.com/e2grnd/pipeline-ffs-thinning-calculator/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/pipeline-ffs-thinning-calculator/actions/workflows/publish.yml) |
 | prd-update | [![prd-update](https://github.com/e2grnd/PRDUpdating/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/PRDUpdating/actions/workflows/publish.yml) |
-| prv-sizing | [![prv-sizing](https://github.com/e2grnd/PRELIEFD-Calculator/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/PRELIEFD-Calculator/actions/workflows/publish.yml) |
 | sage-x | [![sage-x](https://github.com/e2grnd/sageLimitless/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/sageLimitless/actions/workflows/publish.yml) |
 | shell | [![shell](https://github.com/e2grnd/shell-pt-calculator/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/shell-pt-calculator/actions/workflows/publish.yml) |
 | shutdown | [![shutdown](https://github.com/e2grnd/shutdown-backend/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/shutdown-backend/actions/workflows/publish.yml) |
