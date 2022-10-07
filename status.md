@@ -58,6 +58,7 @@
 | pipe | [![pipe](https://github.com/e2grnd/pipe-pt-calculator/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/pipe-pt-calculator/actions/workflows/publish.yml) |
 | pipe-span | [![pipe-span](https://github.com/e2grnd/pipe-span-calculator/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/pipe-span-calculator/actions/workflows/publish.yml) |
 | pitting-corrosion-rate | [![pitting-corrosion-rate](https://github.com/e2grnd/PittingCorrosionRateApp/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/PittingCorrosionRateApp/actions/workflows/publish.yml) |
+| plume-sight | [![plume-sight](https://github.com/e2grnd/plumeSight/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/plumeSight/actions/workflows/publish.yml) |
 | prd-update | [![prd-update](https://github.com/e2grnd/PRDUpdating/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/PRDUpdating/actions/workflows/publish.yml) |
 | sage-x | [![sage-x](https://github.com/e2grnd/sageLimitless/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/sageLimitless/actions/workflows/publish.yml) |
 | shell | [![shell](https://github.com/e2grnd/shell-pt-calculator/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/shell-pt-calculator/actions/workflows/publish.yml) |
