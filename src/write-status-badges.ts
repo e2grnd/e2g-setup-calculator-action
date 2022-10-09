@@ -8,15 +8,19 @@ async function run(): Promise<void> {
   let md = `# Calculator Repo Publish Action Status
 
 
-| Service | Status |
-| ------------- | ------------- |
+| Service | Dev | Stage | Prod | 
+| ------- | --- | ----- | ---- |
   `
   Object.entries(calculators)
     .sort((a, b) => {
       return a[1].serviceName.localeCompare(b[1].serviceName)
     })
     .forEach(([repoName, calcConfig]) => {
-      md += `| ${calcConfig.serviceName} | [![${calcConfig.serviceName}](https://github.com/e2grnd/${repoName}/actions/workflows/publish.yml/badge.svg)](https://github.com/e2grnd/${repoName}/actions/workflows/publish.yml) |\n`
+      md += `| ${calcConfig.serviceName}`
+      md += ` | [![${calcConfig.serviceName}](https://github.com/e2grnd/${repoName}/actions/workflows/publish.yml/badge.svg?branch=release%2Fdev)](https://github.com/e2grnd/${repoName}/actions/workflows/publish.yml)`
+      md += ` | [![${calcConfig.serviceName}](https://github.com/e2grnd/${repoName}/actions/workflows/publish.yml/badge.svg?branch=release%2Fstage)](https://github.com/e2grnd/${repoName}/actions/workflows/publish.yml)`
+      md += ` | [![${calcConfig.serviceName}](https://github.com/e2grnd/${repoName}/actions/workflows/publish.yml/badge.svg?branch=release%2Fprod)](https://github.com/e2grnd/${repoName}/actions/workflows/publish.yml)`
+      md += ' | \n'
     })
   await fs.writeFile('status.md', md)
 }
