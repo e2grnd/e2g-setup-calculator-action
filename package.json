@@ -5,13 +5,15 @@
   "description": "GitHub Action to emit configuration for internal use.",
   "main": "lib/main.js",
   "scripts": {
+    "clean": "git clean -xfd lib dist",
     "build": "tsc",
-    "status": "node lib/write-status-badges.js",
+    "write-status": "node lib/write-status-badges.js",
+    "write-clone-script": "node lib/write-clone-script.js",
     "format": "prettier --write '**/*.ts'",
     "format-check": "prettier --check '**/*.ts'",
     "lint": "eslint src/**/*.ts",
     "package": "ncc build --source-map --license licenses.txt",
-    "all": "yarn lint && yarn run build && yarn run status && yarn run format && yarn run package"
+    "all": "yarn lint && yarn clean && yarn build && yarn write-status && yarn write-clone-script && yarn format && yarn package"
   },
   "repository": {
     "type": "git",
