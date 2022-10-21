@@ -1,7 +1,7 @@
 #!/bin/bash
 mkdir -p ~/Projects/all-calculators
 cd ~/Projects/all-calculators
-git clone 'git@github.com:e2grnd/asmeB31G-calculator.git'
+git clone 'git@github.com:e2grnd/asme-b31g-calculator.git'
 git clone 'git@github.com:e2grnd/bakeout-backend.git'
 git clone 'git@github.com:e2grnd/bayes-utils2.git'
 git clone 'git@github.com:e2grnd/bestRateCalculator.git'

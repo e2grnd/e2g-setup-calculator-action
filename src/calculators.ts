@@ -220,10 +220,10 @@ const libpyConfig: LibPyConfig[] = [
     function: 'submit_flange_calculation_to_sage'
   },
   {
-    name: 'asmeB31g',
+    name: 'asme-b31g',
     serviceName: 'asme-b31g',
     imageName: 'asme-b31g',
-    repo: 'asmeB31G-calculator.git',
+    repo: 'asme-b31g-calculator.git',
     module: 'B31GCalculator.Calculator',
     function: 'submit_asmeB31G_calculation_to_sage'
   },
