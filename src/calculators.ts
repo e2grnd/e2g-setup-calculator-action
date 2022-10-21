@@ -568,7 +568,7 @@ export const calculators: Record<string, CalcConfig> = {
     imageName: 'deposition-density',
     serviceName: 'deposition-density'
   },
-  can2AnnualGrowthRate: {
+  'can2-annual-growth-rate-calculator': {
     imageName: 'can2-growth-rate',
     serviceName: 'can2-growth-rate'
   },
