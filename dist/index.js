@@ -540,7 +540,7 @@ exports.calculators = Object.assign(Object.assign({}, calcsByRepo), { tbreak: {
     }, can2WeatherData: {
         imageName: 'weather-data',
         serviceName: 'weather-data'
-    }, depositionDensity: {
+    }, 'deposition-density-calculator': {
         imageName: 'deposition-density',
         serviceName: 'deposition-density'
     }, 'can2-annual-growth-rate-calculator': {

@@ -558,7 +558,7 @@ export const calculators: Record<string, CalcConfig> = {
     imageName: 'weather-data',
     serviceName: 'weather-data'
   },
-  depositionDensity: {
+  'deposition-density-calculator': {
     imageName: 'deposition-density',
     serviceName: 'deposition-density'
   },
