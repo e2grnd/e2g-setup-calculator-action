@@ -99,7 +99,7 @@ const libpyConfig: LibPyConfig[] = [
   },
   {
     name: 'bakeout',
-    repo: 'bakeout-backend.git',
+    repo: 'bakeout-calculator.git',
     module: 'BakeOut.BakeOutCalculator',
     function: 'calculate_hydrogen_bakeout'
   },
