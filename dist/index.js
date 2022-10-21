@@ -38,8 +38,8 @@ const libpyConfig = [
         function: 'calculateEpriAmp'
     },
     {
-        name: 'bestRate',
-        repo: 'bestRateCalculator.git',
+        name: 'best-rate',
+        repo: 'best-rate-calculator.git',
         module: 'bestRateCalc.Calculator',
         function: 'calculateBestRate'
     },
