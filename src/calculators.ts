@@ -566,7 +566,7 @@ export const calculators: Record<string, CalcConfig> = {
     imageName: 'can2-growth-rate',
     serviceName: 'can2-growth-rate'
   },
-  can2TemperatureCorrelation: {
+  'can2-canister-temperature-calculator': {
     imageName: 'canister-temperature',
     serviceName: 'canister-temperature'
   },
