@@ -20,12 +20,6 @@ const libpyConfig = [
         function: 'calculate_IDInterp'
     },
     {
-        name: 'can2GrowthRate',
-        repo: 'can2AnnualGrowthRate.git',
-        module: 'can2AnnualGrowthCalc.calculator',
-        function: 'calculateGrowthRate'
-    },
-    {
         name: 'corrSolutions',
         repo: 'pyCorrSolutionsDA.git',
         module: 'pyDaEecCalculator.Calculator',
