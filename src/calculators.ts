@@ -87,7 +87,7 @@ const libpyConfig: LibPyConfig[] = [
   },
   {
     name: 'htha',
-    repo: 'htha-backend-src.git',
+    repo: 'htha-calculator.git',
     module: 'HTHACalculator.Calculators',
     function: 'calculate_htha_damage'
   },
