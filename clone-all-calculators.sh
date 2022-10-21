@@ -3,7 +3,7 @@ mkdir -p ~/Projects/all-calculators
 cd ~/Projects/all-calculators
 git clone 'git@github.com:e2grnd/asme-b31g-calculator.git'
 git clone 'git@github.com:e2grnd/bakeout-calculator.git'
-git clone 'git@github.com:e2grnd/bayes-utils2.git'
+git clone 'git@github.com:e2grnd/bayes-calculator.git'
 git clone 'git@github.com:e2grnd/bestRateCalculator.git'
 git clone 'git@github.com:e2grnd/bijlaard-calculator.git'
 git clone 'git@github.com:e2grnd/boiler-tube-calculator.git'

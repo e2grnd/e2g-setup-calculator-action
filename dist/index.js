@@ -45,7 +45,7 @@ const libpyConfig = [
     },
     {
         name: 'bayes',
-        repo: 'bayes-utils2.git',
+        repo: 'bayes-calculator.git',
         module: 'bayesUtilities.Calculator',
         function: 'calculate_bayesBuilder'
     },
