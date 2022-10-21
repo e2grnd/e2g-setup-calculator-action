@@ -112,7 +112,7 @@ const libpyConfig: LibPyConfig[] = [
   },
   {
     name: 'fatigue',
-    repo: 'FatigueDataAnalysisApp.git',
+    repo: 'fatigue-calculator.git',
     module: 'FatigueDataAnalysisCalculator.sandbox',
     function: 'calculate'
   },
