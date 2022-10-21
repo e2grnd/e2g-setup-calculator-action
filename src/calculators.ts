@@ -106,7 +106,7 @@ const libpyConfig: LibPyConfig[] = [
   },
   {
     name: 'fatigueDamage',
-    repo: 'FatigueDamageApp.git',
+    repo: 'fatigue-damage-calculator.git',
     module: 'FatigueDamageCalculator.GetInputDictionary',
     function: 'Calculate'
   },
