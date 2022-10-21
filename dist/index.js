@@ -27,7 +27,7 @@ const libpyConfig = [
     },
     {
         name: 'epriAmp',
-        repo: 'epriAmpCalculator.git',
+        repo: 'epri-amp-calculator.git',
         module: 'epriAmpCalc.Calculator',
         function: 'calculateEpriAmp'
     },
