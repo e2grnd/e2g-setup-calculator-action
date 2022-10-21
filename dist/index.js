@@ -144,7 +144,7 @@ const libpyConfig = [
     },
     {
         name: 'exemption',
-        repo: 'exemption-backend.git',
+        repo: 'exemption-calculator.git',
         module: 'ExemptionCurveCalculator.GenerateExemptionCurve',
         function: 'generate_exemption_curves'
     },
