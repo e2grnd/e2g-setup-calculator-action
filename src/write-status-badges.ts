@@ -18,6 +18,9 @@ async function run(): Promise<void> {
     .forEach(([repoName, calcConfig]) => {
       md += `| ${calcConfig.serviceName}`
       md += ` | [${repoName}](https://github.com/e2grnd/${repoName})`
+      if (!repoName.endsWith('-calculator')) {
+        md += ' 🚯'
+      }
       md += ` | [![${calcConfig.serviceName}](https://github.com/e2grnd/${repoName}/actions/workflows/publish.yml/badge.svg?branch=release%2Fdev)](https://github.com/e2grnd/${repoName}/actions/workflows/publish.yml)`
       md += ` | [![${calcConfig.serviceName}](https://github.com/e2grnd/${repoName}/actions/workflows/publish.yml/badge.svg?branch=release%2Fstage)](https://github.com/e2grnd/${repoName}/actions/workflows/publish.yml)`
       md += ` | [![${calcConfig.serviceName}](https://github.com/e2grnd/${repoName}/actions/workflows/publish.yml/badge.svg?branch=release%2Fprod)](https://github.com/e2grnd/${repoName}/actions/workflows/publish.yml)`
