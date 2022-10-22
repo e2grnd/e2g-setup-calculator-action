@@ -23,7 +23,8 @@ const libpyConfig = [
         name: 'corrSolutions',
         repo: 'pyCorrSolutionsDA.git',
         module: 'pyDaEecCalculator.Calculator',
-        function: 'calculateCorrSolutions'
+        function: 'calculateCorrSolutions',
+        noSync: true
     },
     {
         name: 'epriAmp',
@@ -47,13 +48,15 @@ const libpyConfig = [
         name: 'fast2',
         repo: 'fast2-calculator.git',
         module: 'Fast2Calculator.Calculator',
-        function: 'submit_fast2_calculation_to_sage'
+        function: 'submit_fast2_calculation_to_sage',
+        noSync: true
     },
     {
         name: 'hthaSteadyState',
         repo: 'htha-steady-state.git',
         module: 'SteadyCalculator.Calculator',
-        function: 'calculate_steady_state_alpha_omega'
+        function: 'calculate_steady_state_alpha_omega',
+        noSync: true
     },
     {
         name: 'upgrade',
@@ -72,7 +75,8 @@ const libpyConfig = [
         name: 'cmlOptimization',
         repo: 'cmlOptimizationWrapper.git',
         module: 'cmlOptimizationWrapperCalc.Calculator',
-        function: 'calculate_cmlOptimization'
+        function: 'calculate_cmlOptimization',
+        noSync: true
     },
     {
         name: 'htha',
@@ -109,7 +113,8 @@ const libpyConfig = [
         name: 'fatigueDataExplorer',
         repo: 'FatigueDataExplorerApp.git',
         module: 'FatigueExplorerCalculator.sandbox',
-        function: 'calculate'
+        function: 'calculate',
+        noSync: true
     },
     {
         name: 'weldedJointFatigue',
@@ -158,7 +163,8 @@ const libpyConfig = [
         name: 'creepLife',
         repo: 'creep-life-calculator.git',
         module: 'CreepLifeCalculator.creepLife',
-        function: 'calculate_creep_life'
+        function: 'calculate_creep_life',
+        noSync: true
     },
     {
         name: 'toughness',
@@ -194,7 +200,8 @@ const libpyConfig = [
         name: 'bpc',
         repo: 'buriedPipelinesCalculator.git',
         module: 'BPC_Calculator.Calculator',
-        function: 'calculate_buried_pipeline_crossings'
+        function: 'calculate_buried_pipeline_crossings',
+        noSync: true
     },
     {
         name: 'flange',
@@ -252,13 +259,15 @@ const libpyConfig = [
         name: 'corrodingPipeLife',
         repo: 'ProbabilityPipelineCorrosionFailure.git',
         module: 'ProbCorrFailureCalculator.GetInputDictionary',
-        function: 'CalculateFromInputWrapper'
+        function: 'CalculateFromInputWrapper',
+        noSync: true
     },
     {
         name: 'cpDesign',
         repo: 'CPDesignCalculators.git',
         module: 'CPDesignCalcs.GetInputDictionary',
-        function: 'CalculateFromInputWrapper'
+        function: 'CalculateFromInputWrapper',
+        noSync: true
     },
     {
         name: 'chaboche',
@@ -277,7 +286,8 @@ const libpyConfig = [
         name: 'cpDesignOffshore',
         repo: 'cpDesignOffshore.git',
         module: 'CPDesignCalcsOffshore.GetInputDictionary',
-        function: 'CalculateFromInputWrapper'
+        function: 'CalculateFromInputWrapper',
+        noSync: true
     },
     {
         name: 'coatingQuantity',
@@ -308,7 +318,8 @@ const libpyConfig = [
         name: 'ffsCrackGrowth',
         repo: 'ffs-crack-growth-calculator.git',
         module: 'CrackGrowthCalculator.Calculator',
-        function: 'submit_crack_growth_calculation_to_sage'
+        function: 'submit_crack_growth_calculation_to_sage',
+        noSync: true
     },
     {
         name: 'ffsCrackLike',
@@ -356,7 +367,8 @@ const libpyConfig = [
         name: 'creep',
         repo: 'lot_centered_analysis.git',
         module: 'lotcenteredanalysis.Calculator',
-        function: 'calculate_Creep_LMP'
+        function: 'calculate_Creep_LMP',
+        noSync: true
     },
     {
         name: 'plffsThinning',
@@ -438,13 +450,15 @@ const libpyConfig = [
         name: 'omega',
         repo: 'omegaFitting.git',
         module: 'omegaFitCalculator.omega_plots',
-        function: 'calculate_Omega'
+        function: 'calculate_Omega',
+        noSync: true
     },
     {
         name: 'prdUpdate',
         repo: 'PRDUpdating.git',
         module: 'PRDCalculator.sandbox',
-        function: 'Calculate'
+        function: 'Calculate',
+        noSync: true
     },
     {
         name: 'nozzle',
@@ -486,13 +500,15 @@ const libpyConfig = [
         name: 'inspectionReport',
         repo: 'inspection-report-calculator.git',
         module: 'inspectionReportGenerator.InspectionReport',
-        function: 'generate_inspection_report'
+        function: 'generate_inspection_report',
+        noSync: true
     },
     {
         name: 'crackAttack',
         repo: 'crackattack-calculator.git',
         module: 'CrackAttackCalculator.CrackAttackCalculator',
-        function: 'crack_attack_input_file_generator'
+        function: 'crack_attack_input_file_generator',
+        noSync: true
     },
     {
         name: 'thermowell',
@@ -507,15 +523,18 @@ const libpyConfig = [
     },
     {
         name: 'calculix',
-        repo: 'worker-calculix.git'
+        repo: 'worker-calculix.git',
+        deprecated: true
     },
     {
         name: 'frdtoex2',
-        repo: 'worker-frdtoex2.git'
+        repo: 'worker-frdtoex2.git',
+        deprecated: true
     },
     {
         name: 'gmsh',
-        repo: 'worker-gmsh.git'
+        repo: 'worker-gmsh.git',
+        deprecated: true
     }
 ];
 const calcsByRepo = libpyConfig.reduce((acc, conf) => {
@@ -524,7 +543,8 @@ const calcsByRepo = libpyConfig.reduce((acc, conf) => {
     const repoName = conf.repo.replace(/\.git$/, '');
     acc[repoName] = {
         imageName: conf.imageName || (0, lodash_kebabcase_1.default)(conf.name),
-        serviceName: conf.serviceName || (0, lodash_kebabcase_1.default)(conf.name)
+        serviceName: conf.serviceName || (0, lodash_kebabcase_1.default)(conf.name),
+        noSync: conf.noSync
     };
     return acc;
 }, {});
