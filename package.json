@@ -9,11 +9,12 @@
     "build": "tsc",
     "write-status": "node lib/write-status-badges.js",
     "write-clone-script": "node lib/write-clone-script.js",
+    "write-sync-config": "node lib/write-sync-config.js",
     "format": "prettier --write '**/*.ts'",
     "format-check": "prettier --check '**/*.ts'",
     "lint": "eslint src/**/*.ts",
     "package": "ncc build --source-map --license licenses.txt",
-    "all": "yarn lint && yarn clean && yarn build && yarn write-status && yarn write-clone-script && yarn format && yarn package"
+    "all": "yarn lint && yarn clean && yarn build && yarn write-status && yarn write-clone-script && yarn write-sync-config && yarn format && yarn package"
   },
   "repository": {
     "type": "git",
