@@ -29,6 +29,7 @@ group:
     e2grnd/flange-calculator@release/dev
     e2grnd/hottap-calculator@release/dev
     e2grnd/htha-calculator@release/dev
+    e2grnd/htha-steady-state-calculator@release/dev
     e2grnd/idinterp-calculator@release/dev
     e2grnd/insulation-calculator@release/dev
     e2grnd/material-explorer-calculator@release/dev

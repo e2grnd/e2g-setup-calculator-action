@@ -71,8 +71,7 @@ const libpyConfig: LibPyConfig[] = [
     name: 'hthaSteadyState',
     repo: 'htha-steady-state-calculator.git',
     module: 'SteadyCalculator.Calculator',
-    function: 'calculate_steady_state_alpha_omega',
-    noSync: true
+    function: 'calculate_steady_state_alpha_omega'
   },
   {
     name: 'upgrade',
