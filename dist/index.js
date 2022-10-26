@@ -256,7 +256,7 @@ const libpyConfig = [
     },
     {
         name: 'corrodingPipeLife',
-        repo: 'ProbabilityPipelineCorrosionFailure.git',
+        repo: 'corroding-pipe-life-calculator.git',
         module: 'ProbCorrFailureCalculator.GetInputDictionary',
         function: 'CalculateFromInputWrapper',
         noSync: true
