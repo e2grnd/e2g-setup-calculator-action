@@ -110,7 +110,7 @@ const libpyConfig = [
     },
     {
         name: 'fatigueDataExplorer',
-        repo: 'FatigueDataExplorerApp.git',
+        repo: 'fatigue-data-explorer-calculator.git',
         module: 'FatigueExplorerCalculator.sandbox',
         function: 'calculate',
         noSync: true
