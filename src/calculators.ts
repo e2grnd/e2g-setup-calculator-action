@@ -507,7 +507,7 @@ const libpyConfig: LibPyConfig[] = [
   },
   {
     name: 'sageX',
-    repo: 'sageLimitless.git',
+    repo: 'sage-x-calculator.git',
     module: 'sageLimitlessCalculator.calculate',
     function: 'submit_calculation_to_sage'
   },
