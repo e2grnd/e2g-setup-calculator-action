@@ -154,7 +154,7 @@ const libpyConfig = [
     },
     {
         name: 'shutdown',
-        repo: 'shutdown-backend.git',
+        repo: 'shutdown-calculator.git',
         module: 'Shutdown.ShutdownCalculator',
         function: 'calculate_hydrogen_shutdown'
     },
