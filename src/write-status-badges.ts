@@ -21,9 +21,9 @@ async function run(): Promise<void> {
       if (!repoName.endsWith('-calculator')) {
         md += ' 🚯'
       }
-      md += ` | [![${calcConfig.serviceName}](https://github.com/e2grnd/${repoName}/actions/workflows/publish.yml/badge.svg?branch=release%2Fdev)](https://github.com/e2grnd/${repoName}/actions/workflows/publish.yml)`
-      md += ` | [![${calcConfig.serviceName}](https://github.com/e2grnd/${repoName}/actions/workflows/publish.yml/badge.svg?branch=release%2Fstage)](https://github.com/e2grnd/${repoName}/actions/workflows/publish.yml)`
-      md += ` | [![${calcConfig.serviceName}](https://github.com/e2grnd/${repoName}/actions/workflows/publish.yml/badge.svg?branch=release%2Fprod)](https://github.com/e2grnd/${repoName}/actions/workflows/publish.yml)`
+      md += ` | [![dev](https://github.com/e2grnd/${repoName}/actions/workflows/publish.yml/badge.svg?branch=release%2Fdev)](https://github.com/e2grnd/${repoName}/actions/workflows/publish.yml)`
+      md += ` | [![stage](https://github.com/e2grnd/${repoName}/actions/workflows/publish.yml/badge.svg?branch=release%2Fstage)](https://github.com/e2grnd/${repoName}/actions/workflows/publish.yml)`
+      md += ` | [![prod](https://github.com/e2grnd/${repoName}/actions/workflows/publish.yml/badge.svg?branch=release%2Fprod)](https://github.com/e2grnd/${repoName}/actions/workflows/publish.yml)`
       md += ' | \n'
     })
   await fs.writeFile('status.md', md)
