@@ -277,7 +277,7 @@ const libpyConfig = [
     },
     {
         name: 'smoothBarFatigue',
-        repo: 'SmoothBarFatigueLife.git',
+        repo: 'smooth-bar-fatigue-life-calculator.git',
         module: 'SBCalculator.GetInputDictionary',
         function: 'call_calculator'
     },

@@ -44,7 +44,7 @@ group:
     e2grnd/shell-pt-calculator@release/dev
     e2grnd/shutdown-calculator@release/dev
     e2grnd/simflexCalculator@release/dev
-    e2grnd/SmoothBarFatigueLife@release/dev
+    e2grnd/smooth-bar-fatigue-life-calculator@release/dev
     e2grnd/stored-energy-calculator@release/dev
     e2grnd/tank-thickness-calculator@release/dev
     e2grnd/tank-settlement-calculator@release/dev
