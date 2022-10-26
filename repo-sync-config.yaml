@@ -50,7 +50,7 @@ group:
     e2grnd/tank-settlement-calculator@release/dev
     e2grnd/tbreak@release/dev
     e2grnd/thermowells-calculator@release/dev
-    e2grnd/toughness-backend@release/dev
+    e2grnd/toughness-calculator@release/dev
     e2grnd/upgrade@release/dev
     e2grnd/can2WeatherData@release/dev
     e2grnd/weldResidualStress@release/dev

@@ -167,7 +167,7 @@ const libpyConfig = [
     },
     {
         name: 'toughness',
-        repo: 'toughness-backend.git',
+        repo: 'toughness-calculator.git',
         module: 'ToughnessCalculator.CalculateToughnessCurve',
         function: 'calculate_toughness_curve'
     },
