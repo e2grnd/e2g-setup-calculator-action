@@ -54,7 +54,7 @@ group:
     e2grnd/upgrade-calculator@release/dev
     e2grnd/can2-weather-data-calculator@release/dev
     e2grnd/weld-residual-stress-calculator@release/dev
-    e2grnd/WeldedJointFatigueLifeApp@release/dev
+    e2grnd/welded-joint-fatigue-life-calculator@release/dev
   files: 
     - source: .github/workflows/publish.yml
       dest: .github/workflows/publish.yml

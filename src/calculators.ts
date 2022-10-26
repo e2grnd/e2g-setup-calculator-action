@@ -133,7 +133,7 @@ const libpyConfig: LibPyConfig[] = [
   },
   {
     name: 'weldedJointFatigue',
-    repo: 'WeldedJointFatigueLifeApp.git',
+    repo: 'welded-joint-fatigue-life-calculator.git',
     module: 'WeldedJointCalculator.sandbox',
     function: 'calculate'
   },
