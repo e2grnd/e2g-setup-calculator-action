@@ -598,7 +598,7 @@ export const calculators: Record<string, CalcConfig> = {
     imageName: 'can2-decisions',
     serviceName: 'can2-decisions'
   },
-  PittingCorrosionRateApp: {
+  'pitting-corrosion-rate-calculator': {
     imageName: 'pitting-corrosion-rate',
     serviceName: 'pitting-corrosion-rate'
   },

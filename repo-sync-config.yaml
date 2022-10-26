@@ -38,7 +38,7 @@ group:
     e2grnd/nozzle-calculator@release/dev
     e2grnd/pipe-pt-calculator@release/dev
     e2grnd/pipe-span-calculator@release/dev
-    e2grnd/PittingCorrosionRateApp@release/dev
+    e2grnd/pitting-corrosion-rate-calculator@release/dev
     e2grnd/plumeSight@release/dev
     e2grnd/sageLimitless@release/dev
     e2grnd/shell-pt-calculator@release/dev

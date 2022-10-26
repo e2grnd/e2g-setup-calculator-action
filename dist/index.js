@@ -571,7 +571,7 @@ exports.calculators = Object.assign(Object.assign({}, calcsByRepo), { tbreak: {
     }, 'can2-decisions-calculator': {
         imageName: 'can2-decisions',
         serviceName: 'can2-decisions'
-    }, PittingCorrosionRateApp: {
+    }, 'pitting-corrosion-rate-calculator': {
         imageName: 'pitting-corrosion-rate',
         serviceName: 'pitting-corrosion-rate'
     }, plumeSight: {
