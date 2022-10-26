@@ -568,6 +568,9 @@ exports.calculators = Object.assign(Object.assign({}, calcsByRepo), { tbreak: {
     }, 'can2-canister-temperature-calculator': {
         imageName: 'canister-temperature',
         serviceName: 'canister-temperature'
+    }, 'can2-decisions-calculator': {
+        imageName: 'can2-decisions',
+        serviceName: 'can2-decisions'
     }, PittingCorrosionRateApp: {
         imageName: 'pitting-corrosion-rate',
         serviceName: 'pitting-corrosion-rate'
