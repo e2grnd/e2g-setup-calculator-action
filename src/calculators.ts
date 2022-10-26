@@ -574,7 +574,7 @@ export const calculators: Record<string, CalcConfig> = {
     imageName: 'idinterp',
     serviceName: 'idinterp'
   },
-  weldResidualStress: {
+  'weld-residual-stress-calculator': {
     imageName: 'weld-residual-stress',
     serviceName: 'weld-residual-stress'
   },
