@@ -37,7 +37,7 @@ const libpyConfig: LibPyConfig[] = [
   },
   {
     name: 'corrSolutions',
-    repo: 'pyCorrSolutionsDA.git',
+    repo: 'corr-solutions-da-calculator.git',
     module: 'pyDaEecCalculator.Calculator',
     function: 'calculateCorrSolutions',
     noSync: true
