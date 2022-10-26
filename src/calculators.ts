@@ -279,7 +279,7 @@ const libpyConfig: LibPyConfig[] = [
   },
   {
     name: 'cpDesign',
-    repo: 'CPDesignCalculators.git',
+    repo: 'cp-design-calculator.git',
     module: 'CPDesignCalcs.GetInputDictionary',
     function: 'CalculateFromInputWrapper',
     noSync: true
