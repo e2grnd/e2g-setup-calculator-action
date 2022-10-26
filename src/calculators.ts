@@ -527,7 +527,7 @@ const libpyConfig: LibPyConfig[] = [
   },
   {
     name: 'thermowell',
-    repo: 'thermowellsCalculator.git',
+    repo: 'thermowells-calculator.git',
     module: 'thermowells_Calculator.ThermowellsCalculator',
     function: 'calculate_ThermoWell'
   },
