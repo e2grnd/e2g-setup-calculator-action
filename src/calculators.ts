@@ -463,7 +463,7 @@ const libpyConfig: LibPyConfig[] = [
   },
   {
     name: 'omega',
-    repo: 'omegaFitting.git',
+    repo: 'omega-calculator.git',
     module: 'omegaFitCalculator.omega_plots',
     function: 'calculate_Omega',
     noSync: true
