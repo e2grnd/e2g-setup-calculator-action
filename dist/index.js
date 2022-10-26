@@ -197,7 +197,7 @@ const libpyConfig = [
     },
     {
         name: 'bpc',
-        repo: 'buriedPipelinesCalculator.git',
+        repo: 'buried-pipelines-calculator.git',
         module: 'BPC_Calculator.Calculator',
         function: 'calculate_buried_pipeline_crossings',
         noSync: true
