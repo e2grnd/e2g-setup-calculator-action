@@ -364,7 +364,7 @@ const libpyConfig = [
     },
     {
         name: 'creep',
-        repo: 'lot_centered_analysis.git',
+        repo: 'lot-centered-analysis-calculator.git',
         module: 'lotcenteredanalysis.Calculator',
         function: 'calculate_Creep_LMP',
         noSync: true
