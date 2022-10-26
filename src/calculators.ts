@@ -299,7 +299,7 @@ const libpyConfig: LibPyConfig[] = [
   },
   {
     name: 'cpDesignOffshore',
-    repo: 'cpDesignOffshore.git',
+    repo: 'cp-design-offshore-calculator.git',
     module: 'CPDesignCalcsOffshore.GetInputDictionary',
     function: 'CalculateFromInputWrapper',
     noSync: true
