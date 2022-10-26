@@ -88,7 +88,7 @@ const libpyConfig: LibPyConfig[] = [
   },
   {
     name: 'cmlOptimization',
-    repo: 'cmlOptimizationWrapper.git',
+    repo: 'cml-optimization-wrapper-calculator.git',
     module: 'cmlOptimizationWrapperCalc.Calculator',
     function: 'calculate_cmlOptimization',
     noSync: true
