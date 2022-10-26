@@ -59,7 +59,7 @@ const libpyConfig = [
     },
     {
         name: 'upgrade',
-        repo: 'upgrade.git',
+        repo: 'upgrade-calculator.git',
         module: 'upgradeCalculator.gradeComment',
         function: 'generate_inspection_grade'
     },
