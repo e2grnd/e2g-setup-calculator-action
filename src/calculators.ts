@@ -470,7 +470,7 @@ const libpyConfig: LibPyConfig[] = [
   },
   {
     name: 'prdUpdate',
-    repo: 'PRDUpdating.git',
+    repo: 'prd-update-calculator.git',
     module: 'PRDCalculator.sandbox',
     function: 'Calculate',
     noSync: true
