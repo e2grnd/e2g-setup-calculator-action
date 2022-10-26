@@ -556,7 +556,7 @@ exports.calculators = Object.assign(Object.assign({}, calcsByRepo), { tbreak: {
     }, weldResidualStress: {
         imageName: 'weld-residual-stress',
         serviceName: 'weld-residual-stress'
-    }, can2WeatherData: {
+    }, 'can2-weather-data-calculator': {
         imageName: 'weather-data',
         serviceName: 'weather-data'
     }, 'deposition-density-calculator': {
