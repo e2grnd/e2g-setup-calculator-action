@@ -34,7 +34,7 @@ group:
     e2grnd/idinterp-calculator@release/dev
     e2grnd/insulation-calculator@release/dev
     e2grnd/material-explorer-calculator@release/dev
-    e2grnd/fluid-explorer-backend@release/dev
+    e2grnd/mixer-calculator@release/dev
     e2grnd/nozzle-calculator@release/dev
     e2grnd/pipe-pt-calculator@release/dev
     e2grnd/pipe-span-calculator@release/dev

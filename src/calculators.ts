@@ -207,7 +207,7 @@ const libpyConfig: LibPyConfig[] = [
   },
   {
     name: 'mixer',
-    repo: 'fluid-explorer-backend.git',
+    repo: 'mixer-calculator.git',
     module: 'FluidExplorerCalculator.Calculator',
     function: 'submit_mixer_calculation_to_sage'
   },
