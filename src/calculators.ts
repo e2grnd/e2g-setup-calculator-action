@@ -602,7 +602,7 @@ export const calculators: Record<string, CalcConfig> = {
     imageName: 'pitting-corrosion-rate',
     serviceName: 'pitting-corrosion-rate'
   },
-  plumeSight: {
+  'plume-calculator': {
     imageName: 'plume-sight',
     serviceName: 'plume-sight'
   }

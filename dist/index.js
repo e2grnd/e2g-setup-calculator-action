@@ -574,7 +574,7 @@ exports.calculators = Object.assign(Object.assign({}, calcsByRepo), { tbreak: {
     }, 'pitting-corrosion-rate-calculator': {
         imageName: 'pitting-corrosion-rate',
         serviceName: 'pitting-corrosion-rate'
-    }, plumeSight: {
+    }, 'plume-calculator': {
         imageName: 'plume-sight',
         serviceName: 'plume-sight'
     } });
