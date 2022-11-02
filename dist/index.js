@@ -644,6 +644,8 @@ function run() {
             const imageTag = `${releaseEnv}-sha-${context.sha.slice(0, 7)}`;
             core.setOutput('imageTag', imageTag);
             core.info(`imageTag: "${imageTag}"`);
+            core.notice(`Created tag: ${imageTag}`);
+            core.notice(`View image: https://console.cloud.google.com/gcr/images/sandbox-225221/global/${descriptor.imageName}?authuser=1&project=sandbox-225221`);
         }
         catch (error) {
             if (error instanceof Error)
