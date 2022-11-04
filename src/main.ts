@@ -25,8 +25,10 @@ async function run(): Promise<void> {
     core.info(`imageTag: "${imageTag}"`)
     core.notice(`Created tag: ${imageTag}`)
     core.notice(
-      `View image: https://console.cloud.google.com/gcr/images/sandbox-225221/global/${descriptor.imageName}?authuser=1&project=sandbox-225221`
+      `View image: https://console.cloud.google.com/gcr/images/sandbox-225221/global/${descriptor.imageName}?authuser=1&project=sandbox-225221`,
     )
+    core.info(`deploymentRepo: ${descriptor.deploymentRepo}`)
+    core.setOutput('deploymentRepo', descriptor.deploymentRepo)
   } catch (error) {
     if (error instanceof Error) core.setFailed(error.message)
   }
