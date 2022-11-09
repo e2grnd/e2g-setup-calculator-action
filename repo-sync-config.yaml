@@ -10,6 +10,7 @@ group:
     e2grnd/burstp-calculator@release/dev
     e2grnd/can2-decisions-calculator@release/dev
     e2grnd/can2-annual-growth-rate-calculator@release/dev
+    e2grnd/can2-series@release/dev
     e2grnd/can2-canister-temperature-calculator@release/dev
     e2grnd/charpy-calculator@release/dev
     e2grnd/deposition-density-calculator@release/dev

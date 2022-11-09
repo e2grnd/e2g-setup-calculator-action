@@ -612,6 +612,11 @@ export const calculators: Record<string, CalcConfig> = {
     serviceName: 'can2-decisions',
     deploymentRepo: 'can2-kustomize',
   },
+  'can2-series': {
+    imageName: 'can2-series',
+    serviceName: 'can2-series',
+    deploymentRepo: 'can2-kustomize',
+  },
   'pitting-corrosion-rate-calculator': {
     imageName: 'pitting-corrosion-rate',
     serviceName: 'pitting-corrosion-rate',
