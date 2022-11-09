@@ -16,14 +16,18 @@ async function run(): Promise<void> {
   files: 
     - source: .github/workflows/publish.yml
       dest: .github/workflows/publish.yml
+    - source: .github/workflows/test.yml
+      dest: .github/workflows/test.yml
     - source: .devcontainer/docker-compose.yaml
       dest: .devcontainer/docker-compose.yaml
     - source: .devcontainer/docker-compose.app.yaml
       dest: .devcontainer/docker-compose.app.yaml
-    - source: .devcontainer/devcontainer.json
-      dest: .devcontainer/devcontainer.json
+    # - source: .devcontainer/devcontainer.json
+    #   dest: .devcontainer/devcontainer.json
     - source: .devcontainer/scripts/init.mjs
       dest: .devcontainer/scripts/init.mjs
+
+
 
 `
 
