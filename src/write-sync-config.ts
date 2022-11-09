@@ -26,9 +26,6 @@ async function run(): Promise<void> {
     #   dest: .devcontainer/devcontainer.json
     - source: .devcontainer/scripts/init.mjs
       dest: .devcontainer/scripts/init.mjs
-
-
-
 `
 
   await fs.writeFile('repo-sync-config.yaml', src)
