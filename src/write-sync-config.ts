@@ -27,8 +27,8 @@ async function run(): Promise<void> {
     - source: .devcontainer/scripts/init.mjs
       dest: .devcontainer/scripts/init.mjs
 `
-
-  await fs.writeFile('repo-sync-config.yaml', src)
+  await fs.mkdir('etc', {recursive: true})
+  await fs.writeFile('etc/repo-sync-config.yaml', src)
 }
 
 run()

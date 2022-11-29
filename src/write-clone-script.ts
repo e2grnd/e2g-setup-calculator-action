@@ -17,7 +17,8 @@ cd ~/Projects/all-calculators
     .forEach(([repoName, calcConfig]) => {
       scr += `git clone 'git@github.com:e2grnd/${repoName}.git'\n`
     })
-  await fs.writeFile('clone-all-calculators.sh', scr)
+  await fs.mkdir('etc', {recursive: true})
+  await fs.writeFile('etc/clone-all-calculators.sh', scr)
 }
 
 run()

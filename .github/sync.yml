@@ -1,0 +1,6 @@
+e2grnd/calculator-template:
+  - source: etc/repo-sync-config.yaml
+    dest: .github/sync.yml
+e2grnd/eec-ops:
+  - source: etc/rebuild_calculators.yaml
+    dest: .github/workflows/rebuild_calculators.yml

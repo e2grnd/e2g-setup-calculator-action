@@ -1,0 +1,76 @@
+name: Rebuild Calculators
+on:
+  workflow_dispatch:
+jobs:
+  trigger:
+    name: Trigger Rebuilds
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        target_repo: [
+          'asme-b31g-calculator',
+          'bakeout-calculator',
+          'bayes-calculator',
+          'best-rate-calculator',
+          'bijlaard-calculator',
+          'boiler-tube-calculator',
+          'branch-calculator',
+          'burstp-calculator',
+          'can2-decisions-calculator',
+          'can2-annual-growth-rate-calculator',
+          'can2-series-calculator',
+          'can2-canister-temperature-calculator',
+          'charpy-calculator',
+          'deposition-density-calculator',
+          'epri-amp-calculator',
+          'exemption-calculator',
+          'fatigue-calculator',
+          'fatigue-damage-calculator',
+          'ffs-brittle-calculator',
+          'ffs-cracking-calculator',
+          'ffs-creep-calculator',
+          'ffs-dent-gouge-calculator',
+          'ffs-fire-damage-calculator',
+          'ffs-hydrogen-calculator',
+          'ffs-laminations-calculator',
+          'ffs-misalignment-calculator',
+          'ffs-pitting-calculator',
+          'ffs-thinning-calculator',
+          'flange-calculator',
+          'hottap-calculator',
+          'htha-calculator',
+          'htha-steady-state-calculator',
+          'idinterp-calculator',
+          'insulation-calculator',
+          'material-explorer-calculator',
+          'mixer-calculator',
+          'nozzle-calculator',
+          'pipe-pt-calculator',
+          'pipe-span-calculator',
+          'pitting-corrosion-rate-calculator',
+          'plume-calculator',
+          'sage-x-calculator',
+          'shell-pt-calculator',
+          'shutdown-calculator',
+          'simflexCalculator',
+          'smooth-bar-fatigue-life-calculator',
+          'stored-energy-calculator',
+          'tank-thickness-calculator',
+          'tank-settlement-calculator',
+          'tbreak',
+          'thermowells-calculator',
+          'toughness-calculator',
+          'upgrade-calculator',
+          'can2-weather-data-calculator',
+          'weld-residual-stress-calculator',
+          'welded-joint-fatigue-life-calculator',
+        ]
+
+    steps:
+      - run: >
+          curl -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${{secrets.E2GBOT_PAT}}" \
+            https://api.github.com/repos/e2grnd/${{ matrix.target_repo }}/dispatches \
+            -d '{"event_type":"rebuild-calculator"}'
+

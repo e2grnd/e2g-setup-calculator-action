@@ -1,0 +1,23 @@
+name: Sync Files
+on:
+  push:
+    branches:
+      - release/dev
+    paths:
+      - '.github/sync.yml'
+      - '.github/workflows/sync.yml'
+      - 'etc/repo-sync-config.yaml'
+      - 'etc/rebuild_calculators/yaml'
+  workflow_dispatch:
+jobs:
+  Sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Run GitHub File Sync
+        uses: BetaHuhn/repo-file-sync-action@v1
+        with:
+          GH_PAT: ${{ secrets.E2GBOT_PAT }}
+          SKIP_PR: true
