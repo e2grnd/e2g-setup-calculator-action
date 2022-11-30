@@ -21,6 +21,7 @@ jobs:
           'can2-series-calculator',
           'can2-canister-temperature-calculator',
           'charpy-calculator',
+          'cui-calculator',
           'deposition-density-calculator',
           'epri-amp-calculator',
           'exemption-calculator',

@@ -21,6 +21,7 @@ kubectl rollout restart -n dev deployment/cp-design-offshore
 kubectl rollout restart -n dev deployment/crack-attack
 kubectl rollout restart -n dev deployment/creep
 kubectl rollout restart -n dev deployment/creep-life
+kubectl rollout restart -n dev deployment/cui-sight
 kubectl rollout restart -n dev deployment/deposition-density
 kubectl rollout restart -n dev deployment/epri-amp
 kubectl rollout restart -n dev deployment/exemption

@@ -627,4 +627,9 @@ export const calculators: Record<string, CalcConfig> = {
     serviceName: 'plume',
     deploymentRepo: 'eec-kustomize',
   },
+  'cui-calculator': {
+    imageName: 'cui-sight',
+    serviceName: 'cui-sight',
+    deploymentRepo: 'eec-kustomize',
+  },
 }

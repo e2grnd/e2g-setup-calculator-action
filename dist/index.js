@@ -593,6 +593,10 @@ exports.calculators = Object.assign(Object.assign({}, calcsByRepo), { tbreak: {
         imageName: 'plume',
         serviceName: 'plume',
         deploymentRepo: 'eec-kustomize',
+    }, 'cui-calculator': {
+        imageName: 'cui-sight',
+        serviceName: 'cui-sight',
+        deploymentRepo: 'eec-kustomize',
     } });
 
 
