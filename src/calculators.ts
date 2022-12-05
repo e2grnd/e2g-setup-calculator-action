@@ -97,6 +97,7 @@ const libpyConfig: LibPyConfig[] = [
     module: 'cmlOptimizationWrapperCalc.Calculator',
     function: 'calculate_cmlOptimization',
     noSync: true,
+    deprecated: true,
   },
   {
     name: 'htha',
@@ -184,7 +185,6 @@ const libpyConfig: LibPyConfig[] = [
     repo: 'creep-life-calculator.git',
     module: 'CreepLifeCalculator.creepLife',
     function: 'calculate_creep_life',
-    noSync: true,
   },
   {
     name: 'toughness',
@@ -285,7 +285,6 @@ const libpyConfig: LibPyConfig[] = [
     repo: 'cp-design-calculator.git',
     module: 'CPDesignCalcs.GetInputDictionary',
     function: 'CalculateFromInputWrapper',
-    noSync: true,
   },
   {
     name: 'chaboche',
@@ -469,7 +468,6 @@ const libpyConfig: LibPyConfig[] = [
     repo: 'omega-calculator.git',
     module: 'omegaFitCalculator.omega_plots',
     function: 'calculate_Omega',
-    noSync: true,
   },
   {
     name: 'prdUpdate',

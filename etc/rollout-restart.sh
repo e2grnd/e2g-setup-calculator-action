@@ -13,7 +13,6 @@ kubectl rollout restart -n dev deployment/can2-growth-rate
 kubectl rollout restart -n dev deployment/can2-series
 kubectl rollout restart -n dev deployment/canister-temperature
 kubectl rollout restart -n dev deployment/charpy
-kubectl rollout restart -n dev deployment/cml-optimization
 kubectl rollout restart -n dev deployment/corr-solutions
 kubectl rollout restart -n dev deployment/corroding-pipe-life
 kubectl rollout restart -n dev deployment/cp-design

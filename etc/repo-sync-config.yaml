@@ -15,6 +15,8 @@ group:
     e2grnd/can2-canister-temperature-calculator@release/dev
     e2grnd/charpy-calculator@release/dev
     e2grnd/corroding-pipe-life-calculator@release/dev
+    e2grnd/cp-design-calculator@release/dev
+    e2grnd/creep-life-calculator@release/dev
     e2grnd/cui-calculator@release/dev
     e2grnd/deposition-density-calculator@release/dev
     e2grnd/epri-amp-calculator@release/dev
@@ -40,6 +42,7 @@ group:
     e2grnd/material-explorer-calculator@release/dev
     e2grnd/mixer-calculator@release/dev
     e2grnd/nozzle-calculator@release/dev
+    e2grnd/omega-calculator@release/dev
     e2grnd/pipe-pt-calculator@release/dev
     e2grnd/pipe-span-calculator@release/dev
     e2grnd/pitting-corrosion-rate-calculator@release/dev
