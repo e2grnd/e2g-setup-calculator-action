@@ -22,6 +22,7 @@ jobs:
           'can2-series-calculator',
           'can2-canister-temperature-calculator',
           'charpy-calculator',
+          'corroding-pipe-life-calculator',
           'cui-calculator',
           'deposition-density-calculator',
           'epri-amp-calculator',

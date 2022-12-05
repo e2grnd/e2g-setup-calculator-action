@@ -275,11 +275,10 @@ const libpyConfig: LibPyConfig[] = [
     function: 'submit_branch_calculation_to_sage',
   },
   {
-    name: 'corrodingPipeLife',
+    name: 'corroding-pipe-life',
     repo: 'corroding-pipe-life-calculator.git',
     module: 'ProbCorrFailureCalculator.GetInputDictionary',
     function: 'CalculateFromInputWrapper',
-    noSync: true,
   },
   {
     name: 'cpDesign',
