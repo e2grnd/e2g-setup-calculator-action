@@ -48,6 +48,7 @@ group:
     e2grnd/pipe-span-calculator@release/dev
     e2grnd/pitting-corrosion-rate-calculator@release/dev
     e2grnd/plume-calculator@release/dev
+    e2grnd/prd-update-calculator@release/dev
     e2grnd/sage-x-calculator@release/dev
     e2grnd/shell-pt-calculator@release/dev
     e2grnd/shutdown-calculator@release/dev

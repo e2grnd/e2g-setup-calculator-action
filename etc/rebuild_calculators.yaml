@@ -56,6 +56,7 @@ jobs:
           'pipe-span-calculator',
           'pitting-corrosion-rate-calculator',
           'plume-calculator',
+          'prd-update-calculator',
           'sage-x-calculator',
           'shell-pt-calculator',
           'shutdown-calculator',

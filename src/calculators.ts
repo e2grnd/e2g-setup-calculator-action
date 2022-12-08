@@ -473,7 +473,6 @@ const libpyConfig: LibPyConfig[] = [
     repo: 'prd-update-calculator.git',
     module: 'PRDCalculator.sandbox',
     function: 'Calculate',
-    noSync: true,
   },
   {
     name: 'nozzle',
