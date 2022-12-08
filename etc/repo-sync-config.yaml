@@ -16,6 +16,7 @@ group:
     e2grnd/charpy-calculator@release/dev
     e2grnd/corroding-pipe-life-calculator@release/dev
     e2grnd/cp-design-calculator@release/dev
+    e2grnd/cp-design-offshore-calculator@release/dev
     e2grnd/creep-life-calculator@release/dev
     e2grnd/cui-calculator@release/dev
     e2grnd/deposition-density-calculator@release/dev

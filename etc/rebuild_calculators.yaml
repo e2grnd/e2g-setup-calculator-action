@@ -24,6 +24,7 @@ jobs:
           'charpy-calculator',
           'corroding-pipe-life-calculator',
           'cp-design-calculator',
+          'cp-design-offshore-calculator',
           'creep-life-calculator',
           'cui-calculator',
           'deposition-density-calculator',

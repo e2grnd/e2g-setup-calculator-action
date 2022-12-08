@@ -304,7 +304,6 @@ const libpyConfig: LibPyConfig[] = [
     repo: 'cp-design-offshore-calculator.git',
     module: 'CPDesignCalcsOffshore.GetInputDictionary',
     function: 'CalculateFromInputWrapper',
-    noSync: true,
   },
   {
     name: 'coatingQuantity',
