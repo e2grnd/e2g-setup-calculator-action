@@ -1,5 +1,6 @@
 group:
   repos: |
+    e2grnd/calculator-template@release/dev
     e2grnd/asme-b31g-calculator@release/dev
     e2grnd/bakeout-calculator@release/dev
     e2grnd/bayes-calculator@release/dev
@@ -65,15 +66,15 @@ group:
     e2grnd/weld-residual-stress-calculator@release/dev
     e2grnd/welded-joint-fatigue-life-calculator@release/dev
   files: 
-    - source: .github/workflows/publish.yml
+    - source: workflows/publish.yml
       dest: .github/workflows/publish.yml
-    - source: .github/workflows/test.yml
+    - source: workflows/test.yml
       dest: .github/workflows/test.yml
-    - source: .devcontainer/docker-compose.yaml
+    - source: devcontainer/docker-compose.yaml
       dest: .devcontainer/docker-compose.yaml
-    - source: .devcontainer/docker-compose.app.yaml
+    - source: devcontainer/docker-compose.app.yaml
       dest: .devcontainer/docker-compose.app.yaml
     # - source: .devcontainer/devcontainer.json
     #   dest: .devcontainer/devcontainer.json
-    - source: .devcontainer/scripts/init.mjs
+    - source: devcontainer/scripts/init.mjs
       dest: .devcontainer/scripts/init.mjs

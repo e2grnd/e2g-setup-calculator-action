@@ -12,19 +12,20 @@ async function run(): Promise<void> {
     .map(([repoName]) => `e2grnd/${repoName}@release/dev`)
   const src = `group:
   repos: |
+    e2grnd/calculator-template@release/dev
     ${sortedRepos.join('\n    ')}
   files: 
-    - source: .github/workflows/publish.yml
+    - source: workflows/publish.yml
       dest: .github/workflows/publish.yml
-    - source: .github/workflows/test.yml
+    - source: workflows/test.yml
       dest: .github/workflows/test.yml
-    - source: .devcontainer/docker-compose.yaml
+    - source: devcontainer/docker-compose.yaml
       dest: .devcontainer/docker-compose.yaml
-    - source: .devcontainer/docker-compose.app.yaml
+    - source: devcontainer/docker-compose.app.yaml
       dest: .devcontainer/docker-compose.app.yaml
     # - source: .devcontainer/devcontainer.json
     #   dest: .devcontainer/devcontainer.json
-    - source: .devcontainer/scripts/init.mjs
+    - source: devcontainer/scripts/init.mjs
       dest: .devcontainer/scripts/init.mjs
 `
   await fs.mkdir('etc', {recursive: true})

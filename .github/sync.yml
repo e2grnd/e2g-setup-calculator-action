@@ -1,4 +1,4 @@
-e2grnd/calculator-template:
+e2grnd/actions-sync:
   - source: etc/repo-sync-config.yaml
     dest: .github/sync.yml
 e2grnd/eec-ops:
