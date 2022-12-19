@@ -44,6 +44,7 @@ const libpyConfig: LibPyConfig[] = [
     repo: 'corr-solutions-da-calculator.git',
     module: 'pyDaEecCalculator.Calculator',
     function: 'calculateCorrSolutions',
+    deploymentRepo: 'corrsolutions-kustomize',
   },
   {
     name: 'epriAmp',
