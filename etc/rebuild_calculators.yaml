@@ -22,6 +22,7 @@ jobs:
           'can2-series-calculator',
           'can2-canister-temperature-calculator',
           'charpy-calculator',
+          'corr-solutions-da-calculator',
           'corroding-pipe-life-calculator',
           'cp-design-calculator',
           'cp-design-offshore-calculator',
