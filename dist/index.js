@@ -50,6 +50,8 @@ const libpyConfig = [
         repo: 'fast2-calculator.git',
         module: 'Fast2Calculator.Calculator',
         function: 'submit_fast2_calculation_to_sage',
+        serviceName: 'fast2',
+        imageName: 'fast2',
     },
     {
         name: 'hthaSteadyState',
