@@ -24,6 +24,7 @@ kubectl rollout restart -n dev deployment/cui-sight
 kubectl rollout restart -n dev deployment/deposition-density
 kubectl rollout restart -n dev deployment/epri-amp
 kubectl rollout restart -n dev deployment/exemption
+kubectl rollout restart -n dev deployment/fast-2
 kubectl rollout restart -n dev deployment/fatigue
 kubectl rollout restart -n dev deployment/fatigue-damage
 kubectl rollout restart -n dev deployment/ffs-brittle

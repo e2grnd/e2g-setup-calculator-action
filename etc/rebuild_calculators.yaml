@@ -30,6 +30,7 @@ jobs:
           'deposition-density-calculator',
           'epri-amp-calculator',
           'exemption-calculator',
+          'fast2-calculator',
           'fatigue-calculator',
           'fatigue-damage-calculator',
           'ffs-brittle-calculator',
