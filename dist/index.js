@@ -51,6 +51,7 @@ const libpyConfig = [
         module: 'Fast2Calculator.Calculator',
         function: 'submit_fast2_calculation_to_sage',
         noSync: true,
+        deprecated: true,
     },
     {
         name: 'hthaSteadyState',
@@ -116,6 +117,7 @@ const libpyConfig = [
         module: 'FatigueExplorerCalculator.sandbox',
         function: 'calculate',
         noSync: true,
+        deprecated: true,
     },
     {
         name: 'weldedJointFatigue',
