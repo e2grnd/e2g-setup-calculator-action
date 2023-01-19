@@ -9,6 +9,7 @@ group:
     e2grnd/boiler-tube-calculator@release/dev
     e2grnd/buried-pipelines-calculator@release/dev
     e2grnd/branch-calculator@release/dev
+    e2grnd/bundle-sight-calculator@release/dev
     e2grnd/burstp-calculator@release/dev
     e2grnd/can2-decisions-calculator@release/dev
     e2grnd/can2-annual-growth-rate-calculator@release/dev

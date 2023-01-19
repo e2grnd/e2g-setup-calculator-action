@@ -7,6 +7,7 @@ kubectl rollout restart -n dev deployment/bijlaard
 kubectl rollout restart -n dev deployment/boiler-tube
 kubectl rollout restart -n dev deployment/bpc
 kubectl rollout restart -n dev deployment/branch
+kubectl rollout restart -n dev deployment/bundle-sight
 kubectl rollout restart -n dev deployment/burst-pressure
 kubectl rollout restart -n dev deployment/can2-decisions
 kubectl rollout restart -n dev deployment/can2-growth-rate

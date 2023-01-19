@@ -16,6 +16,7 @@ jobs:
           'boiler-tube-calculator',
           'buried-pipelines-calculator',
           'branch-calculator',
+          'bundle-sight-calculator',
           'burstp-calculator',
           'can2-decisions-calculator',
           'can2-annual-growth-rate-calculator',

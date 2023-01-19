@@ -628,4 +628,9 @@ export const calculators: Record<string, CalcConfig> = {
     serviceName: 'cui-sight',
     deploymentRepo: 'eec-kustomize',
   },
+  'bundle-sight-calculator': {
+    imageName: 'bundle-sight',
+    serviceName: 'bundle-sight',
+    deploymentRepo: 'eec-kustomize',
+  },
 }

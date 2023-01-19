@@ -15,7 +15,7 @@ cd ~/Projects/all-calculators
       return a[1].serviceName.localeCompare(b[1].serviceName)
     })
     .forEach(([repoName, calcConfig]) => {
-      scr += `git clone 'git@github.com:e2grnd/${repoName}.git'\n`
+      scr += `git -C ${repoName} pull || git clone 'git@github.com:e2grnd/${repoName}.git'\n`
     })
   await fs.mkdir('etc', {recursive: true})
   await fs.writeFile('etc/clone-all-calculators.sh', scr)
