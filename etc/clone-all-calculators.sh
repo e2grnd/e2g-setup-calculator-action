@@ -31,7 +31,6 @@ git -C fast2-calculator pull || git clone 'git@github.com:e2grnd/fast2-calculato
 git -C fatigue-calculator pull || git clone 'git@github.com:e2grnd/fatigue-calculator.git'
 git -C fatigue-damage-calculator pull || git clone 'git@github.com:e2grnd/fatigue-damage-calculator.git'
 git -C ffs-brittle-calculator pull || git clone 'git@github.com:e2grnd/ffs-brittle-calculator.git'
-git -C ffs-crack-growth-calculator pull || git clone 'git@github.com:e2grnd/ffs-crack-growth-calculator.git'
 git -C ffs-cracking-calculator pull || git clone 'git@github.com:e2grnd/ffs-cracking-calculator.git'
 git -C ffs-creep-calculator pull || git clone 'git@github.com:e2grnd/ffs-creep-calculator.git'
 git -C ffs-dent-gouge-calculator pull || git clone 'git@github.com:e2grnd/ffs-dent-gouge-calculator.git'

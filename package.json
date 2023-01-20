@@ -5,18 +5,20 @@
   "description": "GitHub Action to emit configuration for internal use.",
   "main": "lib/main.js",
   "scripts": {
-    "clean": "git clean -xfd lib dist",
+    "clean": "git clean -xfd lib dist etc",
     "build": "tsc",
-    "write-status": "node lib/write-status-badges.js",
-    "write-clone-script": "node lib/write-clone-script.js",
-    "write-sync-config": "node lib/write-sync-config.js",
-    "write-rebuild-calculators": "node lib/write-rebuild-calculators.js",
-    "write-rollout-restart": "node lib/write-rollout-restart.js",
+    "write:status": "node lib/write-status-badges.js",
+    "write:clone-script": "node lib/write-clone-script.js",
+    "write:sync-config": "node lib/write-sync-config.js",
+    "write:rebuild-calculators": "node lib/write-rebuild-calculators.js",
+    "write:rollout-restart": "node lib/write-rollout-restart.js",
+    "write:merge-stage": "node lib/write-merge-to-stage.js",
+    "write:merge-prod": "node lib/write-merge-to-prod.js",
     "format": "prettier --write '**/*.ts'",
     "format-check": "prettier --check '**/*.ts'",
     "lint": "eslint src/**/*.ts",
     "package": "ncc build --source-map --license licenses.txt",
-    "all": "yarn lint && yarn clean && yarn build && yarn write-status && yarn write-clone-script && yarn write-sync-config && yarn write-rebuild-calculators && yarn write-rollout-restart && yarn format && yarn package"
+    "all": "yarn lint && yarn clean && yarn build && yarn run-s \"write:*\" && yarn format && yarn package"
   },
   "repository": {
     "type": "git",
@@ -40,6 +42,7 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-prettier": "^4.2.1",
     "js-yaml": "^4.1.0",
+    "npm-run-all": "^4.1.5",
     "prettier": "2.7.1",
     "typescript": "^4.8.4"
   },

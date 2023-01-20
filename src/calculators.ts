@@ -338,6 +338,7 @@ const libpyConfig: LibPyConfig[] = [
     module: 'CrackGrowthCalculator.Calculator',
     function: 'submit_crack_growth_calculation_to_sage',
     noSync: true,
+    deprecated: true,
   },
   {
     name: 'ffsCrackLike',
