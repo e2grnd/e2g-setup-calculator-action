@@ -1,6 +1,6 @@
 import kebab from 'lodash.kebabcase'
 
-type CalcConfig = {
+export type CalcConfig = {
   /**
    * The name of the container image in the registry
    */
