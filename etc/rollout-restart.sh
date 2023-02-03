@@ -28,6 +28,7 @@ kubectl rollout restart -n dev deployment/exemption
 kubectl rollout restart -n dev deployment/fast2
 kubectl rollout restart -n dev deployment/fatigue
 kubectl rollout restart -n dev deployment/fatigue-damage
+kubectl rollout restart -n dev deployment/fatigue-data-explorer
 kubectl rollout restart -n dev deployment/ffs-brittle
 kubectl rollout restart -n dev deployment/ffs-crack-like
 kubectl rollout restart -n dev deployment/ffs-creep
@@ -52,6 +53,7 @@ kubectl rollout restart -n dev deployment/omega
 kubectl rollout restart -n dev deployment/pipe
 kubectl rollout restart -n dev deployment/pipe-span
 kubectl rollout restart -n dev deployment/pitting-corrosion-rate
+kubectl rollout restart -n dev deployment/plausible-profiles
 kubectl rollout restart -n dev deployment/plume
 kubectl rollout restart -n dev deployment/prd-update
 kubectl rollout restart -n dev deployment/sage-x

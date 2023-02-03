@@ -28,6 +28,7 @@ group:
     e2grnd/fast2-calculator@release/dev
     e2grnd/fatigue-calculator@release/dev
     e2grnd/fatigue-damage-calculator@release/dev
+    e2grnd/fatigue-data-explorer-calculator@release/dev
     e2grnd/ffs-brittle-calculator@release/dev
     e2grnd/ffs-cracking-calculator@release/dev
     e2grnd/ffs-creep-calculator@release/dev
@@ -51,6 +52,7 @@ group:
     e2grnd/pipe-pt-calculator@release/dev
     e2grnd/pipe-span-calculator@release/dev
     e2grnd/pitting-corrosion-rate-calculator@release/dev
+    e2grnd/plausible-profiles-calculator@release/dev
     e2grnd/plume-calculator@release/dev
     e2grnd/prd-update-calculator@release/dev
     e2grnd/sage-x-calculator@release/dev

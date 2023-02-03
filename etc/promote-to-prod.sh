@@ -23,6 +23,7 @@ git -C exemption-calculator checkout release/prod && git -C exemption-calculator
 git -C fast2-calculator checkout release/prod && git -C fast2-calculator merge -m'prod release' release/stage && git -C fast2-calculator push
 git -C fatigue-calculator checkout release/prod && git -C fatigue-calculator merge -m'prod release' release/stage && git -C fatigue-calculator push
 git -C fatigue-damage-calculator checkout release/prod && git -C fatigue-damage-calculator merge -m'prod release' release/stage && git -C fatigue-damage-calculator push
+git -C fatigue-data-explorer-calculator checkout release/prod && git -C fatigue-data-explorer-calculator merge -m'prod release' release/stage && git -C fatigue-data-explorer-calculator push
 git -C ffs-brittle-calculator checkout release/prod && git -C ffs-brittle-calculator merge -m'prod release' release/stage && git -C ffs-brittle-calculator push
 git -C ffs-cracking-calculator checkout release/prod && git -C ffs-cracking-calculator merge -m'prod release' release/stage && git -C ffs-cracking-calculator push
 git -C ffs-creep-calculator checkout release/prod && git -C ffs-creep-calculator merge -m'prod release' release/stage && git -C ffs-creep-calculator push
@@ -46,6 +47,7 @@ git -C nozzle-calculator checkout release/prod && git -C nozzle-calculator merge
 git -C omega-calculator checkout release/prod && git -C omega-calculator merge -m'prod release' release/stage && git -C omega-calculator push
 git -C pipe-pt-calculator checkout release/prod && git -C pipe-pt-calculator merge -m'prod release' release/stage && git -C pipe-pt-calculator push
 git -C pipe-span-calculator checkout release/prod && git -C pipe-span-calculator merge -m'prod release' release/stage && git -C pipe-span-calculator push
+git -C plausible-profiles-calculator checkout release/prod && git -C plausible-profiles-calculator merge -m'prod release' release/stage && git -C plausible-profiles-calculator push
 git -C plume-calculator checkout release/prod && git -C plume-calculator merge -m'prod release' release/stage && git -C plume-calculator push
 git -C prd-update-calculator checkout release/prod && git -C prd-update-calculator merge -m'prod release' release/stage && git -C prd-update-calculator push
 git -C sage-x-calculator checkout release/prod && git -C sage-x-calculator merge -m'prod release' release/stage && git -C sage-x-calculator push

@@ -116,8 +116,6 @@ const libpyConfig = [
         repo: 'fatigue-data-explorer-calculator.git',
         module: 'FatigueExplorerCalculator.sandbox',
         function: 'calculate',
-        noSync: true,
-        deprecated: true,
     },
     {
         name: 'weldedJointFatigue',
@@ -597,6 +595,10 @@ exports.calculators = Object.assign(Object.assign({}, calcsByRepo), { tbreak: {
     }, 'bundle-sight-calculator': {
         imageName: 'bundle-sight',
         serviceName: 'bundle-sight',
+        deploymentRepo: 'eec-kustomize',
+    }, 'plausible-profiles-calculator': {
+        imageName: 'plausible-profiles',
+        serviceName: 'plausible-profiles',
         deploymentRepo: 'eec-kustomize',
     } });
 
