@@ -4,6 +4,8 @@ cd ~/Projects/all-calculators
 git -C asme-b31g-calculator checkout release/stage && git -C asme-b31g-calculator merge -m'stage release' release/dev && git -C asme-b31g-calculator push
 git -C bakeout-calculator checkout release/stage && git -C bakeout-calculator merge -m'stage release' release/dev && git -C bakeout-calculator push
 git -C bayes-calculator checkout release/stage && git -C bayes-calculator merge -m'stage release' release/dev && git -C bayes-calculator push
+git -C bayes-worker-calculator checkout release/stage && git -C bayes-worker-calculator merge -m'stage release' release/dev && git -C bayes-worker-calculator push
+git -C bengi-worker-calculator checkout release/stage && git -C bengi-worker-calculator merge -m'stage release' release/dev && git -C bengi-worker-calculator push
 git -C best-rate-calculator checkout release/stage && git -C best-rate-calculator merge -m'stage release' release/dev && git -C best-rate-calculator push
 git -C bijlaard-calculator checkout release/stage && git -C bijlaard-calculator merge -m'stage release' release/dev && git -C bijlaard-calculator push
 git -C boiler-tube-calculator checkout release/stage && git -C boiler-tube-calculator merge -m'stage release' release/dev && git -C boiler-tube-calculator push
@@ -43,6 +45,7 @@ git -C inspection-report-calculator checkout release/stage && git -C inspection-
 git -C insulation-calculator checkout release/stage && git -C insulation-calculator merge -m'stage release' release/dev && git -C insulation-calculator push
 git -C material-explorer-calculator checkout release/stage && git -C material-explorer-calculator merge -m'stage release' release/dev && git -C material-explorer-calculator push
 git -C mixer-calculator checkout release/stage && git -C mixer-calculator merge -m'stage release' release/dev && git -C mixer-calculator push
+git -C netica-worker-calculator checkout release/stage && git -C netica-worker-calculator merge -m'stage release' release/dev && git -C netica-worker-calculator push
 git -C nozzle-calculator checkout release/stage && git -C nozzle-calculator merge -m'stage release' release/dev && git -C nozzle-calculator push
 git -C omega-calculator checkout release/stage && git -C omega-calculator merge -m'stage release' release/dev && git -C omega-calculator push
 git -C pipe-pt-calculator checkout release/stage && git -C pipe-pt-calculator merge -m'stage release' release/dev && git -C pipe-pt-calculator push

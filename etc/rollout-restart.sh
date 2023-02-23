@@ -2,6 +2,8 @@
 kubectl rollout restart -n dev deployment/asme-b31g
 kubectl rollout restart -n dev deployment/bakeout
 kubectl rollout restart -n dev deployment/bayes
+kubectl rollout restart -n dev deployment/bayes-worker
+kubectl rollout restart -n dev deployment/bengi-worker
 kubectl rollout restart -n dev deployment/best-rate
 kubectl rollout restart -n dev deployment/bijlaard
 kubectl rollout restart -n dev deployment/boiler-tube
@@ -48,6 +50,7 @@ kubectl rollout restart -n dev deployment/inspection-report
 kubectl rollout restart -n dev deployment/insulation
 kubectl rollout restart -n dev deployment/material-explorer
 kubectl rollout restart -n dev deployment/mixer
+kubectl rollout restart -n dev deployment/netica-worker
 kubectl rollout restart -n dev deployment/nozzle
 kubectl rollout restart -n dev deployment/omega
 kubectl rollout restart -n dev deployment/pipe

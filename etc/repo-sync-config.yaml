@@ -4,6 +4,8 @@ group:
     e2grnd/asme-b31g-calculator@release/dev
     e2grnd/bakeout-calculator@release/dev
     e2grnd/bayes-calculator@release/dev
+    e2grnd/bayes-worker-calculator@release/dev
+    e2grnd/bengi-worker-calculator@release/dev
     e2grnd/best-rate-calculator@release/dev
     e2grnd/bijlaard-calculator@release/dev
     e2grnd/boiler-tube-calculator@release/dev
@@ -47,6 +49,7 @@ group:
     e2grnd/insulation-calculator@release/dev
     e2grnd/material-explorer-calculator@release/dev
     e2grnd/mixer-calculator@release/dev
+    e2grnd/netica-worker-calculator@release/dev
     e2grnd/nozzle-calculator@release/dev
     e2grnd/omega-calculator@release/dev
     e2grnd/pipe-pt-calculator@release/dev

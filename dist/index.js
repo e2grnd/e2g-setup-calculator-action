@@ -600,6 +600,18 @@ exports.calculators = Object.assign(Object.assign({}, calcsByRepo), { tbreak: {
         imageName: 'plausible-profiles',
         serviceName: 'plausible-profiles',
         deploymentRepo: 'eec-kustomize',
+    }, 'bayes-worker-calculator': {
+        imageName: 'bayes-worker',
+        serviceName: 'bayes-worker',
+        deploymentRepo: 'eec-kustomize',
+    }, 'bengi-worker-calculator': {
+        imageName: 'bengi-worker',
+        serviceName: 'bengi-worker',
+        deploymentRepo: 'eec-kustomize',
+    }, 'netica-worker-calculator': {
+        imageName: 'netica-worker',
+        serviceName: 'netica-worker',
+        deploymentRepo: 'eec-kustomize',
     } });
 
 
