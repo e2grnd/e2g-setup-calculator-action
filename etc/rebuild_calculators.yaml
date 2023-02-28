@@ -29,6 +29,7 @@ jobs:
           'corroding-pipe-life-calculator',
           'cp-design-calculator',
           'cp-design-offshore-calculator',
+          'crack-attack-calculator',
           'creep-life-calculator',
           'cui-calculator',
           'deposition-density-calculator',

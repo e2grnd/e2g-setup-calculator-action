@@ -22,7 +22,7 @@ git -C corr-solutions-da-calculator pull || git clone 'git@github.com:e2grnd/cor
 git -C corroding-pipe-life-calculator pull || git clone 'git@github.com:e2grnd/corroding-pipe-life-calculator.git'
 git -C cp-design-calculator pull || git clone 'git@github.com:e2grnd/cp-design-calculator.git'
 git -C cp-design-offshore-calculator pull || git clone 'git@github.com:e2grnd/cp-design-offshore-calculator.git'
-git -C crackattack-calculator pull || git clone 'git@github.com:e2grnd/crackattack-calculator.git'
+git -C crack-attack-calculator pull || git clone 'git@github.com:e2grnd/crack-attack-calculator.git'
 git -C lot-centered-analysis-calculator pull || git clone 'git@github.com:e2grnd/lot-centered-analysis-calculator.git'
 git -C creep-life-calculator pull || git clone 'git@github.com:e2grnd/creep-life-calculator.git'
 git -C cui-calculator pull || git clone 'git@github.com:e2grnd/cui-calculator.git'

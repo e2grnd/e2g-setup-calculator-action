@@ -499,13 +499,6 @@ const libpyConfig = [
         noSync: true,
     },
     {
-        name: 'crackAttack',
-        repo: 'crackattack-calculator.git',
-        module: 'CrackAttackCalculator.CrackAttackCalculator',
-        function: 'crack_attack_input_file_generator',
-        noSync: true,
-    },
-    {
         name: 'thermowell',
         repo: 'thermowells-calculator.git',
         module: 'thermowells_Calculator.ThermowellsCalculator',
@@ -611,6 +604,10 @@ exports.calculators = Object.assign(Object.assign({}, calcsByRepo), { tbreak: {
     }, 'netica-worker-calculator': {
         imageName: 'netica-worker',
         serviceName: 'netica-worker',
+        deploymentRepo: 'eec-kustomize',
+    }, 'crack-attack-calculator': {
+        imageName: 'crack-attack',
+        serviceName: 'crack-attack',
         deploymentRepo: 'eec-kustomize',
     } });
 

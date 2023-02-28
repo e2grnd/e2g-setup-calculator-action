@@ -17,7 +17,7 @@ git -C charpy-calculator checkout release/stage && git -C charpy-calculator merg
 git -C corroding-pipe-life-calculator checkout release/stage && git -C corroding-pipe-life-calculator merge -m'stage release' release/dev && git -C corroding-pipe-life-calculator push
 git -C cp-design-calculator checkout release/stage && git -C cp-design-calculator merge -m'stage release' release/dev && git -C cp-design-calculator push
 git -C cp-design-offshore-calculator checkout release/stage && git -C cp-design-offshore-calculator merge -m'stage release' release/dev && git -C cp-design-offshore-calculator push
-git -C crackattack-calculator checkout release/stage && git -C crackattack-calculator merge -m'stage release' release/dev && git -C crackattack-calculator push
+git -C crack-attack-calculator checkout release/stage && git -C crack-attack-calculator merge -m'stage release' release/dev && git -C crack-attack-calculator push
 git -C lot-centered-analysis-calculator checkout release/stage && git -C lot-centered-analysis-calculator merge -m'stage release' release/dev && git -C lot-centered-analysis-calculator push
 git -C creep-life-calculator checkout release/stage && git -C creep-life-calculator merge -m'stage release' release/dev && git -C creep-life-calculator push
 git -C cui-calculator checkout release/stage && git -C cui-calculator merge -m'stage release' release/dev && git -C cui-calculator push
