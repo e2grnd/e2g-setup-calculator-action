@@ -560,7 +560,7 @@ const calcsByRepo = libpyConfig.reduce((acc, conf) => {
 
 export const calculators: Record<string, CalcConfig> = {
   ...calcsByRepo,
-  tbreak: {
+  'tbreak-calculator': {
     imageName: 'tbreak',
     serviceName: 'tbreak',
     deploymentRepo: 'eec-kustomize',

@@ -537,7 +537,7 @@ const calcsByRepo = libpyConfig.reduce((acc, conf) => {
     };
     return acc;
 }, {});
-exports.calculators = Object.assign(Object.assign({}, calcsByRepo), { tbreak: {
+exports.calculators = Object.assign(Object.assign({}, calcsByRepo), { 'tbreak-calculator': {
         imageName: 'tbreak',
         serviceName: 'tbreak',
         deploymentRepo: 'eec-kustomize',

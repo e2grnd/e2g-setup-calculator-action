@@ -67,7 +67,7 @@ group:
     e2grnd/stored-energy-calculator@release/dev
     e2grnd/tank-thickness-calculator@release/dev
     e2grnd/tank-settlement-calculator@release/dev
-    e2grnd/tbreak@release/dev
+    e2grnd/tbreak-calculator@release/dev
     e2grnd/thermowells-calculator@release/dev
     e2grnd/toughness-calculator@release/dev
     e2grnd/upgrade-calculator@release/dev

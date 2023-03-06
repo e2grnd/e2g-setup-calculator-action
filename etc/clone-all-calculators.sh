@@ -69,7 +69,7 @@ git -C smooth-bar-fatigue-life-calculator pull || git clone 'git@github.com:e2gr
 git -C stored-energy-calculator pull || git clone 'git@github.com:e2grnd/stored-energy-calculator.git'
 git -C tank-thickness-calculator pull || git clone 'git@github.com:e2grnd/tank-thickness-calculator.git'
 git -C tank-settlement-calculator pull || git clone 'git@github.com:e2grnd/tank-settlement-calculator.git'
-git -C tbreak pull || git clone 'git@github.com:e2grnd/tbreak.git'
+git -C tbreak-calculator pull || git clone 'git@github.com:e2grnd/tbreak-calculator.git'
 git -C thermowells-calculator pull || git clone 'git@github.com:e2grnd/thermowells-calculator.git'
 git -C toughness-calculator pull || git clone 'git@github.com:e2grnd/toughness-calculator.git'
 git -C upgrade-calculator pull || git clone 'git@github.com:e2grnd/upgrade-calculator.git'

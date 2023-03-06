@@ -61,7 +61,7 @@ git -C smooth-bar-fatigue-life-calculator checkout release/stage && git -C smoot
 git -C stored-energy-calculator checkout release/stage && git -C stored-energy-calculator merge -m'stage release' release/dev && git -C stored-energy-calculator push
 git -C tank-thickness-calculator checkout release/stage && git -C tank-thickness-calculator merge -m'stage release' release/dev && git -C tank-thickness-calculator push
 git -C tank-settlement-calculator checkout release/stage && git -C tank-settlement-calculator merge -m'stage release' release/dev && git -C tank-settlement-calculator push
-git -C tbreak checkout release/stage && git -C tbreak merge -m'stage release' release/dev && git -C tbreak push
+git -C tbreak-calculator checkout release/stage && git -C tbreak-calculator merge -m'stage release' release/dev && git -C tbreak-calculator push
 git -C thermowells-calculator checkout release/stage && git -C thermowells-calculator merge -m'stage release' release/dev && git -C thermowells-calculator push
 git -C toughness-calculator checkout release/stage && git -C toughness-calculator merge -m'stage release' release/dev && git -C toughness-calculator push
 git -C upgrade-calculator checkout release/stage && git -C upgrade-calculator merge -m'stage release' release/dev && git -C upgrade-calculator push
