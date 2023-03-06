@@ -64,7 +64,7 @@ git -C prd-update-calculator pull || git clone 'git@github.com:e2grnd/prd-update
 git -C sage-x-calculator pull || git clone 'git@github.com:e2grnd/sage-x-calculator.git'
 git -C shell-pt-calculator pull || git clone 'git@github.com:e2grnd/shell-pt-calculator.git'
 git -C shutdown-calculator pull || git clone 'git@github.com:e2grnd/shutdown-calculator.git'
-git -C simflexCalculator pull || git clone 'git@github.com:e2grnd/simflexCalculator.git'
+git -C simflex-calculator pull || git clone 'git@github.com:e2grnd/simflex-calculator.git'
 git -C smooth-bar-fatigue-life-calculator pull || git clone 'git@github.com:e2grnd/smooth-bar-fatigue-life-calculator.git'
 git -C stored-energy-calculator pull || git clone 'git@github.com:e2grnd/stored-energy-calculator.git'
 git -C tank-thickness-calculator pull || git clone 'git@github.com:e2grnd/tank-thickness-calculator.git'

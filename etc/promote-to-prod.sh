@@ -56,7 +56,7 @@ git -C prd-update-calculator checkout release/prod && git -C prd-update-calculat
 git -C sage-x-calculator checkout release/prod && git -C sage-x-calculator merge -m'prod release' release/stage && git -C sage-x-calculator push
 git -C shell-pt-calculator checkout release/prod && git -C shell-pt-calculator merge -m'prod release' release/stage && git -C shell-pt-calculator push
 git -C shutdown-calculator checkout release/prod && git -C shutdown-calculator merge -m'prod release' release/stage && git -C shutdown-calculator push
-git -C simflexCalculator checkout release/prod && git -C simflexCalculator merge -m'prod release' release/stage && git -C simflexCalculator push
+git -C simflex-calculator checkout release/prod && git -C simflex-calculator merge -m'prod release' release/stage && git -C simflex-calculator push
 git -C smooth-bar-fatigue-life-calculator checkout release/prod && git -C smooth-bar-fatigue-life-calculator merge -m'prod release' release/stage && git -C smooth-bar-fatigue-life-calculator push
 git -C stored-energy-calculator checkout release/prod && git -C stored-energy-calculator merge -m'prod release' release/stage && git -C stored-energy-calculator push
 git -C tank-thickness-calculator checkout release/prod && git -C tank-thickness-calculator merge -m'prod release' release/stage && git -C tank-thickness-calculator push

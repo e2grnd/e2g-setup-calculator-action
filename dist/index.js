@@ -439,7 +439,7 @@ const libpyConfig = [
     },
     {
         name: 'simflex',
-        repo: 'simflexCalculator.git',
+        repo: 'simflex-calculator.git',
         module: 'SimflexCalc.Calculator',
         function: 'submit_calculation_to_simflex',
     },

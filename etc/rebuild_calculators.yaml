@@ -69,7 +69,7 @@ jobs:
           'sage-x-calculator',
           'shell-pt-calculator',
           'shutdown-calculator',
-          'simflexCalculator',
+          'simflex-calculator',
           'smooth-bar-fatigue-life-calculator',
           'stored-energy-calculator',
           'tank-thickness-calculator',
