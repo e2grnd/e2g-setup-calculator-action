@@ -24,7 +24,7 @@ async function run(): Promise<void> {
         dest: .devcontainer/docker-compose.yaml
       - source: devcontainer/docker-compose.app.yaml
         dest: .devcontainer/docker-compose.app.yaml
-      - source: .devcontainer/devcontainer.json
+      - source: devcontainer/devcontainer.json
         dest: .devcontainer/devcontainer.json
       - source: devcontainer/scripts/init.mjs
         dest: .devcontainer/scripts/init.mjs
@@ -47,7 +47,7 @@ async function run(): Promise<void> {
         dest: .devcontainer/docker-compose.bayes.yaml
       - source: devcontainer/docker-compose.app.yaml
         dest: .devcontainer/docker-compose.app.yaml
-      - source: .devcontainer/devcontainer-bayes.json
+      - source: devcontainer/devcontainer-bayes.json
         dest: .devcontainer/devcontainer.json
       - source: devcontainer/scripts/init.mjs
         dest: .devcontainer/scripts/init.mjs
