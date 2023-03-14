@@ -32,12 +32,14 @@ const libpyConfig = [
         module: 'epriAmpCalc.Calculator',
         function: 'calculateEpriAmp',
         deploymentRepo: 'can2-kustomize',
+        enableBayesContainers: true,
     },
     {
         name: 'best-rate',
         repo: 'best-rate-calculator.git',
         module: 'bestRateCalc.Calculator',
         function: 'calculateBestRate',
+        enableBayesContainers: true,
     },
     {
         name: 'bayes',
@@ -64,6 +66,7 @@ const libpyConfig = [
         repo: 'upgrade-calculator.git',
         module: 'upgradeCalculator.gradeComment',
         function: 'generate_inspection_grade',
+        enableBayesContainers: true,
     },
     {
         name: 'openIAM',
@@ -534,6 +537,7 @@ const calcsByRepo = libpyConfig.reduce((acc, conf) => {
         serviceName: conf.serviceName || (0, lodash_kebabcase_1.default)(conf.name),
         noSync: conf.noSync,
         deploymentRepo: conf.deploymentRepo || 'eec-kustomize',
+        enableBayesContainers: conf.enableBayesContainers,
     };
     return acc;
 }, {});
@@ -569,6 +573,7 @@ exports.calculators = Object.assign(Object.assign({}, calcsByRepo), { 'tbreak-ca
         imageName: 'can2-decisions',
         serviceName: 'can2-decisions',
         deploymentRepo: 'can2-kustomize',
+        enableBayesContainers: true,
     }, 'can2-series-calculator': {
         imageName: 'can2-series',
         serviceName: 'can2-series',
@@ -585,10 +590,12 @@ exports.calculators = Object.assign(Object.assign({}, calcsByRepo), { 'tbreak-ca
         imageName: 'cui-sight',
         serviceName: 'cui-sight',
         deploymentRepo: 'eec-kustomize',
+        enableBayesContainers: true,
     }, 'bundle-sight-calculator': {
         imageName: 'bundle-sight',
         serviceName: 'bundle-sight',
         deploymentRepo: 'eec-kustomize',
+        enableBayesContainers: true,
     }, 'plausible-profiles-calculator': {
         imageName: 'plausible-profiles',
         serviceName: 'plausible-profiles',

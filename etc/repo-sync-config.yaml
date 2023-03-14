@@ -1,89 +1,111 @@
 group:
-  repos: |
-    e2grnd/calculator-template@release/dev
-    e2grnd/asme-b31g-calculator@release/dev
-    e2grnd/bakeout-calculator@release/dev
-    e2grnd/bayes-calculator@release/dev
-    e2grnd/bayes-worker-calculator@release/dev
-    e2grnd/bengi-worker-calculator@release/dev
-    e2grnd/best-rate-calculator@release/dev
-    e2grnd/bijlaard-calculator@release/dev
-    e2grnd/boiler-tube-calculator@release/dev
-    e2grnd/buried-pipelines-calculator@release/dev
-    e2grnd/branch-calculator@release/dev
-    e2grnd/bundle-sight-calculator@release/dev
-    e2grnd/burstp-calculator@release/dev
-    e2grnd/can2-decisions-calculator@release/dev
-    e2grnd/can2-annual-growth-rate-calculator@release/dev
-    e2grnd/can2-series-calculator@release/dev
-    e2grnd/can2-canister-temperature-calculator@release/dev
-    e2grnd/charpy-calculator@release/dev
-    e2grnd/corr-solutions-da-calculator@release/dev
-    e2grnd/corroding-pipe-life-calculator@release/dev
-    e2grnd/cp-design-calculator@release/dev
-    e2grnd/cp-design-offshore-calculator@release/dev
-    e2grnd/crack-attack-calculator@release/dev
-    e2grnd/creep-life-calculator@release/dev
-    e2grnd/cui-calculator@release/dev
-    e2grnd/deposition-density-calculator@release/dev
-    e2grnd/epri-amp-calculator@release/dev
-    e2grnd/exemption-calculator@release/dev
-    e2grnd/fast2-calculator@release/dev
-    e2grnd/fatigue-calculator@release/dev
-    e2grnd/fatigue-damage-calculator@release/dev
-    e2grnd/fatigue-data-explorer-calculator@release/dev
-    e2grnd/ffs-brittle-calculator@release/dev
-    e2grnd/ffs-cracking-calculator@release/dev
-    e2grnd/ffs-creep-calculator@release/dev
-    e2grnd/ffs-dent-gouge-calculator@release/dev
-    e2grnd/ffs-fire-damage-calculator@release/dev
-    e2grnd/ffs-hydrogen-calculator@release/dev
-    e2grnd/ffs-laminations-calculator@release/dev
-    e2grnd/ffs-misalignment-calculator@release/dev
-    e2grnd/ffs-pitting-calculator@release/dev
-    e2grnd/ffs-thinning-calculator@release/dev
-    e2grnd/flange-calculator@release/dev
-    e2grnd/hottap-calculator@release/dev
-    e2grnd/htha-calculator@release/dev
-    e2grnd/htha-steady-state-calculator@release/dev
-    e2grnd/idinterp-calculator@release/dev
-    e2grnd/insulation-calculator@release/dev
-    e2grnd/material-explorer-calculator@release/dev
-    e2grnd/mixer-calculator@release/dev
-    e2grnd/netica-worker-calculator@release/dev
-    e2grnd/nozzle-calculator@release/dev
-    e2grnd/omega-calculator@release/dev
-    e2grnd/pipe-pt-calculator@release/dev
-    e2grnd/pipe-span-calculator@release/dev
-    e2grnd/pitting-corrosion-rate-calculator@release/dev
-    e2grnd/plausible-profiles-calculator@release/dev
-    e2grnd/plume-calculator@release/dev
-    e2grnd/prd-update-calculator@release/dev
-    e2grnd/sage-x-calculator@release/dev
-    e2grnd/shell-pt-calculator@release/dev
-    e2grnd/shutdown-calculator@release/dev
-    e2grnd/simflex-calculator@release/dev
-    e2grnd/smooth-bar-fatigue-life-calculator@release/dev
-    e2grnd/stored-energy-calculator@release/dev
-    e2grnd/tank-thickness-calculator@release/dev
-    e2grnd/tank-settlement-calculator@release/dev
-    e2grnd/tbreak-calculator@release/dev
-    e2grnd/thermowells-calculator@release/dev
-    e2grnd/toughness-calculator@release/dev
-    e2grnd/upgrade-calculator@release/dev
-    e2grnd/can2-weather-data-calculator@release/dev
-    e2grnd/weld-residual-stress-calculator@release/dev
-    e2grnd/welded-joint-fatigue-life-calculator@release/dev
-  files: 
-    - source: workflows/publish.yml
-      dest: .github/workflows/publish.yml
-    - source: workflows/test.yml
-      dest: .github/workflows/test.yml
-    - source: devcontainer/docker-compose.yaml
-      dest: .devcontainer/docker-compose.yaml
-    - source: devcontainer/docker-compose.app.yaml
-      dest: .devcontainer/docker-compose.app.yaml
-    # - source: .devcontainer/devcontainer.json
-    #   dest: .devcontainer/devcontainer.json
-    - source: devcontainer/scripts/init.mjs
-      dest: .devcontainer/scripts/init.mjs
+  - repos: |
+      e2grnd/calculator-template@release/dev
+      e2grnd/asme-b31g-calculator@release/dev
+      e2grnd/bakeout-calculator@release/dev
+      e2grnd/bayes-calculator@release/dev
+      e2grnd/bayes-worker-calculator@release/dev
+      e2grnd/bengi-worker-calculator@release/dev
+      e2grnd/bijlaard-calculator@release/dev
+      e2grnd/boiler-tube-calculator@release/dev
+      e2grnd/buried-pipelines-calculator@release/dev
+      e2grnd/branch-calculator@release/dev
+      e2grnd/burstp-calculator@release/dev
+      e2grnd/can2-annual-growth-rate-calculator@release/dev
+      e2grnd/can2-series-calculator@release/dev
+      e2grnd/can2-canister-temperature-calculator@release/dev
+      e2grnd/charpy-calculator@release/dev
+      e2grnd/corr-solutions-da-calculator@release/dev
+      e2grnd/corroding-pipe-life-calculator@release/dev
+      e2grnd/cp-design-calculator@release/dev
+      e2grnd/cp-design-offshore-calculator@release/dev
+      e2grnd/crack-attack-calculator@release/dev
+      e2grnd/creep-life-calculator@release/dev
+      e2grnd/deposition-density-calculator@release/dev
+      e2grnd/exemption-calculator@release/dev
+      e2grnd/fast2-calculator@release/dev
+      e2grnd/fatigue-calculator@release/dev
+      e2grnd/fatigue-damage-calculator@release/dev
+      e2grnd/fatigue-data-explorer-calculator@release/dev
+      e2grnd/ffs-brittle-calculator@release/dev
+      e2grnd/ffs-cracking-calculator@release/dev
+      e2grnd/ffs-creep-calculator@release/dev
+      e2grnd/ffs-dent-gouge-calculator@release/dev
+      e2grnd/ffs-fire-damage-calculator@release/dev
+      e2grnd/ffs-hydrogen-calculator@release/dev
+      e2grnd/ffs-laminations-calculator@release/dev
+      e2grnd/ffs-misalignment-calculator@release/dev
+      e2grnd/ffs-pitting-calculator@release/dev
+      e2grnd/ffs-thinning-calculator@release/dev
+      e2grnd/flange-calculator@release/dev
+      e2grnd/hottap-calculator@release/dev
+      e2grnd/htha-calculator@release/dev
+      e2grnd/htha-steady-state-calculator@release/dev
+      e2grnd/idinterp-calculator@release/dev
+      e2grnd/insulation-calculator@release/dev
+      e2grnd/material-explorer-calculator@release/dev
+      e2grnd/mixer-calculator@release/dev
+      e2grnd/netica-worker-calculator@release/dev
+      e2grnd/nozzle-calculator@release/dev
+      e2grnd/omega-calculator@release/dev
+      e2grnd/pipe-pt-calculator@release/dev
+      e2grnd/pipe-span-calculator@release/dev
+      e2grnd/pitting-corrosion-rate-calculator@release/dev
+      e2grnd/plausible-profiles-calculator@release/dev
+      e2grnd/plume-calculator@release/dev
+      e2grnd/prd-update-calculator@release/dev
+      e2grnd/sage-x-calculator@release/dev
+      e2grnd/shell-pt-calculator@release/dev
+      e2grnd/shutdown-calculator@release/dev
+      e2grnd/simflex-calculator@release/dev
+      e2grnd/smooth-bar-fatigue-life-calculator@release/dev
+      e2grnd/stored-energy-calculator@release/dev
+      e2grnd/tank-thickness-calculator@release/dev
+      e2grnd/tank-settlement-calculator@release/dev
+      e2grnd/tbreak-calculator@release/dev
+      e2grnd/thermowells-calculator@release/dev
+      e2grnd/toughness-calculator@release/dev
+      e2grnd/can2-weather-data-calculator@release/dev
+      e2grnd/weld-residual-stress-calculator@release/dev
+      e2grnd/welded-joint-fatigue-life-calculator@release/dev
+    files: 
+      - source: workflows/publish.yml
+        dest: .github/workflows/publish.yml
+      - source: workflows/test.yml
+        dest: .github/workflows/test.yml
+      - source: devcontainer/docker-compose.yaml
+        dest: .devcontainer/docker-compose.yaml
+      - source: devcontainer/docker-compose.app.yaml
+        dest: .devcontainer/docker-compose.app.yaml
+      - source: .devcontainer/devcontainer.json
+        dest: .devcontainer/devcontainer.json
+      - source: devcontainer/scripts/init.mjs
+        dest: .devcontainer/scripts/init.mjs
+      - source: subscribe.sh
+        dest: subscribe.sh
+
+  - repos: |
+      e2grnd/best-rate-calculator@release/dev
+      e2grnd/bundle-sight-calculator@release/dev
+      e2grnd/can2-decisions-calculator@release/dev
+      e2grnd/cui-calculator@release/dev
+      e2grnd/epri-amp-calculator@release/dev
+      e2grnd/upgrade-calculator@release/dev
+    files: 
+      - source: workflows/publish.yml
+        dest: .github/workflows/publish.yml
+      - source: workflows/test.yml
+        dest: .github/workflows/test.yml
+      - source: devcontainer/docker-compose.yaml
+        dest: .devcontainer/docker-compose.yaml
+      - source: devcontainer/docker-compose.bayes.yaml
+        dest: .devcontainer/docker-compose.bayes.yaml
+      - source: devcontainer/docker-compose.app.yaml
+        dest: .devcontainer/docker-compose.app.yaml
+      - source: .devcontainer/devcontainer-bayes.json
+        dest: .devcontainer/devcontainer.json
+      - source: devcontainer/scripts/init.mjs
+        dest: .devcontainer/scripts/init.mjs
+      - source: subscribe.sh
+        dest: subscribe.sh
+  

@@ -16,8 +16,14 @@ export type CalcConfig = {
   noSync?: boolean
   /**
    * The target deployment repo name
+   * @default false
    */
   deploymentRepo: 'eec-kustomize' | 'can2-kustomize' | 'corrsolutions-kustomize'
+  /**
+   * Syncs the bayes docker compose configuration in addition to base.
+   * @default false
+   */
+  enableBayesContainers?: boolean
 }
 
 /**
@@ -52,12 +58,14 @@ const libpyConfig: LibPyConfig[] = [
     module: 'epriAmpCalc.Calculator',
     function: 'calculateEpriAmp',
     deploymentRepo: 'can2-kustomize',
+    enableBayesContainers: true,
   },
   {
     name: 'best-rate',
     repo: 'best-rate-calculator.git',
     module: 'bestRateCalc.Calculator',
     function: 'calculateBestRate',
+    enableBayesContainers: true,
   },
   {
     name: 'bayes',
@@ -84,6 +92,7 @@ const libpyConfig: LibPyConfig[] = [
     repo: 'upgrade-calculator.git',
     module: 'upgradeCalculator.gradeComment',
     function: 'generate_inspection_grade',
+    enableBayesContainers: true,
   },
   {
     name: 'openIAM',
@@ -554,6 +563,7 @@ const calcsByRepo = libpyConfig.reduce((acc, conf) => {
     serviceName: conf.serviceName || kebab(conf.name),
     noSync: conf.noSync,
     deploymentRepo: conf.deploymentRepo || 'eec-kustomize',
+    enableBayesContainers: conf.enableBayesContainers,
   }
   return acc
 }, {} as Record<string, CalcConfig>)
@@ -599,6 +609,7 @@ export const calculators: Record<string, CalcConfig> = {
     imageName: 'can2-decisions',
     serviceName: 'can2-decisions',
     deploymentRepo: 'can2-kustomize',
+    enableBayesContainers: true,
   },
   'can2-series-calculator': {
     imageName: 'can2-series',
@@ -619,11 +630,13 @@ export const calculators: Record<string, CalcConfig> = {
     imageName: 'cui-sight',
     serviceName: 'cui-sight',
     deploymentRepo: 'eec-kustomize',
+    enableBayesContainers: true,
   },
   'bundle-sight-calculator': {
     imageName: 'bundle-sight',
     serviceName: 'bundle-sight',
     deploymentRepo: 'eec-kustomize',
+    enableBayesContainers: true,
   },
   'plausible-profiles-calculator': {
     imageName: 'plausible-profiles',
