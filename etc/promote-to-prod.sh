@@ -54,6 +54,7 @@ git -C pipe-span-calculator checkout release/prod && git -C pipe-span-calculator
 git -C plausible-profiles-calculator checkout release/prod && git -C plausible-profiles-calculator merge -m'prod release' release/stage && git -C plausible-profiles-calculator push
 git -C plume-calculator checkout release/prod && git -C plume-calculator merge -m'prod release' release/stage && git -C plume-calculator push
 git -C prd-update-calculator checkout release/prod && git -C prd-update-calculator merge -m'prod release' release/stage && git -C prd-update-calculator push
+git -C rainflow-calculator checkout release/prod && git -C rainflow-calculator merge -m'prod release' release/stage && git -C rainflow-calculator push
 git -C sage-x-calculator checkout release/prod && git -C sage-x-calculator merge -m'prod release' release/stage && git -C sage-x-calculator push
 git -C shell-pt-calculator checkout release/prod && git -C shell-pt-calculator merge -m'prod release' release/stage && git -C shell-pt-calculator push
 git -C shutdown-calculator checkout release/prod && git -C shutdown-calculator merge -m'prod release' release/stage && git -C shutdown-calculator push

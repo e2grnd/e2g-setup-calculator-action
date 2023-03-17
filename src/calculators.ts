@@ -668,4 +668,9 @@ export const calculators: Record<string, CalcConfig> = {
     serviceName: 'fixture',
     deploymentRepo: 'eec-kustomize',
   },
+  'rainflow-calculator': {
+    imageName: 'rainflow',
+    serviceName: 'rainflow',
+    deploymentRepo: 'eec-kustomize',
+  },
 }

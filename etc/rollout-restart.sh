@@ -60,6 +60,7 @@ kubectl rollout restart -n dev deployment/pitting-corrosion-rate
 kubectl rollout restart -n dev deployment/plausible-profiles
 kubectl rollout restart -n dev deployment/plume
 kubectl rollout restart -n dev deployment/prd-update
+kubectl rollout restart -n dev deployment/rainflow
 kubectl rollout restart -n dev deployment/sage-x
 kubectl rollout restart -n dev deployment/shell
 kubectl rollout restart -n dev deployment/shutdown

@@ -67,6 +67,7 @@ jobs:
           'plausible-profiles-calculator',
           'plume-calculator',
           'prd-update-calculator',
+          'rainflow-calculator',
           'sage-x-calculator',
           'shell-pt-calculator',
           'shutdown-calculator',

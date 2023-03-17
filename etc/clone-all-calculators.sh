@@ -62,6 +62,7 @@ git -C pitting-corrosion-rate-calculator pull || git clone 'git@github.com:e2grn
 git -C plausible-profiles-calculator pull || git clone 'git@github.com:e2grnd/plausible-profiles-calculator.git'
 git -C plume-calculator pull || git clone 'git@github.com:e2grnd/plume-calculator.git'
 git -C prd-update-calculator pull || git clone 'git@github.com:e2grnd/prd-update-calculator.git'
+git -C rainflow-calculator pull || git clone 'git@github.com:e2grnd/rainflow-calculator.git'
 git -C sage-x-calculator pull || git clone 'git@github.com:e2grnd/sage-x-calculator.git'
 git -C shell-pt-calculator pull || git clone 'git@github.com:e2grnd/shell-pt-calculator.git'
 git -C shutdown-calculator pull || git clone 'git@github.com:e2grnd/shutdown-calculator.git'

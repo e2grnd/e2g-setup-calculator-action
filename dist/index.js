@@ -620,6 +620,10 @@ exports.calculators = Object.assign(Object.assign({}, calcsByRepo), { 'tbreak-ca
         imageName: 'fixture-calculator',
         serviceName: 'fixture',
         deploymentRepo: 'eec-kustomize',
+    }, 'rainflow-calculator': {
+        imageName: 'rainflow',
+        serviceName: 'rainflow',
+        deploymentRepo: 'eec-kustomize',
     } });
 
 
