@@ -41,7 +41,6 @@ kubectl rollout restart -n dev deployment/ffs-lamination
 kubectl rollout restart -n dev deployment/ffs-misalignment
 kubectl rollout restart -n dev deployment/ffs-pitting
 kubectl rollout restart -n dev deployment/ffs-thinning
-kubectl rollout restart -n dev deployment/fixture
 kubectl rollout restart -n dev deployment/flange
 kubectl rollout restart -n dev deployment/hottap
 kubectl rollout restart -n dev deployment/htha
@@ -73,6 +72,7 @@ kubectl rollout restart -n dev deployment/tbreak
 kubectl rollout restart -n dev deployment/thermowell
 kubectl rollout restart -n dev deployment/toughness
 kubectl rollout restart -n dev deployment/upgrade
+kubectl rollout restart -n dev deployment/van-winkle
 kubectl rollout restart -n dev deployment/weather-data
 kubectl rollout restart -n dev deployment/weld-residual-stress
 kubectl rollout restart -n dev deployment/welded-joint-fatigue

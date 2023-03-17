@@ -663,9 +663,9 @@ export const calculators: Record<string, CalcConfig> = {
     serviceName: 'crack-attack',
     deploymentRepo: 'eec-kustomize',
   },
-  'fixture-calculator': {
-    imageName: 'fixture-calculator',
-    serviceName: 'fixture',
+  'van-winkle-calculator': {
+    imageName: 'van-winkle-calculator',
+    serviceName: 'van-winkle',
     deploymentRepo: 'eec-kustomize',
   },
   'rainflow-calculator': {

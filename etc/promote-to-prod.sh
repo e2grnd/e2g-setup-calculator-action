@@ -36,7 +36,6 @@ git -C ffs-laminations-calculator checkout release/prod && git -C ffs-lamination
 git -C ffs-misalignment-calculator checkout release/prod && git -C ffs-misalignment-calculator merge -m'prod release' release/stage && git -C ffs-misalignment-calculator push
 git -C ffs-pitting-calculator checkout release/prod && git -C ffs-pitting-calculator merge -m'prod release' release/stage && git -C ffs-pitting-calculator push
 git -C ffs-thinning-calculator checkout release/prod && git -C ffs-thinning-calculator merge -m'prod release' release/stage && git -C ffs-thinning-calculator push
-git -C fixture-calculator checkout release/prod && git -C fixture-calculator merge -m'prod release' release/stage && git -C fixture-calculator push
 git -C flange-calculator checkout release/prod && git -C flange-calculator merge -m'prod release' release/stage && git -C flange-calculator push
 git -C hottap-calculator checkout release/prod && git -C hottap-calculator merge -m'prod release' release/stage && git -C hottap-calculator push
 git -C htha-calculator checkout release/prod && git -C htha-calculator merge -m'prod release' release/stage && git -C htha-calculator push
@@ -67,4 +66,5 @@ git -C tbreak-calculator checkout release/prod && git -C tbreak-calculator merge
 git -C thermowells-calculator checkout release/prod && git -C thermowells-calculator merge -m'prod release' release/stage && git -C thermowells-calculator push
 git -C toughness-calculator checkout release/prod && git -C toughness-calculator merge -m'prod release' release/stage && git -C toughness-calculator push
 git -C upgrade-calculator checkout release/prod && git -C upgrade-calculator merge -m'prod release' release/stage && git -C upgrade-calculator push
+git -C van-winkle-calculator checkout release/prod && git -C van-winkle-calculator merge -m'prod release' release/stage && git -C van-winkle-calculator push
 git -C welded-joint-fatigue-life-calculator checkout release/prod && git -C welded-joint-fatigue-life-calculator merge -m'prod release' release/stage && git -C welded-joint-fatigue-life-calculator push
