@@ -37,6 +37,7 @@ group:
       e2grnd/ffs-misalignment-calculator@release/dev
       e2grnd/ffs-pitting-calculator@release/dev
       e2grnd/ffs-thinning-calculator@release/dev
+      e2grnd/fixture-calculator@release/dev
       e2grnd/flange-calculator@release/dev
       e2grnd/hottap-calculator@release/dev
       e2grnd/htha-calculator@release/dev

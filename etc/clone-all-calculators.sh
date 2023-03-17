@@ -43,6 +43,7 @@ git -C ffs-laminations-calculator pull || git clone 'git@github.com:e2grnd/ffs-l
 git -C ffs-misalignment-calculator pull || git clone 'git@github.com:e2grnd/ffs-misalignment-calculator.git'
 git -C ffs-pitting-calculator pull || git clone 'git@github.com:e2grnd/ffs-pitting-calculator.git'
 git -C ffs-thinning-calculator pull || git clone 'git@github.com:e2grnd/ffs-thinning-calculator.git'
+git -C fixture-calculator pull || git clone 'git@github.com:e2grnd/fixture-calculator.git'
 git -C flange-calculator pull || git clone 'git@github.com:e2grnd/flange-calculator.git'
 git -C hottap-calculator pull || git clone 'git@github.com:e2grnd/hottap-calculator.git'
 git -C htha-calculator pull || git clone 'git@github.com:e2grnd/htha-calculator.git'

@@ -49,6 +49,7 @@ jobs:
           'ffs-misalignment-calculator',
           'ffs-pitting-calculator',
           'ffs-thinning-calculator',
+          'fixture-calculator',
           'flange-calculator',
           'hottap-calculator',
           'htha-calculator',

@@ -36,6 +36,7 @@ git -C ffs-laminations-calculator checkout release/prod && git -C ffs-lamination
 git -C ffs-misalignment-calculator checkout release/prod && git -C ffs-misalignment-calculator merge -m'prod release' release/stage && git -C ffs-misalignment-calculator push
 git -C ffs-pitting-calculator checkout release/prod && git -C ffs-pitting-calculator merge -m'prod release' release/stage && git -C ffs-pitting-calculator push
 git -C ffs-thinning-calculator checkout release/prod && git -C ffs-thinning-calculator merge -m'prod release' release/stage && git -C ffs-thinning-calculator push
+git -C fixture-calculator checkout release/prod && git -C fixture-calculator merge -m'prod release' release/stage && git -C fixture-calculator push
 git -C flange-calculator checkout release/prod && git -C flange-calculator merge -m'prod release' release/stage && git -C flange-calculator push
 git -C hottap-calculator checkout release/prod && git -C hottap-calculator merge -m'prod release' release/stage && git -C hottap-calculator push
 git -C htha-calculator checkout release/prod && git -C htha-calculator merge -m'prod release' release/stage && git -C htha-calculator push

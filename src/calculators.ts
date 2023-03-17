@@ -663,4 +663,9 @@ export const calculators: Record<string, CalcConfig> = {
     serviceName: 'crack-attack',
     deploymentRepo: 'eec-kustomize',
   },
+  'fixture-calculator': {
+    imageName: 'fixture-calculator',
+    serviceName: 'fixture-calculator',
+    deploymentRepo: 'eec-kustomize',
+  },
 }
