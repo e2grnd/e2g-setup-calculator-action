@@ -664,7 +664,7 @@ export const calculators: Record<string, CalcConfig> = {
     deploymentRepo: 'eec-kustomize',
   },
   'van-winkle-calculator': {
-    imageName: 'van-winkle-calculator',
+    imageName: 'van-winkle',
     serviceName: 'van-winkle',
     deploymentRepo: 'eec-kustomize',
   },

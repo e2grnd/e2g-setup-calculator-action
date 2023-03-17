@@ -617,7 +617,7 @@ exports.calculators = Object.assign(Object.assign({}, calcsByRepo), { 'tbreak-ca
         serviceName: 'crack-attack',
         deploymentRepo: 'eec-kustomize',
     }, 'van-winkle-calculator': {
-        imageName: 'van-winkle-calculator',
+        imageName: 'van-winkle',
         serviceName: 'van-winkle',
         deploymentRepo: 'eec-kustomize',
     }, 'rainflow-calculator': {
