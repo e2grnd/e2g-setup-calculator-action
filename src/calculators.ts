@@ -665,7 +665,7 @@ export const calculators: Record<string, CalcConfig> = {
   },
   'fixture-calculator': {
     imageName: 'fixture-calculator',
-    serviceName: 'fixture-calculator',
+    serviceName: 'fixture',
     deploymentRepo: 'eec-kustomize',
   },
 }

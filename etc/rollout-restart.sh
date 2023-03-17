@@ -41,7 +41,7 @@ kubectl rollout restart -n dev deployment/ffs-lamination
 kubectl rollout restart -n dev deployment/ffs-misalignment
 kubectl rollout restart -n dev deployment/ffs-pitting
 kubectl rollout restart -n dev deployment/ffs-thinning
-kubectl rollout restart -n dev deployment/fixture-calculator
+kubectl rollout restart -n dev deployment/fixture
 kubectl rollout restart -n dev deployment/flange
 kubectl rollout restart -n dev deployment/hottap
 kubectl rollout restart -n dev deployment/htha

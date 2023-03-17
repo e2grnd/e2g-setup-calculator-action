@@ -618,7 +618,7 @@ exports.calculators = Object.assign(Object.assign({}, calcsByRepo), { 'tbreak-ca
         deploymentRepo: 'eec-kustomize',
     }, 'fixture-calculator': {
         imageName: 'fixture-calculator',
-        serviceName: 'fixture-calculator',
+        serviceName: 'fixture',
         deploymentRepo: 'eec-kustomize',
     } });
 
