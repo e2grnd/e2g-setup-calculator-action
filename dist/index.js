@@ -600,6 +600,7 @@ exports.calculators = Object.assign(Object.assign({}, calcsByRepo), { 'tbreak-ca
         imageName: 'plausible-profiles',
         serviceName: 'plausible-profiles',
         deploymentRepo: 'eec-kustomize',
+        noSync: true,
     }, 'bayes-worker-calculator': {
         imageName: 'bayes-worker',
         serviceName: 'bayes-worker',
