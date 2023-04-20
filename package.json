@@ -8,6 +8,7 @@
     "clean": "git clean -xfd lib dist etc",
     "build": "tsc",
     "write:status": "node lib/write-status-badges.js",
+    "write:test-status": "node lib/write-test-status-badges.js",
     "write:clone-script": "node lib/write-clone-script.js",
     "write:sync-config": "node lib/write-sync-config.js",
     "write:rebuild-calculators": "node lib/write-rebuild-calculators.js",
