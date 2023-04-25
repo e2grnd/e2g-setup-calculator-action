@@ -30,6 +30,8 @@ async function run(): Promise<void> {
         dest: .devcontainer/scripts/init.mjs
       - source: devcontainer/init_db.sh
         dest: .devcontainer/init_db.sh
+      - source: devcontainer/gitattributes
+        dest: .devcontainer/.gitattributes
       - source: devcontainer/gitignore
         dest: .devcontainer/.gitignore
       - source: HELP.md
@@ -59,6 +61,8 @@ async function run(): Promise<void> {
         dest: .devcontainer/scripts/init.mjs
       - source: devcontainer/init_db.sh
         dest: .devcontainer/init_db.sh
+      - source: devcontainer/gitattributes
+        dest: .devcontainer/.gitattributes
       - source: devcontainer/gitignore
         dest: .devcontainer/.gitignore
       - source: HELP.md
