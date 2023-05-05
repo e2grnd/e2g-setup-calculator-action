@@ -625,6 +625,10 @@ exports.calculators = Object.assign(Object.assign({}, calcsByRepo), { 'tbreak-ca
         imageName: 'rainflow',
         serviceName: 'rainflow',
         deploymentRepo: 'eec-kustomize',
+    }, 'ffs-lta-calculator': {
+        imageName: 'ffs-lta',
+        serviceName: 'ffs-lta',
+        deploymentRepo: 'eec-kustomize',
     } });
 
 

@@ -46,6 +46,7 @@ jobs:
           'ffs-fire-damage-calculator',
           'ffs-hydrogen-calculator',
           'ffs-laminations-calculator',
+          'ffs-lta-calculator',
           'ffs-misalignment-calculator',
           'ffs-pitting-calculator',
           'ffs-thinning-calculator',

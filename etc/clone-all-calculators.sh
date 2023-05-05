@@ -40,6 +40,7 @@ git -C ffs-dent-gouge-calculator pull || git clone 'git@github.com:e2grnd/ffs-de
 git -C ffs-fire-damage-calculator pull || git clone 'git@github.com:e2grnd/ffs-fire-damage-calculator.git'
 git -C ffs-hydrogen-calculator pull || git clone 'git@github.com:e2grnd/ffs-hydrogen-calculator.git'
 git -C ffs-laminations-calculator pull || git clone 'git@github.com:e2grnd/ffs-laminations-calculator.git'
+git -C ffs-lta-calculator pull || git clone 'git@github.com:e2grnd/ffs-lta-calculator.git'
 git -C ffs-misalignment-calculator pull || git clone 'git@github.com:e2grnd/ffs-misalignment-calculator.git'
 git -C ffs-pitting-calculator pull || git clone 'git@github.com:e2grnd/ffs-pitting-calculator.git'
 git -C ffs-thinning-calculator pull || git clone 'git@github.com:e2grnd/ffs-thinning-calculator.git'

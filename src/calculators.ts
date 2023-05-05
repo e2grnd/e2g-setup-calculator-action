@@ -674,4 +674,9 @@ export const calculators: Record<string, CalcConfig> = {
     serviceName: 'rainflow',
     deploymentRepo: 'eec-kustomize',
   },
+  'ffs-lta-calculator': {
+    imageName: 'ffs-lta',
+    serviceName: 'ffs-lta',
+    deploymentRepo: 'eec-kustomize',
+  },
 }

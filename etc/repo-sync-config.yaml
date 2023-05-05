@@ -34,6 +34,7 @@ group:
       e2grnd/ffs-fire-damage-calculator@release/dev
       e2grnd/ffs-hydrogen-calculator@release/dev
       e2grnd/ffs-laminations-calculator@release/dev
+      e2grnd/ffs-lta-calculator@release/dev
       e2grnd/ffs-misalignment-calculator@release/dev
       e2grnd/ffs-pitting-calculator@release/dev
       e2grnd/ffs-thinning-calculator@release/dev

@@ -33,6 +33,7 @@ git -C ffs-dent-gouge-calculator checkout release/stage && git -C ffs-dent-gouge
 git -C ffs-fire-damage-calculator checkout release/stage && git -C ffs-fire-damage-calculator merge -m'stage release' release/dev && git -C ffs-fire-damage-calculator push
 git -C ffs-hydrogen-calculator checkout release/stage && git -C ffs-hydrogen-calculator merge -m'stage release' release/dev && git -C ffs-hydrogen-calculator push
 git -C ffs-laminations-calculator checkout release/stage && git -C ffs-laminations-calculator merge -m'stage release' release/dev && git -C ffs-laminations-calculator push
+git -C ffs-lta-calculator checkout release/stage && git -C ffs-lta-calculator merge -m'stage release' release/dev && git -C ffs-lta-calculator push
 git -C ffs-misalignment-calculator checkout release/stage && git -C ffs-misalignment-calculator merge -m'stage release' release/dev && git -C ffs-misalignment-calculator push
 git -C ffs-pitting-calculator checkout release/stage && git -C ffs-pitting-calculator merge -m'stage release' release/dev && git -C ffs-pitting-calculator push
 git -C ffs-thinning-calculator checkout release/stage && git -C ffs-thinning-calculator merge -m'stage release' release/dev && git -C ffs-thinning-calculator push

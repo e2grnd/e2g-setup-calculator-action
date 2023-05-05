@@ -38,6 +38,7 @@ kubectl rollout restart -n dev deployment/ffs-dent-gouge
 kubectl rollout restart -n dev deployment/ffs-fire-damage
 kubectl rollout restart -n dev deployment/ffs-hydrogen
 kubectl rollout restart -n dev deployment/ffs-lamination
+kubectl rollout restart -n dev deployment/ffs-lta
 kubectl rollout restart -n dev deployment/ffs-misalignment
 kubectl rollout restart -n dev deployment/ffs-pitting
 kubectl rollout restart -n dev deployment/ffs-thinning
