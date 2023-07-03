@@ -26,6 +26,7 @@ git -C fast2-calculator checkout release/prod && git -C fast2-calculator merge -
 git -C fatigue-calculator checkout release/prod && git -C fatigue-calculator merge -m'prod release' release/stage && git -C fatigue-calculator push
 git -C fatigue-damage-calculator checkout release/prod && git -C fatigue-damage-calculator merge -m'prod release' release/stage && git -C fatigue-damage-calculator push
 git -C fatigue-data-explorer-calculator checkout release/prod && git -C fatigue-data-explorer-calculator merge -m'prod release' release/stage && git -C fatigue-data-explorer-calculator push
+git -C feature-identification-calculator checkout release/prod && git -C feature-identification-calculator merge -m'prod release' release/stage && git -C feature-identification-calculator push
 git -C ffs-brittle-calculator checkout release/prod && git -C ffs-brittle-calculator merge -m'prod release' release/stage && git -C ffs-brittle-calculator push
 git -C ffs-cracking-calculator checkout release/prod && git -C ffs-cracking-calculator merge -m'prod release' release/stage && git -C ffs-cracking-calculator push
 git -C ffs-creep-calculator checkout release/prod && git -C ffs-creep-calculator merge -m'prod release' release/stage && git -C ffs-creep-calculator push

@@ -629,6 +629,10 @@ exports.calculators = Object.assign(Object.assign({}, calcsByRepo), { 'tbreak-ca
         imageName: 'ffs-lta',
         serviceName: 'ffs-lta',
         deploymentRepo: 'eec-kustomize',
+    }, 'feature-identification-calculator': {
+        imageName: 'feature-identification',
+        serviceName: 'feature-identification',
+        deploymentRepo: 'eec-kustomize',
     } });
 
 

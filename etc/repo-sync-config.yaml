@@ -27,6 +27,7 @@ group:
       e2grnd/fatigue-calculator@release/dev
       e2grnd/fatigue-damage-calculator@release/dev
       e2grnd/fatigue-data-explorer-calculator@release/dev
+      e2grnd/feature-identification-calculator@release/dev
       e2grnd/ffs-brittle-calculator@release/dev
       e2grnd/ffs-cracking-calculator@release/dev
       e2grnd/ffs-creep-calculator@release/dev

@@ -679,4 +679,9 @@ export const calculators: Record<string, CalcConfig> = {
     serviceName: 'ffs-lta',
     deploymentRepo: 'eec-kustomize',
   },
+  'feature-identification-calculator': {
+    imageName: 'feature-identification',
+    serviceName: 'feature-identification',
+    deploymentRepo: 'eec-kustomize',
+  },
 }

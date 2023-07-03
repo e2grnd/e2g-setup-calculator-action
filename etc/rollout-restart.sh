@@ -31,6 +31,7 @@ kubectl rollout restart -n dev deployment/fast2
 kubectl rollout restart -n dev deployment/fatigue
 kubectl rollout restart -n dev deployment/fatigue-damage
 kubectl rollout restart -n dev deployment/fatigue-data-explorer
+kubectl rollout restart -n dev deployment/feature-identification
 kubectl rollout restart -n dev deployment/ffs-brittle
 kubectl rollout restart -n dev deployment/ffs-crack-like
 kubectl rollout restart -n dev deployment/ffs-creep
