@@ -684,4 +684,9 @@ export const calculators: Record<string, CalcConfig> = {
     serviceName: 'feature-identification',
     deploymentRepo: 'eec-kustomize',
   },
+  'api-1183-calculator': {
+    imageName: 'api-1183',
+    serviceName: 'api-1183',
+    deploymentRepo: 'eec-kustomize',
+  },
 }

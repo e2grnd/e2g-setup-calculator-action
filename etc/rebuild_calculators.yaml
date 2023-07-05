@@ -8,6 +8,7 @@ jobs:
     strategy:
       matrix:
         target_repo: [
+          'api-1183-calculator',
           'asme-b31g-calculator',
           'bakeout-calculator',
           'bayes-calculator',

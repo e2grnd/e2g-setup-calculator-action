@@ -1,6 +1,7 @@
 #!/bin/bash
 mkdir -p ~/Projects/all-calculators
 cd ~/Projects/all-calculators
+git -C api-1183-calculator checkout release/stage && git -C api-1183-calculator merge -m'stage release' release/dev && git -C api-1183-calculator push
 git -C asme-b31g-calculator checkout release/stage && git -C asme-b31g-calculator merge -m'stage release' release/dev && git -C asme-b31g-calculator push
 git -C bakeout-calculator checkout release/stage && git -C bakeout-calculator merge -m'stage release' release/dev && git -C bakeout-calculator push
 git -C bayes-calculator checkout release/stage && git -C bayes-calculator merge -m'stage release' release/dev && git -C bayes-calculator push

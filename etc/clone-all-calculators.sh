@@ -1,6 +1,7 @@
 #!/bin/bash
 mkdir -p ~/Projects/all-calculators
 cd ~/Projects/all-calculators
+git -C api-1183-calculator pull || git clone 'git@github.com:e2grnd/api-1183-calculator.git'
 git -C asme-b31g-calculator pull || git clone 'git@github.com:e2grnd/asme-b31g-calculator.git'
 git -C bakeout-calculator pull || git clone 'git@github.com:e2grnd/bakeout-calculator.git'
 git -C bayes-calculator pull || git clone 'git@github.com:e2grnd/bayes-calculator.git'

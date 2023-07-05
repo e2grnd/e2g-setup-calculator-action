@@ -1,4 +1,5 @@
 #!/bin/bash
+kubectl rollout restart -n dev deployment/api-1183
 kubectl rollout restart -n dev deployment/asme-b31g
 kubectl rollout restart -n dev deployment/bakeout
 kubectl rollout restart -n dev deployment/bayes

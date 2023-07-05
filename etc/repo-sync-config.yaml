@@ -1,6 +1,7 @@
 group:
   - repos: |
       e2grnd/calculator-template@release/dev
+      e2grnd/api-1183-calculator@release/dev
       e2grnd/asme-b31g-calculator@release/dev
       e2grnd/bakeout-calculator@release/dev
       e2grnd/bayes-calculator@release/dev
