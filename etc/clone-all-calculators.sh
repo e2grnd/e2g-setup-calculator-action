@@ -78,6 +78,7 @@ git -C thermowells-calculator pull || git clone 'git@github.com:e2grnd/thermowel
 git -C toughness-calculator pull || git clone 'git@github.com:e2grnd/toughness-calculator.git'
 git -C upgrade-calculator pull || git clone 'git@github.com:e2grnd/upgrade-calculator.git'
 git -C van-winkle-calculator pull || git clone 'git@github.com:e2grnd/van-winkle-calculator.git'
+git -C visualization-calculator pull || git clone 'git@github.com:e2grnd/visualization-calculator.git'
 git -C can2-weather-data-calculator pull || git clone 'git@github.com:e2grnd/can2-weather-data-calculator.git'
 git -C weld-residual-stress-calculator pull || git clone 'git@github.com:e2grnd/weld-residual-stress-calculator.git'
 git -C welded-joint-fatigue-life-calculator pull || git clone 'git@github.com:e2grnd/welded-joint-fatigue-life-calculator.git'

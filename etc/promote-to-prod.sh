@@ -70,4 +70,5 @@ git -C thermowells-calculator checkout release/prod && git -C thermowells-calcul
 git -C toughness-calculator checkout release/prod && git -C toughness-calculator merge -m'prod release' release/stage && git -C toughness-calculator push
 git -C upgrade-calculator checkout release/prod && git -C upgrade-calculator merge -m'prod release' release/stage && git -C upgrade-calculator push
 git -C van-winkle-calculator checkout release/prod && git -C van-winkle-calculator merge -m'prod release' release/stage && git -C van-winkle-calculator push
+git -C visualization-calculator checkout release/prod && git -C visualization-calculator merge -m'prod release' release/stage && git -C visualization-calculator push
 git -C welded-joint-fatigue-life-calculator checkout release/prod && git -C welded-joint-fatigue-life-calculator merge -m'prod release' release/stage && git -C welded-joint-fatigue-life-calculator push

@@ -686,7 +686,12 @@ export const calculators: Record<string, CalcConfig> = {
   },
   'api-1183-calculator': {
     imageName: 'api-1183',
-    serviceName: 'api-1183',
+    serviceName: 'api1183',
+    deploymentRepo: 'eec-kustomize',
+  },
+  'visualization-calculator': {
+    imageName: 'visualization',
+    serviceName: 'visualization',
     deploymentRepo: 'eec-kustomize',
   },
 }
