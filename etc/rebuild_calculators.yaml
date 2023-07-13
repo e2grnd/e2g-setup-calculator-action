@@ -66,6 +66,7 @@ jobs:
           'pipe-pt-calculator',
           'pipe-span-calculator',
           'pitting-corrosion-rate-calculator',
+          'plausible-profiles-calculator',
           'plume-calculator',
           'prd-update-calculator',
           'rainflow-calculator',

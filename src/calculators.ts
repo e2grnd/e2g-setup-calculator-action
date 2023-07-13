@@ -642,7 +642,6 @@ export const calculators: Record<string, CalcConfig> = {
     imageName: 'plausible-profiles',
     serviceName: 'plausible-profiles',
     deploymentRepo: 'eec-kustomize',
-    noSync: true,
   },
   'bayes-worker-calculator': {
     imageName: 'bayes-worker',
