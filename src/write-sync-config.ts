@@ -18,8 +18,8 @@ async function run(): Promise<void> {
     files: 
       - source: workflows/publish.yml
         dest: .github/workflows/publish.yml
-      - source: workflows/test.yml
-        dest: .github/workflows/test.yml
+      # - source: workflows/test.yml
+      #  dest: .github/workflows/test.yml
       - source: devcontainer/docker-compose.yaml
         dest: .devcontainer/docker-compose.yaml
       - source: devcontainer/docker-compose.app.yaml
@@ -49,8 +49,8 @@ async function run(): Promise<void> {
     files: 
       - source: workflows/publish.yml
         dest: .github/workflows/publish.yml
-      - source: workflows/test.yml
-        dest: .github/workflows/test.yml
+      # - source: workflows/test.yml
+      #   dest: .github/workflows/test.yml
       - source: devcontainer/docker-compose.yaml
         dest: .devcontainer/docker-compose.yaml
       - source: devcontainer/docker-compose.bayes.yaml
