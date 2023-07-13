@@ -8,7 +8,7 @@ async function run(): Promise<void> {
     .sort((a, b) => {
       return a[1].serviceName.localeCompare(b[1].serviceName)
     })
-    .filter(([_repoName, cfg]) => !cfg.noSync) // eslint-disable-line @typescript-eslint/no-unused-vars
+    // .filter(([_repoName, cfg]) => !cfg.noSync) // eslint-disable-line @typescript-eslint/no-unused-vars
     .map(([repoName]) => `'${repoName}',`)
   const src = `name: Rebuild Calculators
 on:
