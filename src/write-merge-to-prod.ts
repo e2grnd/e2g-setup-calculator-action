@@ -18,7 +18,7 @@ cd ~/Projects/all-calculators
       return a[1].serviceName.localeCompare(b[1].serviceName)
     })
     .forEach(([repoName, calcConfig]) => {
-      scr += `git -C ${repoName} checkout release/prod && git -C ${repoName} merge -m'prod release' release/stage && git -C ${repoName} push\n`
+      scr += `echo "\n\n----- START ${repoName} -----"; git -C ${repoName} checkout release/prod && git -C ${repoName} merge -m'prod release' release/stage && git -C ${repoName} push\n`
     })
   await fs.mkdir('etc', {recursive: true})
   await fs.writeFile('etc/promote-to-prod.sh', scr)

@@ -1,84 +1,246 @@
 #!/bin/bash
 mkdir -p ~/Projects/all-calculators
 cd ~/Projects/all-calculators
-git -C api-1183-calculator pull || git clone 'git@github.com:e2grnd/api-1183-calculator.git'
-git -C asme-b31g-calculator pull || git clone 'git@github.com:e2grnd/asme-b31g-calculator.git'
-git -C bakeout-calculator pull || git clone 'git@github.com:e2grnd/bakeout-calculator.git'
-git -C bayes-calculator pull || git clone 'git@github.com:e2grnd/bayes-calculator.git'
-git -C bayes-worker-calculator pull || git clone 'git@github.com:e2grnd/bayes-worker-calculator.git'
-git -C bengi-worker-calculator pull || git clone 'git@github.com:e2grnd/bengi-worker-calculator.git'
-git -C best-rate-calculator pull || git clone 'git@github.com:e2grnd/best-rate-calculator.git'
-git -C bijlaard-calculator pull || git clone 'git@github.com:e2grnd/bijlaard-calculator.git'
-git -C boiler-tube-calculator pull || git clone 'git@github.com:e2grnd/boiler-tube-calculator.git'
-git -C buried-pipelines-calculator pull || git clone 'git@github.com:e2grnd/buried-pipelines-calculator.git'
-git -C branch-calculator pull || git clone 'git@github.com:e2grnd/branch-calculator.git'
-git -C bundle-sight-calculator pull || git clone 'git@github.com:e2grnd/bundle-sight-calculator.git'
-git -C burstp-calculator pull || git clone 'git@github.com:e2grnd/burstp-calculator.git'
-git -C can2-decisions-calculator pull || git clone 'git@github.com:e2grnd/can2-decisions-calculator.git'
-git -C can2-annual-growth-rate-calculator pull || git clone 'git@github.com:e2grnd/can2-annual-growth-rate-calculator.git'
-git -C can2-series-calculator pull || git clone 'git@github.com:e2grnd/can2-series-calculator.git'
-git -C can2-canister-temperature-calculator pull || git clone 'git@github.com:e2grnd/can2-canister-temperature-calculator.git'
-git -C charpy-calculator pull || git clone 'git@github.com:e2grnd/charpy-calculator.git'
-git -C corr-solutions-da-calculator pull || git clone 'git@github.com:e2grnd/corr-solutions-da-calculator.git'
-git -C corroding-pipe-life-calculator pull || git clone 'git@github.com:e2grnd/corroding-pipe-life-calculator.git'
-git -C cp-design-calculator pull || git clone 'git@github.com:e2grnd/cp-design-calculator.git'
-git -C cp-design-offshore-calculator pull || git clone 'git@github.com:e2grnd/cp-design-offshore-calculator.git'
-git -C crack-attack-calculator pull || git clone 'git@github.com:e2grnd/crack-attack-calculator.git'
-git -C lot-centered-analysis-calculator pull || git clone 'git@github.com:e2grnd/lot-centered-analysis-calculator.git'
-git -C creep-life-calculator pull || git clone 'git@github.com:e2grnd/creep-life-calculator.git'
-git -C cui-calculator pull || git clone 'git@github.com:e2grnd/cui-calculator.git'
-git -C deposition-density-calculator pull || git clone 'git@github.com:e2grnd/deposition-density-calculator.git'
-git -C epri-amp-calculator pull || git clone 'git@github.com:e2grnd/epri-amp-calculator.git'
-git -C exemption-calculator pull || git clone 'git@github.com:e2grnd/exemption-calculator.git'
-git -C fast2-calculator pull || git clone 'git@github.com:e2grnd/fast2-calculator.git'
-git -C fatigue-calculator pull || git clone 'git@github.com:e2grnd/fatigue-calculator.git'
-git -C fatigue-damage-calculator pull || git clone 'git@github.com:e2grnd/fatigue-damage-calculator.git'
-git -C fatigue-data-explorer-calculator pull || git clone 'git@github.com:e2grnd/fatigue-data-explorer-calculator.git'
-git -C feature-identification-calculator pull || git clone 'git@github.com:e2grnd/feature-identification-calculator.git'
-git -C ffs-brittle-calculator pull || git clone 'git@github.com:e2grnd/ffs-brittle-calculator.git'
-git -C ffs-cracking-calculator pull || git clone 'git@github.com:e2grnd/ffs-cracking-calculator.git'
-git -C ffs-creep-calculator pull || git clone 'git@github.com:e2grnd/ffs-creep-calculator.git'
-git -C ffs-dent-gouge-calculator pull || git clone 'git@github.com:e2grnd/ffs-dent-gouge-calculator.git'
-git -C ffs-fire-damage-calculator pull || git clone 'git@github.com:e2grnd/ffs-fire-damage-calculator.git'
-git -C ffs-hydrogen-calculator pull || git clone 'git@github.com:e2grnd/ffs-hydrogen-calculator.git'
-git -C ffs-laminations-calculator pull || git clone 'git@github.com:e2grnd/ffs-laminations-calculator.git'
-git -C ffs-lta-calculator pull || git clone 'git@github.com:e2grnd/ffs-lta-calculator.git'
-git -C ffs-misalignment-calculator pull || git clone 'git@github.com:e2grnd/ffs-misalignment-calculator.git'
-git -C ffs-pitting-calculator pull || git clone 'git@github.com:e2grnd/ffs-pitting-calculator.git'
-git -C ffs-thinning-calculator pull || git clone 'git@github.com:e2grnd/ffs-thinning-calculator.git'
-git -C flange-calculator pull || git clone 'git@github.com:e2grnd/flange-calculator.git'
-git -C hottap-calculator pull || git clone 'git@github.com:e2grnd/hottap-calculator.git'
-git -C htha-calculator pull || git clone 'git@github.com:e2grnd/htha-calculator.git'
-git -C htha-steady-state-calculator pull || git clone 'git@github.com:e2grnd/htha-steady-state-calculator.git'
-git -C idinterp-calculator pull || git clone 'git@github.com:e2grnd/idinterp-calculator.git'
-git -C inspection-report-calculator pull || git clone 'git@github.com:e2grnd/inspection-report-calculator.git'
-git -C insulation-calculator pull || git clone 'git@github.com:e2grnd/insulation-calculator.git'
-git -C material-explorer-calculator pull || git clone 'git@github.com:e2grnd/material-explorer-calculator.git'
-git -C mixer-calculator pull || git clone 'git@github.com:e2grnd/mixer-calculator.git'
-git -C netica-worker-calculator pull || git clone 'git@github.com:e2grnd/netica-worker-calculator.git'
-git -C nozzle-calculator pull || git clone 'git@github.com:e2grnd/nozzle-calculator.git'
-git -C omega-calculator pull || git clone 'git@github.com:e2grnd/omega-calculator.git'
-git -C pipe-pt-calculator pull || git clone 'git@github.com:e2grnd/pipe-pt-calculator.git'
-git -C pipe-span-calculator pull || git clone 'git@github.com:e2grnd/pipe-span-calculator.git'
-git -C pitting-corrosion-rate-calculator pull || git clone 'git@github.com:e2grnd/pitting-corrosion-rate-calculator.git'
-git -C plausible-profiles-calculator pull || git clone 'git@github.com:e2grnd/plausible-profiles-calculator.git'
-git -C plume-calculator pull || git clone 'git@github.com:e2grnd/plume-calculator.git'
-git -C prd-update-calculator pull || git clone 'git@github.com:e2grnd/prd-update-calculator.git'
-git -C rainflow-calculator pull || git clone 'git@github.com:e2grnd/rainflow-calculator.git'
-git -C sage-x-calculator pull || git clone 'git@github.com:e2grnd/sage-x-calculator.git'
-git -C shell-pt-calculator pull || git clone 'git@github.com:e2grnd/shell-pt-calculator.git'
-git -C shutdown-calculator pull || git clone 'git@github.com:e2grnd/shutdown-calculator.git'
-git -C simflex-calculator pull || git clone 'git@github.com:e2grnd/simflex-calculator.git'
-git -C smooth-bar-fatigue-life-calculator pull || git clone 'git@github.com:e2grnd/smooth-bar-fatigue-life-calculator.git'
-git -C stored-energy-calculator pull || git clone 'git@github.com:e2grnd/stored-energy-calculator.git'
-git -C tank-thickness-calculator pull || git clone 'git@github.com:e2grnd/tank-thickness-calculator.git'
-git -C tank-settlement-calculator pull || git clone 'git@github.com:e2grnd/tank-settlement-calculator.git'
-git -C tbreak-calculator pull || git clone 'git@github.com:e2grnd/tbreak-calculator.git'
-git -C thermowells-calculator pull || git clone 'git@github.com:e2grnd/thermowells-calculator.git'
-git -C toughness-calculator pull || git clone 'git@github.com:e2grnd/toughness-calculator.git'
-git -C upgrade-calculator pull || git clone 'git@github.com:e2grnd/upgrade-calculator.git'
-git -C van-winkle-calculator pull || git clone 'git@github.com:e2grnd/van-winkle-calculator.git'
-git -C visualization-calculator pull || git clone 'git@github.com:e2grnd/visualization-calculator.git'
-git -C can2-weather-data-calculator pull || git clone 'git@github.com:e2grnd/can2-weather-data-calculator.git'
-git -C weld-residual-stress-calculator pull || git clone 'git@github.com:e2grnd/weld-residual-stress-calculator.git'
-git -C welded-joint-fatigue-life-calculator pull || git clone 'git@github.com:e2grnd/welded-joint-fatigue-life-calculator.git'
+echo "
+
+----- START api-1183-calculator -----"; git -C api-1183-calculator checkout release/dev || git clone 'git@github.com:e2grnd/api-1183-calculator.git' && git -C api-1183-calculator pull
+echo "
+
+----- START asme-b31g-calculator -----"; git -C asme-b31g-calculator checkout release/dev || git clone 'git@github.com:e2grnd/asme-b31g-calculator.git' && git -C asme-b31g-calculator pull
+echo "
+
+----- START bakeout-calculator -----"; git -C bakeout-calculator checkout release/dev || git clone 'git@github.com:e2grnd/bakeout-calculator.git' && git -C bakeout-calculator pull
+echo "
+
+----- START bayes-calculator -----"; git -C bayes-calculator checkout release/dev || git clone 'git@github.com:e2grnd/bayes-calculator.git' && git -C bayes-calculator pull
+echo "
+
+----- START bayes-worker-calculator -----"; git -C bayes-worker-calculator checkout release/dev || git clone 'git@github.com:e2grnd/bayes-worker-calculator.git' && git -C bayes-worker-calculator pull
+echo "
+
+----- START bengi-worker-calculator -----"; git -C bengi-worker-calculator checkout release/dev || git clone 'git@github.com:e2grnd/bengi-worker-calculator.git' && git -C bengi-worker-calculator pull
+echo "
+
+----- START best-rate-calculator -----"; git -C best-rate-calculator checkout release/dev || git clone 'git@github.com:e2grnd/best-rate-calculator.git' && git -C best-rate-calculator pull
+echo "
+
+----- START bijlaard-calculator -----"; git -C bijlaard-calculator checkout release/dev || git clone 'git@github.com:e2grnd/bijlaard-calculator.git' && git -C bijlaard-calculator pull
+echo "
+
+----- START boiler-tube-calculator -----"; git -C boiler-tube-calculator checkout release/dev || git clone 'git@github.com:e2grnd/boiler-tube-calculator.git' && git -C boiler-tube-calculator pull
+echo "
+
+----- START buried-pipelines-calculator -----"; git -C buried-pipelines-calculator checkout release/dev || git clone 'git@github.com:e2grnd/buried-pipelines-calculator.git' && git -C buried-pipelines-calculator pull
+echo "
+
+----- START branch-calculator -----"; git -C branch-calculator checkout release/dev || git clone 'git@github.com:e2grnd/branch-calculator.git' && git -C branch-calculator pull
+echo "
+
+----- START bundle-sight-calculator -----"; git -C bundle-sight-calculator checkout release/dev || git clone 'git@github.com:e2grnd/bundle-sight-calculator.git' && git -C bundle-sight-calculator pull
+echo "
+
+----- START burstp-calculator -----"; git -C burstp-calculator checkout release/dev || git clone 'git@github.com:e2grnd/burstp-calculator.git' && git -C burstp-calculator pull
+echo "
+
+----- START can2-decisions-calculator -----"; git -C can2-decisions-calculator checkout release/dev || git clone 'git@github.com:e2grnd/can2-decisions-calculator.git' && git -C can2-decisions-calculator pull
+echo "
+
+----- START can2-annual-growth-rate-calculator -----"; git -C can2-annual-growth-rate-calculator checkout release/dev || git clone 'git@github.com:e2grnd/can2-annual-growth-rate-calculator.git' && git -C can2-annual-growth-rate-calculator pull
+echo "
+
+----- START can2-series-calculator -----"; git -C can2-series-calculator checkout release/dev || git clone 'git@github.com:e2grnd/can2-series-calculator.git' && git -C can2-series-calculator pull
+echo "
+
+----- START can2-canister-temperature-calculator -----"; git -C can2-canister-temperature-calculator checkout release/dev || git clone 'git@github.com:e2grnd/can2-canister-temperature-calculator.git' && git -C can2-canister-temperature-calculator pull
+echo "
+
+----- START charpy-calculator -----"; git -C charpy-calculator checkout release/dev || git clone 'git@github.com:e2grnd/charpy-calculator.git' && git -C charpy-calculator pull
+echo "
+
+----- START corr-solutions-da-calculator -----"; git -C corr-solutions-da-calculator checkout release/dev || git clone 'git@github.com:e2grnd/corr-solutions-da-calculator.git' && git -C corr-solutions-da-calculator pull
+echo "
+
+----- START corroding-pipe-life-calculator -----"; git -C corroding-pipe-life-calculator checkout release/dev || git clone 'git@github.com:e2grnd/corroding-pipe-life-calculator.git' && git -C corroding-pipe-life-calculator pull
+echo "
+
+----- START cp-design-calculator -----"; git -C cp-design-calculator checkout release/dev || git clone 'git@github.com:e2grnd/cp-design-calculator.git' && git -C cp-design-calculator pull
+echo "
+
+----- START cp-design-offshore-calculator -----"; git -C cp-design-offshore-calculator checkout release/dev || git clone 'git@github.com:e2grnd/cp-design-offshore-calculator.git' && git -C cp-design-offshore-calculator pull
+echo "
+
+----- START crack-attack-calculator -----"; git -C crack-attack-calculator checkout release/dev || git clone 'git@github.com:e2grnd/crack-attack-calculator.git' && git -C crack-attack-calculator pull
+echo "
+
+----- START lot-centered-analysis-calculator -----"; git -C lot-centered-analysis-calculator checkout release/dev || git clone 'git@github.com:e2grnd/lot-centered-analysis-calculator.git' && git -C lot-centered-analysis-calculator pull
+echo "
+
+----- START creep-life-calculator -----"; git -C creep-life-calculator checkout release/dev || git clone 'git@github.com:e2grnd/creep-life-calculator.git' && git -C creep-life-calculator pull
+echo "
+
+----- START cui-calculator -----"; git -C cui-calculator checkout release/dev || git clone 'git@github.com:e2grnd/cui-calculator.git' && git -C cui-calculator pull
+echo "
+
+----- START deposition-density-calculator -----"; git -C deposition-density-calculator checkout release/dev || git clone 'git@github.com:e2grnd/deposition-density-calculator.git' && git -C deposition-density-calculator pull
+echo "
+
+----- START epri-amp-calculator -----"; git -C epri-amp-calculator checkout release/dev || git clone 'git@github.com:e2grnd/epri-amp-calculator.git' && git -C epri-amp-calculator pull
+echo "
+
+----- START exemption-calculator -----"; git -C exemption-calculator checkout release/dev || git clone 'git@github.com:e2grnd/exemption-calculator.git' && git -C exemption-calculator pull
+echo "
+
+----- START fast2-calculator -----"; git -C fast2-calculator checkout release/dev || git clone 'git@github.com:e2grnd/fast2-calculator.git' && git -C fast2-calculator pull
+echo "
+
+----- START fatigue-calculator -----"; git -C fatigue-calculator checkout release/dev || git clone 'git@github.com:e2grnd/fatigue-calculator.git' && git -C fatigue-calculator pull
+echo "
+
+----- START fatigue-damage-calculator -----"; git -C fatigue-damage-calculator checkout release/dev || git clone 'git@github.com:e2grnd/fatigue-damage-calculator.git' && git -C fatigue-damage-calculator pull
+echo "
+
+----- START fatigue-data-explorer-calculator -----"; git -C fatigue-data-explorer-calculator checkout release/dev || git clone 'git@github.com:e2grnd/fatigue-data-explorer-calculator.git' && git -C fatigue-data-explorer-calculator pull
+echo "
+
+----- START feature-identification-calculator -----"; git -C feature-identification-calculator checkout release/dev || git clone 'git@github.com:e2grnd/feature-identification-calculator.git' && git -C feature-identification-calculator pull
+echo "
+
+----- START ffs-brittle-calculator -----"; git -C ffs-brittle-calculator checkout release/dev || git clone 'git@github.com:e2grnd/ffs-brittle-calculator.git' && git -C ffs-brittle-calculator pull
+echo "
+
+----- START ffs-cracking-calculator -----"; git -C ffs-cracking-calculator checkout release/dev || git clone 'git@github.com:e2grnd/ffs-cracking-calculator.git' && git -C ffs-cracking-calculator pull
+echo "
+
+----- START ffs-creep-calculator -----"; git -C ffs-creep-calculator checkout release/dev || git clone 'git@github.com:e2grnd/ffs-creep-calculator.git' && git -C ffs-creep-calculator pull
+echo "
+
+----- START ffs-dent-gouge-calculator -----"; git -C ffs-dent-gouge-calculator checkout release/dev || git clone 'git@github.com:e2grnd/ffs-dent-gouge-calculator.git' && git -C ffs-dent-gouge-calculator pull
+echo "
+
+----- START ffs-fire-damage-calculator -----"; git -C ffs-fire-damage-calculator checkout release/dev || git clone 'git@github.com:e2grnd/ffs-fire-damage-calculator.git' && git -C ffs-fire-damage-calculator pull
+echo "
+
+----- START ffs-hydrogen-calculator -----"; git -C ffs-hydrogen-calculator checkout release/dev || git clone 'git@github.com:e2grnd/ffs-hydrogen-calculator.git' && git -C ffs-hydrogen-calculator pull
+echo "
+
+----- START ffs-laminations-calculator -----"; git -C ffs-laminations-calculator checkout release/dev || git clone 'git@github.com:e2grnd/ffs-laminations-calculator.git' && git -C ffs-laminations-calculator pull
+echo "
+
+----- START ffs-lta-calculator -----"; git -C ffs-lta-calculator checkout release/dev || git clone 'git@github.com:e2grnd/ffs-lta-calculator.git' && git -C ffs-lta-calculator pull
+echo "
+
+----- START ffs-misalignment-calculator -----"; git -C ffs-misalignment-calculator checkout release/dev || git clone 'git@github.com:e2grnd/ffs-misalignment-calculator.git' && git -C ffs-misalignment-calculator pull
+echo "
+
+----- START ffs-pitting-calculator -----"; git -C ffs-pitting-calculator checkout release/dev || git clone 'git@github.com:e2grnd/ffs-pitting-calculator.git' && git -C ffs-pitting-calculator pull
+echo "
+
+----- START ffs-thinning-calculator -----"; git -C ffs-thinning-calculator checkout release/dev || git clone 'git@github.com:e2grnd/ffs-thinning-calculator.git' && git -C ffs-thinning-calculator pull
+echo "
+
+----- START flange-calculator -----"; git -C flange-calculator checkout release/dev || git clone 'git@github.com:e2grnd/flange-calculator.git' && git -C flange-calculator pull
+echo "
+
+----- START hottap-calculator -----"; git -C hottap-calculator checkout release/dev || git clone 'git@github.com:e2grnd/hottap-calculator.git' && git -C hottap-calculator pull
+echo "
+
+----- START htha-calculator -----"; git -C htha-calculator checkout release/dev || git clone 'git@github.com:e2grnd/htha-calculator.git' && git -C htha-calculator pull
+echo "
+
+----- START htha-steady-state-calculator -----"; git -C htha-steady-state-calculator checkout release/dev || git clone 'git@github.com:e2grnd/htha-steady-state-calculator.git' && git -C htha-steady-state-calculator pull
+echo "
+
+----- START idinterp-calculator -----"; git -C idinterp-calculator checkout release/dev || git clone 'git@github.com:e2grnd/idinterp-calculator.git' && git -C idinterp-calculator pull
+echo "
+
+----- START inspection-report-calculator -----"; git -C inspection-report-calculator checkout release/dev || git clone 'git@github.com:e2grnd/inspection-report-calculator.git' && git -C inspection-report-calculator pull
+echo "
+
+----- START insulation-calculator -----"; git -C insulation-calculator checkout release/dev || git clone 'git@github.com:e2grnd/insulation-calculator.git' && git -C insulation-calculator pull
+echo "
+
+----- START material-explorer-calculator -----"; git -C material-explorer-calculator checkout release/dev || git clone 'git@github.com:e2grnd/material-explorer-calculator.git' && git -C material-explorer-calculator pull
+echo "
+
+----- START mixer-calculator -----"; git -C mixer-calculator checkout release/dev || git clone 'git@github.com:e2grnd/mixer-calculator.git' && git -C mixer-calculator pull
+echo "
+
+----- START netica-worker-calculator -----"; git -C netica-worker-calculator checkout release/dev || git clone 'git@github.com:e2grnd/netica-worker-calculator.git' && git -C netica-worker-calculator pull
+echo "
+
+----- START nozzle-calculator -----"; git -C nozzle-calculator checkout release/dev || git clone 'git@github.com:e2grnd/nozzle-calculator.git' && git -C nozzle-calculator pull
+echo "
+
+----- START omega-calculator -----"; git -C omega-calculator checkout release/dev || git clone 'git@github.com:e2grnd/omega-calculator.git' && git -C omega-calculator pull
+echo "
+
+----- START pipe-pt-calculator -----"; git -C pipe-pt-calculator checkout release/dev || git clone 'git@github.com:e2grnd/pipe-pt-calculator.git' && git -C pipe-pt-calculator pull
+echo "
+
+----- START pipe-span-calculator -----"; git -C pipe-span-calculator checkout release/dev || git clone 'git@github.com:e2grnd/pipe-span-calculator.git' && git -C pipe-span-calculator pull
+echo "
+
+----- START pitting-corrosion-rate-calculator -----"; git -C pitting-corrosion-rate-calculator checkout release/dev || git clone 'git@github.com:e2grnd/pitting-corrosion-rate-calculator.git' && git -C pitting-corrosion-rate-calculator pull
+echo "
+
+----- START plausible-profiles-calculator -----"; git -C plausible-profiles-calculator checkout release/dev || git clone 'git@github.com:e2grnd/plausible-profiles-calculator.git' && git -C plausible-profiles-calculator pull
+echo "
+
+----- START plume-calculator -----"; git -C plume-calculator checkout release/dev || git clone 'git@github.com:e2grnd/plume-calculator.git' && git -C plume-calculator pull
+echo "
+
+----- START prd-update-calculator -----"; git -C prd-update-calculator checkout release/dev || git clone 'git@github.com:e2grnd/prd-update-calculator.git' && git -C prd-update-calculator pull
+echo "
+
+----- START rainflow-calculator -----"; git -C rainflow-calculator checkout release/dev || git clone 'git@github.com:e2grnd/rainflow-calculator.git' && git -C rainflow-calculator pull
+echo "
+
+----- START sage-x-calculator -----"; git -C sage-x-calculator checkout release/dev || git clone 'git@github.com:e2grnd/sage-x-calculator.git' && git -C sage-x-calculator pull
+echo "
+
+----- START shell-pt-calculator -----"; git -C shell-pt-calculator checkout release/dev || git clone 'git@github.com:e2grnd/shell-pt-calculator.git' && git -C shell-pt-calculator pull
+echo "
+
+----- START shutdown-calculator -----"; git -C shutdown-calculator checkout release/dev || git clone 'git@github.com:e2grnd/shutdown-calculator.git' && git -C shutdown-calculator pull
+echo "
+
+----- START simflex-calculator -----"; git -C simflex-calculator checkout release/dev || git clone 'git@github.com:e2grnd/simflex-calculator.git' && git -C simflex-calculator pull
+echo "
+
+----- START smooth-bar-fatigue-life-calculator -----"; git -C smooth-bar-fatigue-life-calculator checkout release/dev || git clone 'git@github.com:e2grnd/smooth-bar-fatigue-life-calculator.git' && git -C smooth-bar-fatigue-life-calculator pull
+echo "
+
+----- START stored-energy-calculator -----"; git -C stored-energy-calculator checkout release/dev || git clone 'git@github.com:e2grnd/stored-energy-calculator.git' && git -C stored-energy-calculator pull
+echo "
+
+----- START tank-thickness-calculator -----"; git -C tank-thickness-calculator checkout release/dev || git clone 'git@github.com:e2grnd/tank-thickness-calculator.git' && git -C tank-thickness-calculator pull
+echo "
+
+----- START tank-settlement-calculator -----"; git -C tank-settlement-calculator checkout release/dev || git clone 'git@github.com:e2grnd/tank-settlement-calculator.git' && git -C tank-settlement-calculator pull
+echo "
+
+----- START tbreak-calculator -----"; git -C tbreak-calculator checkout release/dev || git clone 'git@github.com:e2grnd/tbreak-calculator.git' && git -C tbreak-calculator pull
+echo "
+
+----- START thermowells-calculator -----"; git -C thermowells-calculator checkout release/dev || git clone 'git@github.com:e2grnd/thermowells-calculator.git' && git -C thermowells-calculator pull
+echo "
+
+----- START toughness-calculator -----"; git -C toughness-calculator checkout release/dev || git clone 'git@github.com:e2grnd/toughness-calculator.git' && git -C toughness-calculator pull
+echo "
+
+----- START upgrade-calculator -----"; git -C upgrade-calculator checkout release/dev || git clone 'git@github.com:e2grnd/upgrade-calculator.git' && git -C upgrade-calculator pull
+echo "
+
+----- START van-winkle-calculator -----"; git -C van-winkle-calculator checkout release/dev || git clone 'git@github.com:e2grnd/van-winkle-calculator.git' && git -C van-winkle-calculator pull
+echo "
+
+----- START visualization-calculator -----"; git -C visualization-calculator checkout release/dev || git clone 'git@github.com:e2grnd/visualization-calculator.git' && git -C visualization-calculator pull
+echo "
+
+----- START can2-weather-data-calculator -----"; git -C can2-weather-data-calculator checkout release/dev || git clone 'git@github.com:e2grnd/can2-weather-data-calculator.git' && git -C can2-weather-data-calculator pull
+echo "
+
+----- START weld-residual-stress-calculator -----"; git -C weld-residual-stress-calculator checkout release/dev || git clone 'git@github.com:e2grnd/weld-residual-stress-calculator.git' && git -C weld-residual-stress-calculator pull
+echo "
+
+----- START welded-joint-fatigue-life-calculator -----"; git -C welded-joint-fatigue-life-calculator checkout release/dev || git clone 'git@github.com:e2grnd/welded-joint-fatigue-life-calculator.git' && git -C welded-joint-fatigue-life-calculator pull
