@@ -644,6 +644,7 @@ exports.calculators = Object.assign(Object.assign({}, calcsByRepo), { 'tbreak-ca
         imageName: 'damage-sight',
         serviceName: 'damage-sight',
         deploymentRepo: 'eec-kustomize',
+        enableBayesContainers: true,
     } });
 
 

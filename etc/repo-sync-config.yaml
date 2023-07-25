@@ -22,7 +22,6 @@ group:
       e2grnd/cp-design-offshore-calculator@release/dev
       e2grnd/crack-attack-calculator@release/dev
       e2grnd/creep-life-calculator@release/dev
-      e2grnd/damage-sight-calculator@release/dev
       e2grnd/deposition-density-calculator@release/dev
       e2grnd/exemption-calculator@release/dev
       e2grnd/fast2-calculator@release/dev
@@ -106,6 +105,7 @@ group:
       e2grnd/bundle-sight-calculator@release/dev
       e2grnd/can2-decisions-calculator@release/dev
       e2grnd/cui-calculator@release/dev
+      e2grnd/damage-sight-calculator@release/dev
       e2grnd/epri-amp-calculator@release/dev
       e2grnd/upgrade-calculator@release/dev
     files: 
