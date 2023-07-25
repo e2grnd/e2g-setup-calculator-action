@@ -697,5 +697,6 @@ export const calculators: Record<string, CalcConfig> = {
     imageName: 'damage-sight',
     serviceName: 'damage-sight',
     deploymentRepo: 'eec-kustomize',
+    enableBayesContainers: true,
   },
 }
