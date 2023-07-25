@@ -15,6 +15,7 @@
     "write:rollout-restart": "node lib/write-rollout-restart.js",
     "write:merge-stage": "node lib/write-merge-to-stage.js",
     "write:merge-prod": "node lib/write-merge-to-prod.js",
+    "write:mass-commit": "node lib/write-mass-commit-script.js",
     "format": "prettier --write '**/*.ts'",
     "format-check": "prettier --check '**/*.ts'",
     "lint": "eslint src/**/*.ts",
