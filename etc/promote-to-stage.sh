@@ -66,6 +66,9 @@ echo "
 ----- START cui-calculator -----"; git -C cui-calculator checkout release/stage && git -C cui-calculator merge -m'stage release' release/dev && git -C cui-calculator push
 echo "
 
+----- START damage-sight-calculator -----"; git -C damage-sight-calculator checkout release/stage && git -C damage-sight-calculator merge -m'stage release' release/dev && git -C damage-sight-calculator push
+echo "
+
 ----- START exemption-calculator -----"; git -C exemption-calculator checkout release/stage && git -C exemption-calculator merge -m'stage release' release/dev && git -C exemption-calculator push
 echo "
 

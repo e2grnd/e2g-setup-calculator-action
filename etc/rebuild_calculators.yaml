@@ -34,6 +34,7 @@ jobs:
           'lot-centered-analysis-calculator',
           'creep-life-calculator',
           'cui-calculator',
+          'damage-sight-calculator',
           'deposition-density-calculator',
           'epri-amp-calculator',
           'exemption-calculator',

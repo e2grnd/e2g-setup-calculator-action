@@ -81,6 +81,9 @@ echo "
 ----- START cui-calculator -----"; cd ~/Projects/all-calculators/cui-calculator; git add .; git commit -m"pip ignore installed"; git push; cd ~/Projects/all-calculators
 echo "
 
+----- START damage-sight-calculator -----"; cd ~/Projects/all-calculators/damage-sight-calculator; git add .; git commit -m"pip ignore installed"; git push; cd ~/Projects/all-calculators
+echo "
+
 ----- START deposition-density-calculator -----"; cd ~/Projects/all-calculators/deposition-density-calculator; git add .; git commit -m"pip ignore installed"; git push; cd ~/Projects/all-calculators
 echo "
 

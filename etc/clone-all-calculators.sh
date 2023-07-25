@@ -81,6 +81,9 @@ echo "
 ----- START cui-calculator -----"; git -C cui-calculator checkout release/dev || git clone 'git@github.com:e2grnd/cui-calculator.git' && git -C cui-calculator pull
 echo "
 
+----- START damage-sight-calculator -----"; git -C damage-sight-calculator checkout release/dev || git clone 'git@github.com:e2grnd/damage-sight-calculator.git' && git -C damage-sight-calculator pull
+echo "
+
 ----- START deposition-density-calculator -----"; git -C deposition-density-calculator checkout release/dev || git clone 'git@github.com:e2grnd/deposition-density-calculator.git' && git -C deposition-density-calculator pull
 echo "
 

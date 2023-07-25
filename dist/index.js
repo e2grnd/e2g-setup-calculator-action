@@ -640,6 +640,10 @@ exports.calculators = Object.assign(Object.assign({}, calcsByRepo), { 'tbreak-ca
         imageName: 'visualization',
         serviceName: 'visualization',
         deploymentRepo: 'eec-kustomize',
+    }, 'damage-sight-calculator': {
+        imageName: 'damage-sight',
+        serviceName: 'damage-sight',
+        deploymentRepo: 'eec-kustomize',
     } });
 
 

@@ -693,4 +693,9 @@ export const calculators: Record<string, CalcConfig> = {
     serviceName: 'visualization',
     deploymentRepo: 'eec-kustomize',
   },
+  'damage-sight-calculator': {
+    imageName: 'damage-sight',
+    serviceName: 'damage-sight',
+    deploymentRepo: 'eec-kustomize',
+  },
 }
