@@ -57,6 +57,9 @@ echo "
 ----- START charpy-calculator -----"; git -C charpy-calculator checkout release/dev || git clone 'git@github.com:e2grnd/charpy-calculator.git' && git -C charpy-calculator pull
 echo "
 
+----- START circuit-corrosion-calculator -----"; git -C circuit-corrosion-calculator checkout release/dev || git clone 'git@github.com:e2grnd/circuit-corrosion-calculator.git' && git -C circuit-corrosion-calculator pull
+echo "
+
 ----- START corr-solutions-da-calculator -----"; git -C corr-solutions-da-calculator checkout release/dev || git clone 'git@github.com:e2grnd/corr-solutions-da-calculator.git' && git -C corr-solutions-da-calculator pull
 echo "
 

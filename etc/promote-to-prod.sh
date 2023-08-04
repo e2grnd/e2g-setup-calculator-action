@@ -45,6 +45,9 @@ echo "
 ----- START charpy-calculator -----"; git -C charpy-calculator checkout release/prod && git -C charpy-calculator merge -m'prod release' release/stage && git -C charpy-calculator push
 echo "
 
+----- START circuit-corrosion-calculator -----"; git -C circuit-corrosion-calculator checkout release/prod && git -C circuit-corrosion-calculator merge -m'prod release' release/stage && git -C circuit-corrosion-calculator push
+echo "
+
 ----- START corroding-pipe-life-calculator -----"; git -C corroding-pipe-life-calculator checkout release/prod && git -C corroding-pipe-life-calculator merge -m'prod release' release/stage && git -C corroding-pipe-life-calculator push
 echo "
 

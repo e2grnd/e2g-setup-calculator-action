@@ -16,6 +16,7 @@ group:
       e2grnd/can2-series-calculator@release/dev
       e2grnd/can2-canister-temperature-calculator@release/dev
       e2grnd/charpy-calculator@release/dev
+      e2grnd/circuit-corrosion-calculator@release/dev
       e2grnd/corr-solutions-da-calculator@release/dev
       e2grnd/corroding-pipe-life-calculator@release/dev
       e2grnd/cp-design-calculator@release/dev

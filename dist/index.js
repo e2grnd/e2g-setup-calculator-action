@@ -132,13 +132,13 @@ const libpyConfig = [
         module: 'InsulationCalculator.Calculator',
         function: 'calculate_Insulation_Thickness',
     },
-    {
-        name: 'circuitCorrosion',
-        repo: 'cmlwise-calculator.git',
-        module: 'CMLWiseCalculator.Calculator',
-        function: 'submit_cmlwise_calculation_to_sage',
-        deprecated: true,
-    },
+    // {
+    //   name: 'circuitCorrosion',
+    //   repo: 'cmlwise-calculator.git',
+    //   module: 'CMLWiseCalculator.Calculator',
+    //   function: 'submit_cmlwise_calculation_to_sage',
+    //   deprecated: true,
+    // },
     {
         name: 'hottap',
         repo: 'hottap-calculator.git',
@@ -645,6 +645,10 @@ exports.calculators = Object.assign(Object.assign({}, calcsByRepo), { 'tbreak-ca
         serviceName: 'damage-sight',
         deploymentRepo: 'eec-kustomize',
         enableBayesContainers: true,
+    }, 'circuit-corrosion-calculator': {
+        imageName: 'circuit-corrosion',
+        serviceName: 'circuit-corrosion',
+        deploymentRepo: 'eec-kustomize',
     } });
 
 

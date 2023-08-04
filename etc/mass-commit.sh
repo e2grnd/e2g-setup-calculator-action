@@ -57,6 +57,9 @@ echo "
 ----- START charpy-calculator -----"; cd ~/Projects/all-calculators/charpy-calculator; git add .; git commit -m"pip ignore installed"; git push; cd ~/Projects/all-calculators
 echo "
 
+----- START circuit-corrosion-calculator -----"; cd ~/Projects/all-calculators/circuit-corrosion-calculator; git add .; git commit -m"pip ignore installed"; git push; cd ~/Projects/all-calculators
+echo "
+
 ----- START corr-solutions-da-calculator -----"; cd ~/Projects/all-calculators/corr-solutions-da-calculator; git add .; git commit -m"pip ignore installed"; git push; cd ~/Projects/all-calculators
 echo "
 
