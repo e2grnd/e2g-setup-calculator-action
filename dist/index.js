@@ -649,6 +649,10 @@ exports.calculators = Object.assign(Object.assign({}, calcsByRepo), { 'tbreak-ca
         imageName: 'circuit-corrosion',
         serviceName: 'circuit-corrosion',
         deploymentRepo: 'eec-kustomize',
+    }, 'dent-fea-calculator': {
+        imageName: 'dent-fea',
+        serviceName: 'dent-fea',
+        deploymentRepo: 'eec-kustomize',
     } });
 
 

@@ -72,6 +72,9 @@ echo "
 ----- START damage-sight-calculator -----"; git -C damage-sight-calculator checkout release/prod && git -C damage-sight-calculator merge -m'prod release' release/stage && git -C damage-sight-calculator push
 echo "
 
+----- START dent-fea-calculator -----"; git -C dent-fea-calculator checkout release/prod && git -C dent-fea-calculator merge -m'prod release' release/stage && git -C dent-fea-calculator push
+echo "
+
 ----- START exemption-calculator -----"; git -C exemption-calculator checkout release/prod && git -C exemption-calculator merge -m'prod release' release/stage && git -C exemption-calculator push
 echo "
 

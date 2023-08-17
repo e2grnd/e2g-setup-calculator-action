@@ -704,4 +704,9 @@ export const calculators: Record<string, CalcConfig> = {
     serviceName: 'circuit-corrosion',
     deploymentRepo: 'eec-kustomize',
   },
+  'dent-fea-calculator': {
+    imageName: 'dent-fea',
+    serviceName: 'dent-fea',
+    deploymentRepo: 'eec-kustomize',
+  },
 }
