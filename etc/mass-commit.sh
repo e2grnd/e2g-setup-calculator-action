@@ -237,9 +237,6 @@ echo "
 ----- START toughness-calculator -----"; cd ~/Projects/all-calculators/toughness-calculator; git add .; git commit -m"pip ignore installed"; git push; cd ~/Projects/all-calculators
 echo "
 
------ START upgrade-calculator -----"; cd ~/Projects/all-calculators/upgrade-calculator; git add .; git commit -m"pip ignore installed"; git push; cd ~/Projects/all-calculators
-echo "
-
 ----- START van-winkle-calculator -----"; cd ~/Projects/all-calculators/van-winkle-calculator; git add .; git commit -m"pip ignore installed"; git push; cd ~/Projects/all-calculators
 echo "
 

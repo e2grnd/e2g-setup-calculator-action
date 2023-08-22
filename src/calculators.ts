@@ -93,6 +93,7 @@ const libpyConfig: LibPyConfig[] = [
     module: 'upgradeCalculator.gradeComment',
     function: 'generate_inspection_grade',
     enableBayesContainers: true,
+    deprecated: true,
   },
   {
     name: 'openIAM',

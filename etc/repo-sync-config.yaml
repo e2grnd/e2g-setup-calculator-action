@@ -109,7 +109,6 @@ group:
       e2grnd/cui-calculator@release/dev
       e2grnd/damage-sight-calculator@release/dev
       e2grnd/epri-amp-calculator@release/dev
-      e2grnd/upgrade-calculator@release/dev
     files: 
       - source: workflows/publish.yml
         dest: .github/workflows/publish.yml

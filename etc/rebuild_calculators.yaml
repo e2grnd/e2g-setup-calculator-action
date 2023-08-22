@@ -86,7 +86,6 @@ jobs:
           'tbreak-calculator',
           'thermowells-calculator',
           'toughness-calculator',
-          'upgrade-calculator',
           'van-winkle-calculator',
           'visualization-calculator',
           'can2-weather-data-calculator',

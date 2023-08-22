@@ -237,9 +237,6 @@ echo "
 ----- START toughness-calculator -----"; git -C toughness-calculator checkout release/dev || git clone 'git@github.com:e2grnd/toughness-calculator.git' && git -C toughness-calculator pull
 echo "
 
------ START upgrade-calculator -----"; git -C upgrade-calculator checkout release/dev || git clone 'git@github.com:e2grnd/upgrade-calculator.git' && git -C upgrade-calculator pull
-echo "
-
 ----- START van-winkle-calculator -----"; git -C van-winkle-calculator checkout release/dev || git clone 'git@github.com:e2grnd/van-winkle-calculator.git' && git -C van-winkle-calculator pull
 echo "
 

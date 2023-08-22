@@ -213,9 +213,6 @@ echo "
 ----- START toughness-calculator -----"; git -C toughness-calculator checkout release/stage && git -C toughness-calculator merge -m'stage release' release/dev && git -C toughness-calculator push
 echo "
 
------ START upgrade-calculator -----"; git -C upgrade-calculator checkout release/stage && git -C upgrade-calculator merge -m'stage release' release/dev && git -C upgrade-calculator push
-echo "
-
 ----- START van-winkle-calculator -----"; git -C van-winkle-calculator checkout release/stage && git -C van-winkle-calculator merge -m'stage release' release/dev && git -C van-winkle-calculator push
 echo "
 
