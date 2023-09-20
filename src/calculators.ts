@@ -710,4 +710,9 @@ export const calculators: Record<string, CalcConfig> = {
     serviceName: 'dent-fea',
     deploymentRepo: 'eec-kustomize',
   },
+  'tank-settlement-fea-calculator': {
+    imageName: 'tank-settlement-fea',
+    serviceName: 'tank-settlement-fea',
+    deploymentRepo: 'eec-kustomize',
+  },
 }

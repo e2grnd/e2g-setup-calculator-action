@@ -228,6 +228,9 @@ echo "
 ----- START tank-settlement-calculator -----"; git -C tank-settlement-calculator checkout release/dev || git clone 'git@github.com:e2grnd/tank-settlement-calculator.git' && git -C tank-settlement-calculator pull
 echo "
 
+----- START tank-settlement-fea-calculator -----"; git -C tank-settlement-fea-calculator checkout release/dev || git clone 'git@github.com:e2grnd/tank-settlement-fea-calculator.git' && git -C tank-settlement-fea-calculator pull
+echo "
+
 ----- START tbreak-calculator -----"; git -C tbreak-calculator checkout release/dev || git clone 'git@github.com:e2grnd/tbreak-calculator.git' && git -C tbreak-calculator pull
 echo "
 

@@ -204,6 +204,9 @@ echo "
 ----- START tank-settlement-calculator -----"; git -C tank-settlement-calculator checkout release/prod && git -C tank-settlement-calculator merge -m'prod release' release/stage && git -C tank-settlement-calculator push
 echo "
 
+----- START tank-settlement-fea-calculator -----"; git -C tank-settlement-fea-calculator checkout release/prod && git -C tank-settlement-fea-calculator merge -m'prod release' release/stage && git -C tank-settlement-fea-calculator push
+echo "
+
 ----- START tbreak-calculator -----"; git -C tbreak-calculator checkout release/prod && git -C tbreak-calculator merge -m'prod release' release/stage && git -C tbreak-calculator push
 echo "
 

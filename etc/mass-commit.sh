@@ -228,6 +228,9 @@ echo "
 ----- START tank-settlement-calculator -----"; cd ~/Projects/all-calculators/tank-settlement-calculator; git add .; git commit -m"pip ignore installed"; git push; cd ~/Projects/all-calculators
 echo "
 
+----- START tank-settlement-fea-calculator -----"; cd ~/Projects/all-calculators/tank-settlement-fea-calculator; git add .; git commit -m"pip ignore installed"; git push; cd ~/Projects/all-calculators
+echo "
+
 ----- START tbreak-calculator -----"; cd ~/Projects/all-calculators/tbreak-calculator; git add .; git commit -m"pip ignore installed"; git push; cd ~/Projects/all-calculators
 echo "
 

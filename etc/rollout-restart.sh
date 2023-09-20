@@ -74,6 +74,7 @@ kubectl rollout restart -n dev deployment/smooth-bar-fatigue
 kubectl rollout restart -n dev deployment/stored-energy
 kubectl rollout restart -n dev deployment/tank
 kubectl rollout restart -n dev deployment/tank-settlement
+kubectl rollout restart -n dev deployment/tank-settlement-fea
 kubectl rollout restart -n dev deployment/tbreak
 kubectl rollout restart -n dev deployment/thermowell
 kubectl rollout restart -n dev deployment/toughness

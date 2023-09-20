@@ -83,6 +83,7 @@ jobs:
           'stored-energy-calculator',
           'tank-thickness-calculator',
           'tank-settlement-calculator',
+          'tank-settlement-fea-calculator',
           'tbreak-calculator',
           'thermowells-calculator',
           'toughness-calculator',
