@@ -243,9 +243,6 @@ echo "
 ----- START van-winkle-calculator -----"; git -C van-winkle-calculator checkout release/dev || git clone 'git@github.com:e2grnd/van-winkle-calculator.git' && git -C van-winkle-calculator pull
 echo "
 
------ START visualization-calculator -----"; git -C visualization-calculator checkout release/dev || git clone 'git@github.com:e2grnd/visualization-calculator.git' && git -C visualization-calculator pull
-echo "
-
 ----- START can2-weather-data-calculator -----"; git -C can2-weather-data-calculator checkout release/dev || git clone 'git@github.com:e2grnd/can2-weather-data-calculator.git' && git -C can2-weather-data-calculator pull
 echo "
 

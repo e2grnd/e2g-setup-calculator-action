@@ -79,7 +79,6 @@ kubectl rollout restart -n dev deployment/tbreak
 kubectl rollout restart -n dev deployment/thermowell
 kubectl rollout restart -n dev deployment/toughness
 kubectl rollout restart -n dev deployment/van-winkle
-kubectl rollout restart -n dev deployment/visualization
 kubectl rollout restart -n dev deployment/weather-data
 kubectl rollout restart -n dev deployment/weld-residual-stress
 kubectl rollout restart -n dev deployment/welded-joint-fatigue

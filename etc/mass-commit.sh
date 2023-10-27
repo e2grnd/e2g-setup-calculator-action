@@ -243,9 +243,6 @@ echo "
 ----- START van-winkle-calculator -----"; cd ~/Projects/all-calculators/van-winkle-calculator; git add .; git commit -m"pip ignore installed"; git push; cd ~/Projects/all-calculators
 echo "
 
------ START visualization-calculator -----"; cd ~/Projects/all-calculators/visualization-calculator; git add .; git commit -m"pip ignore installed"; git push; cd ~/Projects/all-calculators
-echo "
-
 ----- START can2-weather-data-calculator -----"; cd ~/Projects/all-calculators/can2-weather-data-calculator; git add .; git commit -m"pip ignore installed"; git push; cd ~/Projects/all-calculators
 echo "
 

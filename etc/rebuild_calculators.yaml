@@ -88,7 +88,6 @@ jobs:
           'thermowells-calculator',
           'toughness-calculator',
           'van-winkle-calculator',
-          'visualization-calculator',
           'can2-weather-data-calculator',
           'weld-residual-stress-calculator',
           'welded-joint-fatigue-life-calculator',

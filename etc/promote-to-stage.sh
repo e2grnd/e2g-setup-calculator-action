@@ -219,7 +219,4 @@ echo "
 ----- START van-winkle-calculator -----"; git -C van-winkle-calculator checkout release/stage && git -C van-winkle-calculator pull && git -C van-winkle-calculator merge -m'stage release' release/dev && git -C van-winkle-calculator push
 echo "
 
------ START visualization-calculator -----"; git -C visualization-calculator checkout release/stage && git -C visualization-calculator pull && git -C visualization-calculator merge -m'stage release' release/dev && git -C visualization-calculator push
-echo "
-
 ----- START welded-joint-fatigue-life-calculator -----"; git -C welded-joint-fatigue-life-calculator checkout release/stage && git -C welded-joint-fatigue-life-calculator pull && git -C welded-joint-fatigue-life-calculator merge -m'stage release' release/dev && git -C welded-joint-fatigue-life-calculator push

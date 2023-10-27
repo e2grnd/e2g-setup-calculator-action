@@ -73,7 +73,6 @@ group:
       e2grnd/thermowells-calculator@release/dev
       e2grnd/toughness-calculator@release/dev
       e2grnd/van-winkle-calculator@release/dev
-      e2grnd/visualization-calculator@release/dev
       e2grnd/can2-weather-data-calculator@release/dev
       e2grnd/weld-residual-stress-calculator@release/dev
       e2grnd/welded-joint-fatigue-life-calculator@release/dev
