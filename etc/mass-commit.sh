@@ -168,6 +168,9 @@ echo "
 ----- START insulation-calculator -----"; cd ~/Projects/all-calculators/insulation-calculator; git add .; git commit -m"pip ignore installed"; git push; cd ~/Projects/all-calculators
 echo "
 
+----- START large-lta-calculator -----"; cd ~/Projects/all-calculators/large-lta-calculator; git add .; git commit -m"pip ignore installed"; git push; cd ~/Projects/all-calculators
+echo "
+
 ----- START material-explorer-calculator -----"; cd ~/Projects/all-calculators/material-explorer-calculator; git add .; git commit -m"pip ignore installed"; git push; cd ~/Projects/all-calculators
 echo "
 

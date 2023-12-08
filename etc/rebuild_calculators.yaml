@@ -63,6 +63,7 @@ jobs:
           'idinterp-calculator',
           'inspection-report-calculator',
           'insulation-calculator',
+          'large-lta-calculator',
           'material-explorer-calculator',
           'mixer-calculator',
           'netica-worker-calculator',

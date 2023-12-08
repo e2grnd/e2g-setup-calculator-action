@@ -147,6 +147,9 @@ echo "
 ----- START insulation-calculator -----"; git -C insulation-calculator checkout release/stage && git -C insulation-calculator pull && git -C insulation-calculator merge -m'stage release' release/dev && git -C insulation-calculator push
 echo "
 
+----- START large-lta-calculator -----"; git -C large-lta-calculator checkout release/stage && git -C large-lta-calculator pull && git -C large-lta-calculator merge -m'stage release' release/dev && git -C large-lta-calculator push
+echo "
+
 ----- START material-explorer-calculator -----"; git -C material-explorer-calculator checkout release/stage && git -C material-explorer-calculator pull && git -C material-explorer-calculator merge -m'stage release' release/dev && git -C material-explorer-calculator push
 echo "
 

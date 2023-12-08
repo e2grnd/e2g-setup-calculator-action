@@ -54,6 +54,7 @@ kubectl rollout restart -n dev deployment/htha-steady-state
 kubectl rollout restart -n dev deployment/idinterp
 kubectl rollout restart -n dev deployment/inspection-report
 kubectl rollout restart -n dev deployment/insulation
+kubectl rollout restart -n dev deployment/large-lta
 kubectl rollout restart -n dev deployment/material-explorer
 kubectl rollout restart -n dev deployment/mixer
 kubectl rollout restart -n dev deployment/netica-worker

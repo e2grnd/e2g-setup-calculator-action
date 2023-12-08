@@ -168,6 +168,9 @@ echo "
 ----- START insulation-calculator -----"; git -C insulation-calculator checkout release/dev || git clone 'git@github.com:e2grnd/insulation-calculator.git' && git -C insulation-calculator pull
 echo "
 
+----- START large-lta-calculator -----"; git -C large-lta-calculator checkout release/dev || git clone 'git@github.com:e2grnd/large-lta-calculator.git' && git -C large-lta-calculator pull
+echo "
+
 ----- START material-explorer-calculator -----"; git -C material-explorer-calculator checkout release/dev || git clone 'git@github.com:e2grnd/material-explorer-calculator.git' && git -C material-explorer-calculator pull
 echo "
 

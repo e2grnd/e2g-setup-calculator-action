@@ -48,6 +48,7 @@ group:
       e2grnd/htha-steady-state-calculator@release/dev
       e2grnd/idinterp-calculator@release/dev
       e2grnd/insulation-calculator@release/dev
+      e2grnd/large-lta-calculator@release/dev
       e2grnd/material-explorer-calculator@release/dev
       e2grnd/mixer-calculator@release/dev
       e2grnd/netica-worker-calculator@release/dev

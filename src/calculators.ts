@@ -710,4 +710,9 @@ export const calculators: Record<string, CalcConfig> = {
     serviceName: 'tank-settlement-fea',
     deploymentRepo: 'eec-kustomize',
   },
+  'large-lta-calculator': {
+    imageName: 'large-lta',
+    serviceName: 'large-lta',
+    deploymentRepo: 'eec-kustomize',
+  },
 }

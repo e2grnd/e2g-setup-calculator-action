@@ -654,6 +654,10 @@ exports.calculators = Object.assign(Object.assign({}, calcsByRepo), { 'tbreak-ca
         imageName: 'tank-settlement-fea',
         serviceName: 'tank-settlement-fea',
         deploymentRepo: 'eec-kustomize',
+    }, 'large-lta-calculator': {
+        imageName: 'large-lta',
+        serviceName: 'large-lta',
+        deploymentRepo: 'eec-kustomize',
     } });
 
 
