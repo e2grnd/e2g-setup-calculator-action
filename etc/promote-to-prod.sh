@@ -42,6 +42,9 @@ echo "
 ----- START burstp-calculator -----"; git -C burstp-calculator checkout release/prod && git -C burstp-calculator pull && git -C burstp-calculator merge -m'prod release' release/stage && git -C burstp-calculator push
 echo "
 
+----- START calculix-worker-calculator -----"; git -C calculix-worker-calculator checkout release/prod && git -C calculix-worker-calculator pull && git -C calculix-worker-calculator merge -m'prod release' release/stage && git -C calculix-worker-calculator push
+echo "
+
 ----- START charpy-calculator -----"; git -C charpy-calculator checkout release/prod && git -C charpy-calculator pull && git -C charpy-calculator merge -m'prod release' release/stage && git -C charpy-calculator push
 echo "
 

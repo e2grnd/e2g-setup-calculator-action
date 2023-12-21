@@ -715,4 +715,9 @@ export const calculators: Record<string, CalcConfig> = {
     serviceName: 'large-lta',
     deploymentRepo: 'eec-kustomize',
   },
+  'calculix-worker-calculator': {
+    imageName: 'calculix-worker',
+    serviceName: 'calculix-worker',
+    deploymentRepo: 'eec-kustomize',
+  },
 }

@@ -12,6 +12,7 @@ group:
       e2grnd/buried-pipelines-calculator@release/dev
       e2grnd/branch-calculator@release/dev
       e2grnd/burstp-calculator@release/dev
+      e2grnd/calculix-worker-calculator@release/dev
       e2grnd/can2-annual-growth-rate-calculator@release/dev
       e2grnd/can2-series-calculator@release/dev
       e2grnd/can2-canister-temperature-calculator@release/dev

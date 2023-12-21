@@ -42,6 +42,9 @@ echo "
 ----- START burstp-calculator -----"; cd ~/Projects/all-calculators/burstp-calculator; git add .; git commit -m"pip ignore installed"; git push; cd ~/Projects/all-calculators
 echo "
 
+----- START calculix-worker-calculator -----"; cd ~/Projects/all-calculators/calculix-worker-calculator; git add .; git commit -m"pip ignore installed"; git push; cd ~/Projects/all-calculators
+echo "
+
 ----- START can2-decisions-calculator -----"; cd ~/Projects/all-calculators/can2-decisions-calculator; git add .; git commit -m"pip ignore installed"; git push; cd ~/Projects/all-calculators
 echo "
 

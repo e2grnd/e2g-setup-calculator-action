@@ -21,6 +21,7 @@ jobs:
           'branch-calculator',
           'bundle-sight-calculator',
           'burstp-calculator',
+          'calculix-worker-calculator',
           'can2-decisions-calculator',
           'can2-annual-growth-rate-calculator',
           'can2-series-calculator',

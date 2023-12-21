@@ -42,6 +42,9 @@ echo "
 ----- START burstp-calculator -----"; git -C burstp-calculator checkout release/dev || git clone 'git@github.com:e2grnd/burstp-calculator.git' && git -C burstp-calculator pull
 echo "
 
+----- START calculix-worker-calculator -----"; git -C calculix-worker-calculator checkout release/dev || git clone 'git@github.com:e2grnd/calculix-worker-calculator.git' && git -C calculix-worker-calculator pull
+echo "
+
 ----- START can2-decisions-calculator -----"; git -C can2-decisions-calculator checkout release/dev || git clone 'git@github.com:e2grnd/can2-decisions-calculator.git' && git -C can2-decisions-calculator pull
 echo "
 

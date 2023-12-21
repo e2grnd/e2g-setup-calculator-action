@@ -658,6 +658,10 @@ exports.calculators = Object.assign(Object.assign({}, calcsByRepo), { 'tbreak-ca
         imageName: 'large-lta',
         serviceName: 'large-lta',
         deploymentRepo: 'eec-kustomize',
+    }, 'calculix-worker-calculator': {
+        imageName: 'calculix-worker',
+        serviceName: 'calculix-worker',
+        deploymentRepo: 'eec-kustomize',
     } });
 
 
