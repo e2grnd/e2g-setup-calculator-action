@@ -69,6 +69,7 @@ kubectl rollout restart -n dev deployment/plume
 kubectl rollout restart -n dev deployment/prd-update
 kubectl rollout restart -n dev deployment/rainflow
 kubectl rollout restart -n dev deployment/sage-x
+kubectl rollout restart -n dev deployment/salome-worker
 kubectl rollout restart -n dev deployment/shell
 kubectl rollout restart -n dev deployment/shutdown
 kubectl rollout restart -n dev deployment/simflex

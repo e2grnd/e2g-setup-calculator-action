@@ -63,6 +63,7 @@ group:
       e2grnd/prd-update-calculator@release/dev
       e2grnd/rainflow-calculator@release/dev
       e2grnd/sage-x-calculator@release/dev
+      e2grnd/salome-worker-calculator@release/dev
       e2grnd/shell-pt-calculator@release/dev
       e2grnd/shutdown-calculator@release/dev
       e2grnd/simflex-calculator@release/dev

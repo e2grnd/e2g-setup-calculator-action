@@ -213,6 +213,9 @@ echo "
 ----- START sage-x-calculator -----"; git -C sage-x-calculator checkout release/dev || git clone 'git@github.com:e2grnd/sage-x-calculator.git' && git -C sage-x-calculator pull
 echo "
 
+----- START salome-worker-calculator -----"; git -C salome-worker-calculator checkout release/dev || git clone 'git@github.com:e2grnd/salome-worker-calculator.git' && git -C salome-worker-calculator pull
+echo "
+
 ----- START shell-pt-calculator -----"; git -C shell-pt-calculator checkout release/dev || git clone 'git@github.com:e2grnd/shell-pt-calculator.git' && git -C shell-pt-calculator pull
 echo "
 

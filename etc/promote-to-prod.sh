@@ -189,6 +189,9 @@ echo "
 ----- START sage-x-calculator -----"; git -C sage-x-calculator checkout release/prod && git -C sage-x-calculator pull && git -C sage-x-calculator merge -m'prod release' release/stage && git -C sage-x-calculator push
 echo "
 
+----- START salome-worker-calculator -----"; git -C salome-worker-calculator checkout release/prod && git -C salome-worker-calculator pull && git -C salome-worker-calculator merge -m'prod release' release/stage && git -C salome-worker-calculator push
+echo "
+
 ----- START shell-pt-calculator -----"; git -C shell-pt-calculator checkout release/prod && git -C shell-pt-calculator pull && git -C shell-pt-calculator merge -m'prod release' release/stage && git -C shell-pt-calculator push
 echo "
 

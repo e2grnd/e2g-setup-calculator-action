@@ -78,6 +78,7 @@ jobs:
           'prd-update-calculator',
           'rainflow-calculator',
           'sage-x-calculator',
+          'salome-worker-calculator',
           'shell-pt-calculator',
           'shutdown-calculator',
           'simflex-calculator',

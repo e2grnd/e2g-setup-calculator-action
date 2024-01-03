@@ -720,4 +720,9 @@ export const calculators: Record<string, CalcConfig> = {
     serviceName: 'calculix-worker',
     deploymentRepo: 'eec-kustomize',
   },
+  'salome-worker-calculator': {
+    imageName: 'salome-worker',
+    serviceName: 'salome-worker',
+    deploymentRepo: 'eec-kustomize',
+  },
 }
