@@ -141,3 +141,9 @@ group:
       - source: subscribe.sh
         dest: subscribe.sh
   
+  - repos: |
+      e2grnd/fea-visualization-calculator@release/dev
+    files: 
+      - source: workflows/publish-trame.yml
+        dest: .github/workflows/publish-trame.yml
+  

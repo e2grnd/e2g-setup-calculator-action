@@ -74,9 +74,19 @@ async function run(): Promise<void> {
       - source: subscribe.sh
         dest: subscribe.sh
   `
+  const trameCalcRepos = sortedCalcs
+    .filter(([_repoName, cfg]) => cfg.trame) // eslint-disable-line @typescript-eslint/no-unused-vars
+    .map(([repoName]) => `e2grnd/${repoName}@release/dev`)
+  const trameReposChunk = `  - repos: |
+      ${trameCalcRepos.join('\n      ')}
+    files: 
+      - source: workflows/publish-trame.yml
+        dest: .github/workflows/publish-trame.yml
+  `
   const src = `group:
 ${standardReposChunk}
-${bayesReposChunk}`
+${bayesReposChunk}
+${trameReposChunk}`
   await fs.mkdir('etc', {recursive: true})
   await fs.writeFile('etc/repo-sync-config.yaml', src)
 }
