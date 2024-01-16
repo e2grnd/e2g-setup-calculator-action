@@ -12,8 +12,17 @@ function tableRow(repoName: string, calcConfig: CalcConfig): string {
     md += ' 🚯'
   }
   md += ` | [![dev](https://github.com/e2grnd/${repoName}/actions/workflows/publish.yml/badge.svg?branch=release%2Fdev)](https://github.com/e2grnd/${repoName}/actions/workflows/publish.yml)`
+  if (calcConfig.trame) {
+    md += ` [![dev](https://github.com/e2grnd/${repoName}/actions/workflows/publish-trame.yml/badge.svg?branch=release%2Fdev)](https://github.com/e2grnd/${repoName}/actions/workflows/publish-trame.yml)`
+  }
   md += ` | [![stage](https://github.com/e2grnd/${repoName}/actions/workflows/publish.yml/badge.svg?branch=release%2Fstage)](https://github.com/e2grnd/${repoName}/actions/workflows/publish.yml)`
+  if (calcConfig.trame) {
+    md += ` [![stage](https://github.com/e2grnd/${repoName}/actions/workflows/publish-trame.yml/badge.svg?branch=release%2Fstage)](https://github.com/e2grnd/${repoName}/actions/workflows/publish-trame.yml)`
+  }
   md += ` | [![prod](https://github.com/e2grnd/${repoName}/actions/workflows/publish.yml/badge.svg?branch=release%2Fprod)](https://github.com/e2grnd/${repoName}/actions/workflows/publish.yml)`
+  if (calcConfig.trame) {
+    md += ` [![prod](https://github.com/e2grnd/${repoName}/actions/workflows/publish-trame.yml/badge.svg?branch=release%2Fprod)](https://github.com/e2grnd/${repoName}/actions/workflows/publish-trame.yml)`
+  }
   md += ' | \n'
   return md
 }
