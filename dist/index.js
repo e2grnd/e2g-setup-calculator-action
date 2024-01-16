@@ -666,6 +666,11 @@ exports.calculators = Object.assign(Object.assign({}, calcsByRepo), { 'tbreak-ca
         imageName: 'salome-worker',
         serviceName: 'salome-worker',
         deploymentRepo: 'eec-kustomize',
+    }, 'fea-visualization-calculator': {
+        imageName: 'fea-visualization',
+        serviceName: 'fea-visualization',
+        deploymentRepo: 'eec-kustomize',
+        trame: true,
     } });
 
 

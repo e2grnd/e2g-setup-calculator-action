@@ -114,6 +114,9 @@ echo "
 ----- START fatigue-data-explorer-calculator -----"; cd ~/Projects/all-calculators/fatigue-data-explorer-calculator; git add .; git commit -m"pip ignore installed"; git push; cd ~/Projects/all-calculators
 echo "
 
+----- START fea-visualization-calculator -----"; cd ~/Projects/all-calculators/fea-visualization-calculator; git add .; git commit -m"pip ignore installed"; git push; cd ~/Projects/all-calculators
+echo "
+
 ----- START feature-identification-calculator -----"; cd ~/Projects/all-calculators/feature-identification-calculator; git add .; git commit -m"pip ignore installed"; git push; cd ~/Projects/all-calculators
 echo "
 

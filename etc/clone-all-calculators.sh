@@ -114,6 +114,9 @@ echo "
 ----- START fatigue-data-explorer-calculator -----"; git -C fatigue-data-explorer-calculator checkout release/dev || git clone 'git@github.com:e2grnd/fatigue-data-explorer-calculator.git' && git -C fatigue-data-explorer-calculator pull
 echo "
 
+----- START fea-visualization-calculator -----"; git -C fea-visualization-calculator checkout release/dev || git clone 'git@github.com:e2grnd/fea-visualization-calculator.git' && git -C fea-visualization-calculator pull
+echo "
+
 ----- START feature-identification-calculator -----"; git -C feature-identification-calculator checkout release/dev || git clone 'git@github.com:e2grnd/feature-identification-calculator.git' && git -C feature-identification-calculator pull
 echo "
 

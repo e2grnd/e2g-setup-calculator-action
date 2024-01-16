@@ -24,6 +24,10 @@ export type CalcConfig = {
    * @default false
    */
   enableBayesContainers?: boolean
+  /**
+   * If true, syncs the trame github action for building the visualization image.
+   */
+  trame?: boolean
 }
 
 /**
@@ -724,5 +728,11 @@ export const calculators: Record<string, CalcConfig> = {
     imageName: 'salome-worker',
     serviceName: 'salome-worker',
     deploymentRepo: 'eec-kustomize',
+  },
+  'fea-visualization-calculator': {
+    imageName: 'fea-visualization',
+    serviceName: 'fea-visualization',
+    deploymentRepo: 'eec-kustomize',
+    trame: true,
   },
 }

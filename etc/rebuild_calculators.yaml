@@ -45,6 +45,7 @@ jobs:
           'fatigue-calculator',
           'fatigue-damage-calculator',
           'fatigue-data-explorer-calculator',
+          'fea-visualization-calculator',
           'feature-identification-calculator',
           'ffs-brittle-calculator',
           'ffs-cracking-calculator',

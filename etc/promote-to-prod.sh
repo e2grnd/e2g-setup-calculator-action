@@ -93,6 +93,9 @@ echo "
 ----- START fatigue-data-explorer-calculator -----"; git -C fatigue-data-explorer-calculator checkout release/prod && git -C fatigue-data-explorer-calculator pull && git -C fatigue-data-explorer-calculator merge -m'prod release' release/stage && git -C fatigue-data-explorer-calculator push
 echo "
 
+----- START fea-visualization-calculator -----"; git -C fea-visualization-calculator checkout release/prod && git -C fea-visualization-calculator pull && git -C fea-visualization-calculator merge -m'prod release' release/stage && git -C fea-visualization-calculator push
+echo "
+
 ----- START feature-identification-calculator -----"; git -C feature-identification-calculator checkout release/prod && git -C feature-identification-calculator pull && git -C feature-identification-calculator merge -m'prod release' release/stage && git -C feature-identification-calculator push
 echo "
 
