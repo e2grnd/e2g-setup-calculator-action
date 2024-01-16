@@ -587,6 +587,7 @@ exports.calculators = Object.assign(Object.assign({}, calcsByRepo), { 'tbreak-ca
         imageName: 'plume',
         serviceName: 'plume',
         deploymentRepo: 'eec-kustomize',
+        trame: true,
     }, 'cui-calculator': {
         imageName: 'cui-sight',
         serviceName: 'cui-sight',
@@ -650,7 +651,6 @@ exports.calculators = Object.assign(Object.assign({}, calcsByRepo), { 'tbreak-ca
         imageName: 'dent-fea',
         serviceName: 'dent-fea',
         deploymentRepo: 'eec-kustomize',
-        trame: true,
     }, 'tank-settlement-fea-calculator': {
         imageName: 'tank-settlement-fea',
         serviceName: 'tank-settlement-fea',

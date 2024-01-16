@@ -142,8 +142,8 @@ group:
         dest: subscribe.sh
   
   - repos: |
-      e2grnd/dent-fea-calculator@release/dev
       e2grnd/fea-visualization-calculator@release/dev
+      e2grnd/plume-calculator@release/dev
     files: 
       - source: workflows/publish-trame.yml
         dest: .github/workflows/publish-trame.yml
