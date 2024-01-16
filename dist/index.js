@@ -546,6 +546,7 @@ exports.calculators = Object.assign(Object.assign({}, calcsByRepo), { 'tbreak-ca
         imageName: 'tbreak',
         serviceName: 'tbreak',
         deploymentRepo: 'eec-kustomize',
+        trame: true,
     }, 'idinterp-calculator': {
         imageName: 'idinterp',
         serviceName: 'idinterp',
@@ -618,6 +619,7 @@ exports.calculators = Object.assign(Object.assign({}, calcsByRepo), { 'tbreak-ca
         imageName: 'crack-attack',
         serviceName: 'crack-attack',
         deploymentRepo: 'eec-kustomize',
+        trame: true,
     }, 'van-winkle-calculator': {
         imageName: 'van-winkle',
         serviceName: 'van-winkle',

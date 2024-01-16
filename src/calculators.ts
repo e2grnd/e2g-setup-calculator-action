@@ -579,6 +579,7 @@ export const calculators: Record<string, CalcConfig> = {
     imageName: 'tbreak',
     serviceName: 'tbreak',
     deploymentRepo: 'eec-kustomize',
+    trame: true,
   },
   'idinterp-calculator': {
     imageName: 'idinterp',
@@ -668,6 +669,7 @@ export const calculators: Record<string, CalcConfig> = {
     imageName: 'crack-attack',
     serviceName: 'crack-attack',
     deploymentRepo: 'eec-kustomize',
+    trame: true,
   },
   'van-winkle-calculator': {
     imageName: 'van-winkle',
