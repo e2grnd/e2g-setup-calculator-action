@@ -1,6 +1,6 @@
-name: 'e2g-setup-calculator-action'
-description: 'Internal use'
-author: 'Equity Engineering Group'
+name: "e2g-setup-calculator-action"
+description: "Internal use"
+author: "Equity Engineering Group"
 outputs:
   releaseEnv:
     description: The environment name for the releaseEnv
@@ -13,5 +13,5 @@ outputs:
   deploymentRepo:
     description: The kustomize repository that the deployment should be comitted to
 runs:
-  using: 'node16'
-  main: 'dist/index.js'
+  using: "node20"
+  main: "dist/index.js"
