@@ -38,8 +38,6 @@ async function run(): Promise<void> {
         dest: .devcontainer/.gitignore
       - source: HELP.md
         dest: HELP.md
-      - source: subscribe.sh
-        dest: subscribe.sh
 `
   const bayesCalcRepos = sortedCalcs
     .filter(([_repoName, cfg]) => cfg.enableBayesContainers) // eslint-disable-line @typescript-eslint/no-unused-vars
@@ -71,8 +69,6 @@ async function run(): Promise<void> {
         dest: .devcontainer/.gitignore
       - source: HELP.md
         dest: HELP.md
-      - source: subscribe.sh
-        dest: subscribe.sh
   `
   const trameCalcRepos = sortedCalcs
     .filter(([_repoName, cfg]) => cfg.trame) // eslint-disable-line @typescript-eslint/no-unused-vars

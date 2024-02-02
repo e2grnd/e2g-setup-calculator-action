@@ -104,8 +104,6 @@ group:
         dest: .devcontainer/.gitignore
       - source: HELP.md
         dest: HELP.md
-      - source: subscribe.sh
-        dest: subscribe.sh
 
   - repos: |
       e2grnd/best-rate-calculator@release/dev
@@ -139,8 +137,6 @@ group:
         dest: .devcontainer/.gitignore
       - source: HELP.md
         dest: HELP.md
-      - source: subscribe.sh
-        dest: subscribe.sh
   
   - repos: |
       e2grnd/crack-attack-calculator@release/dev
