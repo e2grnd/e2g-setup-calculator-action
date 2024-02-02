@@ -738,4 +738,9 @@ export const calculators: Record<string, CalcConfig> = {
     deploymentRepo: 'eec-kustomize',
     trame: true,
   },
+  'rbi-plus-calculator': {
+    imageName: 'rbi-plus',
+    serviceName: 'rbi-plus',
+    deploymentRepo: 'eec-kustomize',
+  },
 }

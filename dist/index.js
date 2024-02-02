@@ -674,6 +674,10 @@ exports.calculators = Object.assign(Object.assign({}, calcsByRepo), { 'tbreak-ca
         serviceName: 'fea-visualization',
         deploymentRepo: 'eec-kustomize',
         trame: true,
+    }, 'rbi-plus-calculator': {
+        imageName: 'rbi-plus',
+        serviceName: 'rbi-plus',
+        deploymentRepo: 'eec-kustomize',
     } });
 
 

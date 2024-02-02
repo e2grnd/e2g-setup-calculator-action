@@ -213,6 +213,9 @@ echo "
 ----- START rainflow-calculator -----"; cd ~/Projects/all-calculators/rainflow-calculator; git add .; git commit -m"pip ignore installed"; git push; cd ~/Projects/all-calculators
 echo "
 
+----- START rbi-plus-calculator -----"; cd ~/Projects/all-calculators/rbi-plus-calculator; git add .; git commit -m"pip ignore installed"; git push; cd ~/Projects/all-calculators
+echo "
+
 ----- START sage-x-calculator -----"; cd ~/Projects/all-calculators/sage-x-calculator; git add .; git commit -m"pip ignore installed"; git push; cd ~/Projects/all-calculators
 echo "
 

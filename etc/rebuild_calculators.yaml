@@ -78,6 +78,7 @@ jobs:
           'plume-calculator',
           'prd-update-calculator',
           'rainflow-calculator',
+          'rbi-plus-calculator',
           'sage-x-calculator',
           'salome-worker-calculator',
           'shell-pt-calculator',

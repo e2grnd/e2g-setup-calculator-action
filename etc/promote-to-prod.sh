@@ -189,6 +189,9 @@ echo "
 ----- START rainflow-calculator -----"; git -C rainflow-calculator checkout release/prod && git -C rainflow-calculator pull && git -C rainflow-calculator merge -m'prod release' release/stage && git -C rainflow-calculator push
 echo "
 
+----- START rbi-plus-calculator -----"; git -C rbi-plus-calculator checkout release/prod && git -C rbi-plus-calculator pull && git -C rbi-plus-calculator merge -m'prod release' release/stage && git -C rbi-plus-calculator push
+echo "
+
 ----- START sage-x-calculator -----"; git -C sage-x-calculator checkout release/prod && git -C sage-x-calculator pull && git -C sage-x-calculator merge -m'prod release' release/stage && git -C sage-x-calculator push
 echo "
 
