@@ -743,4 +743,9 @@ export const calculators: Record<string, CalcConfig> = {
     serviceName: 'rbi-plus',
     deploymentRepo: 'eec-kustomize',
   },
+  'sandman-calculator': {
+    imageName: 'sandman',
+    serviceName: 'sandman',
+    deploymentRepo: 'eec-kustomize',
+  },
 }

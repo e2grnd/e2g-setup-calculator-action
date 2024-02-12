@@ -222,6 +222,9 @@ echo "
 ----- START salome-worker-calculator -----"; cd ~/Projects/all-calculators/salome-worker-calculator; git add .; git commit -m"pip ignore installed"; git push; cd ~/Projects/all-calculators
 echo "
 
+----- START sandman-calculator -----"; cd ~/Projects/all-calculators/sandman-calculator; git add .; git commit -m"pip ignore installed"; git push; cd ~/Projects/all-calculators
+echo "
+
 ----- START shell-pt-calculator -----"; cd ~/Projects/all-calculators/shell-pt-calculator; git add .; git commit -m"pip ignore installed"; git push; cd ~/Projects/all-calculators
 echo "
 

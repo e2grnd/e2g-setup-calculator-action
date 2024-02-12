@@ -66,6 +66,7 @@ group:
       e2grnd/rbi-plus-calculator@release/dev
       e2grnd/sage-x-calculator@release/dev
       e2grnd/salome-worker-calculator@release/dev
+      e2grnd/sandman-calculator@release/dev
       e2grnd/shell-pt-calculator@release/dev
       e2grnd/shutdown-calculator@release/dev
       e2grnd/simflex-calculator@release/dev

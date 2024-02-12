@@ -81,6 +81,7 @@ jobs:
           'rbi-plus-calculator',
           'sage-x-calculator',
           'salome-worker-calculator',
+          'sandman-calculator',
           'shell-pt-calculator',
           'shutdown-calculator',
           'simflex-calculator',
