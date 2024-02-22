@@ -7,12 +7,15 @@ group:
       e2grnd/bayes-calculator@release/dev
       e2grnd/bayes-worker-calculator@release/dev
       e2grnd/bengi-worker-calculator@release/dev
+      e2grnd/best-rate-calculator@release/dev
       e2grnd/bijlaard-calculator@release/dev
       e2grnd/boiler-tube-calculator@release/dev
       e2grnd/buried-pipelines-calculator@release/dev
       e2grnd/branch-calculator@release/dev
+      e2grnd/bundle-sight-calculator@release/dev
       e2grnd/burstp-calculator@release/dev
       e2grnd/calculix-worker-calculator@release/dev
+      e2grnd/can2-decisions-calculator@release/dev
       e2grnd/can2-annual-growth-rate-calculator@release/dev
       e2grnd/can2-series-calculator@release/dev
       e2grnd/can2-canister-temperature-calculator@release/dev
@@ -24,8 +27,11 @@ group:
       e2grnd/cp-design-offshore-calculator@release/dev
       e2grnd/crack-attack-calculator@release/dev
       e2grnd/creep-life-calculator@release/dev
+      e2grnd/cui-calculator@release/dev
+      e2grnd/damage-sight-calculator@release/dev
       e2grnd/dent-fea-calculator@release/dev
       e2grnd/deposition-density-calculator@release/dev
+      e2grnd/epri-amp-calculator@release/dev
       e2grnd/exemption-calculator@release/dev
       e2grnd/fast2-calculator@release/dev
       e2grnd/fatigue-calculator@release/dev
@@ -85,60 +91,13 @@ group:
     files: 
       - source: workflows/publish.yml
         dest: .github/workflows/publish.yml
-      # - source: workflows/test.yml
-      #  dest: .github/workflows/test.yml
-      - source: devcontainer/docker-compose.yaml
-        dest: .devcontainer/docker-compose.yaml
-      # - source: devcontainer/docker-compose.app.yaml
-      #  dest: .devcontainer/docker-compose.app.yaml
+      - source: devcontainer/docker-compose.app.yaml
+        dest: .devcontainer/docker-compose.app.yaml
       - source: devcontainer/devcontainer.json
         dest: .devcontainer/devcontainer.json
-      - source: devcontainer/scripts/init.mjs
-        dest: .devcontainer/scripts/init.mjs
-      - source: devcontainer/init_db.sh
-        dest: .devcontainer/init_db.sh
-      - source: devcontainer/otel-collector-config.yaml
-        dest: .devcontainer/otel-collector-config.yaml
-      - source: devcontainer/gitattributes
-        dest: .devcontainer/.gitattributes
-      - source: devcontainer/gitignore
-        dest: .devcontainer/.gitignore
       - source: HELP.md
         dest: HELP.md
 
-  - repos: |
-      e2grnd/best-rate-calculator@release/dev
-      e2grnd/bundle-sight-calculator@release/dev
-      e2grnd/can2-decisions-calculator@release/dev
-      e2grnd/cui-calculator@release/dev
-      e2grnd/damage-sight-calculator@release/dev
-      e2grnd/epri-amp-calculator@release/dev
-    files: 
-      - source: workflows/publish.yml
-        dest: .github/workflows/publish.yml
-      # - source: workflows/test.yml
-      #   dest: .github/workflows/test.yml
-      - source: devcontainer/docker-compose.yaml
-        dest: .devcontainer/docker-compose.yaml
-      - source: devcontainer/docker-compose.bayes.yaml
-        dest: .devcontainer/docker-compose.bayes.yaml
-      # - source: devcontainer/docker-compose.app.yaml
-      #  dest: .devcontainer/docker-compose.app.yaml
-      - source: devcontainer/devcontainer.bayes.json
-        dest: .devcontainer/devcontainer.json
-      - source: devcontainer/scripts/init.mjs
-        dest: .devcontainer/scripts/init.mjs
-      - source: devcontainer/otel-collector-config.yaml
-        dest: .devcontainer/otel-collector-config.yaml
-      - source: devcontainer/init_db.sh
-        dest: .devcontainer/init_db.sh
-      - source: devcontainer/gitattributes
-        dest: .devcontainer/.gitattributes
-      - source: devcontainer/gitignore
-        dest: .devcontainer/.gitignore
-      - source: HELP.md
-        dest: HELP.md
-  
   - repos: |
       e2grnd/crack-attack-calculator@release/dev
       e2grnd/fea-visualization-calculator@release/dev

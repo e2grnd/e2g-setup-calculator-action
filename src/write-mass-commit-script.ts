@@ -15,7 +15,7 @@ cd ~/Projects/all-calculators
       return a[1].serviceName.localeCompare(b[1].serviceName)
     })
     .forEach(([repoName, calcConfig]) => {
-      scr += `echo "\n\n----- START ${repoName} -----"; cd ~/Projects/all-calculators/${repoName}; git add .; git commit -m"pip ignore installed"; git push; cd ~/Projects/all-calculators\n`
+      scr += `echo "\n\n----- START ${repoName} -----"; cd ~/Projects/all-calculators/${repoName}; git add .; git commit -m"remove old devcontainer files\nRD-1630"; git push; cd ~/Projects/all-calculators\n`
     })
   await fs.mkdir('etc', {recursive: true})
   await fs.writeFile('etc/mass-commit.sh', scr)
