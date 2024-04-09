@@ -682,6 +682,10 @@ exports.calculators = Object.assign(Object.assign({}, calcsByRepo), { 'tbreak-ca
         imageName: 'sandman',
         serviceName: 'sandman',
         deploymentRepo: 'eec-kustomize',
+    }, 'in-sight': {
+        imageName: 'in-sight',
+        serviceName: 'in-sight',
+        deploymentRepo: 'eec-kustomize',
     } });
 
 

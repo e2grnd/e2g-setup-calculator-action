@@ -54,6 +54,7 @@ kubectl rollout restart -n dev deployment/hottap
 kubectl rollout restart -n dev deployment/htha
 kubectl rollout restart -n dev deployment/htha-steady-state
 kubectl rollout restart -n dev deployment/idinterp
+kubectl rollout restart -n dev deployment/in-sight
 kubectl rollout restart -n dev deployment/inspection-report
 kubectl rollout restart -n dev deployment/insulation
 kubectl rollout restart -n dev deployment/large-lta
