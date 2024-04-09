@@ -168,7 +168,7 @@ echo "
 ----- START idinterp-calculator -----"; git -C idinterp-calculator checkout release/dev || git clone 'git@github.com:e2grnd/idinterp-calculator.git' && git -C idinterp-calculator pull
 echo "
 
------ START in-sight -----"; git -C in-sight checkout release/dev || git clone 'git@github.com:e2grnd/in-sight.git' && git -C in-sight pull
+----- START in-sight-calculator -----"; git -C in-sight-calculator checkout release/dev || git clone 'git@github.com:e2grnd/in-sight-calculator.git' && git -C in-sight-calculator pull
 echo "
 
 ----- START inspection-report-calculator -----"; git -C inspection-report-calculator checkout release/dev || git clone 'git@github.com:e2grnd/inspection-report-calculator.git' && git -C inspection-report-calculator pull

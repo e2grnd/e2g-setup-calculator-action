@@ -63,7 +63,7 @@ jobs:
           'htha-calculator',
           'htha-steady-state-calculator',
           'idinterp-calculator',
-          'in-sight',
+          'in-sight-calculator',
           'inspection-report-calculator',
           'insulation-calculator',
           'large-lta-calculator',

@@ -223,7 +223,7 @@ echo "
 RD-1630"; git push; cd ~/Projects/all-calculators
 echo "
 
------ START in-sight -----"; cd ~/Projects/all-calculators/in-sight; git add .; git commit -m"remove old devcontainer files
+----- START in-sight-calculator -----"; cd ~/Projects/all-calculators/in-sight-calculator; git add .; git commit -m"remove old devcontainer files
 RD-1630"; git push; cd ~/Projects/all-calculators
 echo "
 

@@ -748,7 +748,7 @@ export const calculators: Record<string, CalcConfig> = {
     serviceName: 'sandman',
     deploymentRepo: 'eec-kustomize',
   },
-  'in-sight': {
+  'in-sight-calculator': {
     imageName: 'in-sight',
     serviceName: 'in-sight',
     deploymentRepo: 'eec-kustomize',

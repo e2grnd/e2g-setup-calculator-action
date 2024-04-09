@@ -147,7 +147,7 @@ echo "
 ----- START idinterp-calculator -----"; git -C idinterp-calculator checkout release/stage && git -C idinterp-calculator pull && git -C idinterp-calculator merge -m'stage release' release/dev && git -C idinterp-calculator push
 echo "
 
------ START in-sight -----"; git -C in-sight checkout release/stage && git -C in-sight pull && git -C in-sight merge -m'stage release' release/dev && git -C in-sight push
+----- START in-sight-calculator -----"; git -C in-sight-calculator checkout release/stage && git -C in-sight-calculator pull && git -C in-sight-calculator merge -m'stage release' release/dev && git -C in-sight-calculator push
 echo "
 
 ----- START inspection-report-calculator -----"; git -C inspection-report-calculator checkout release/stage && git -C inspection-report-calculator pull && git -C inspection-report-calculator merge -m'stage release' release/dev && git -C inspection-report-calculator push
