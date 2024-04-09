@@ -7,6 +7,7 @@
   "scripts": {
     "clean": "git clean -xfd lib dist etc",
     "build": "tsc",
+    "build:types": "tsc --declaration --esModuleInterop --outDir dist src/calculators.ts",
     "write:status": "node lib/write-status-badges.js",
     "write:test-status": "node lib/write-test-status-badges.js",
     "write:clone-script": "node lib/write-clone-script.js",
@@ -16,11 +17,12 @@
     "write:merge-stage": "node lib/write-merge-to-stage.js",
     "write:merge-prod": "node lib/write-merge-to-prod.js",
     "write:mass-commit": "node lib/write-mass-commit-script.js",
+    "write:calculators-json": "node lib/write-calculators-json.js",
     "format": "prettier --write '**/*.ts'",
     "format-check": "prettier --check '**/*.ts'",
     "lint": "eslint src/**/*.ts",
     "package": "ncc build --source-map --license licenses.txt",
-    "all": "yarn lint && yarn clean && yarn build && yarn run-s \"write:*\" && yarn format && yarn package"
+    "all": "yarn lint && yarn clean && yarn build && yarn build:types && yarn run-s \"write:*\" && yarn format && yarn package"
   },
   "repository": {
     "type": "git",

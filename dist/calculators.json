@@ -1,0 +1,464 @@
+{
+  "idinterp-calculator": {
+    "imageName": "idinterp",
+    "serviceName": "idinterp",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "corr-solutions-da-calculator": {
+    "imageName": "corr-solutions",
+    "serviceName": "corr-solutions",
+    "deploymentRepo": "corrsolutions-kustomize"
+  },
+  "epri-amp-calculator": {
+    "imageName": "epri-amp",
+    "serviceName": "epri-amp",
+    "deploymentRepo": "can2-kustomize",
+    "enableBayesContainers": true
+  },
+  "best-rate-calculator": {
+    "imageName": "best-rate",
+    "serviceName": "best-rate",
+    "deploymentRepo": "eec-kustomize",
+    "enableBayesContainers": true
+  },
+  "bayes-calculator": {
+    "imageName": "bayes",
+    "serviceName": "bayes",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "fast2-calculator": {
+    "imageName": "fast2",
+    "serviceName": "fast2",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "htha-steady-state-calculator": {
+    "imageName": "htha-steady-state",
+    "serviceName": "htha-steady-state",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "htha-calculator": {
+    "imageName": "htha",
+    "serviceName": "htha",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "bakeout-calculator": {
+    "imageName": "bakeout",
+    "serviceName": "bakeout",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "fatigue-damage-calculator": {
+    "imageName": "fatigue-damage",
+    "serviceName": "fatigue-damage",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "fatigue-calculator": {
+    "imageName": "fatigue",
+    "serviceName": "fatigue",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "fatigue-data-explorer-calculator": {
+    "imageName": "fatigue-data-explorer",
+    "serviceName": "fatigue-data-explorer",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "welded-joint-fatigue-life-calculator": {
+    "imageName": "welded-joint-fatigue",
+    "serviceName": "welded-joint-fatigue",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "insulation-calculator": {
+    "imageName": "insulation",
+    "serviceName": "insulation",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "hottap-calculator": {
+    "imageName": "hottap",
+    "serviceName": "hottap",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "burstp-calculator": {
+    "imageName": "burst-pressure",
+    "serviceName": "burst-pressure",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "exemption-calculator": {
+    "imageName": "exemption",
+    "serviceName": "exemption",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "shutdown-calculator": {
+    "imageName": "shutdown",
+    "serviceName": "shutdown",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "creep-life-calculator": {
+    "imageName": "creep-life",
+    "serviceName": "creep-life",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "toughness-calculator": {
+    "imageName": "toughness",
+    "serviceName": "toughness",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "shell-pt-calculator": {
+    "imageName": "shell",
+    "serviceName": "shell",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "pipe-pt-calculator": {
+    "imageName": "pipe",
+    "serviceName": "pipe",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "pipe-span-calculator": {
+    "imageName": "pipe-span",
+    "serviceName": "pipe-span",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "mixer-calculator": {
+    "imageName": "mixer",
+    "serviceName": "mixer",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "buried-pipelines-calculator": {
+    "imageName": "bpc",
+    "serviceName": "bpc",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "flange-calculator": {
+    "imageName": "flange",
+    "serviceName": "flange",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "asme-b31g-calculator": {
+    "imageName": "asme-b31g",
+    "serviceName": "asme-b31g",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "material-explorer-calculator": {
+    "imageName": "material-explorer",
+    "serviceName": "material-explorer",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "charpy-calculator": {
+    "imageName": "charpy",
+    "serviceName": "charpy",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "boiler-tube-calculator": {
+    "imageName": "boiler-tube",
+    "serviceName": "boiler-tube",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "branch-calculator": {
+    "imageName": "branch",
+    "serviceName": "branch",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "corroding-pipe-life-calculator": {
+    "imageName": "corroding-pipe-life",
+    "serviceName": "corroding-pipe-life",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "cp-design-calculator": {
+    "imageName": "cp-design",
+    "serviceName": "cp-design",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "smooth-bar-fatigue-life-calculator": {
+    "imageName": "smooth-bar-fatigue",
+    "serviceName": "smooth-bar-fatigue",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "cp-design-offshore-calculator": {
+    "imageName": "cp-design-offshore",
+    "serviceName": "cp-design-offshore",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "ffs-thinning-calculator": {
+    "imageName": "ffs-thinning",
+    "serviceName": "ffs-thinning",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "ffs-pitting-calculator": {
+    "imageName": "ffs-pitting",
+    "serviceName": "ffs-pitting",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "ffs-creep-calculator": {
+    "imageName": "ffs-creep",
+    "serviceName": "ffs-creep",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "ffs-cracking-calculator": {
+    "imageName": "ffs-crack-like",
+    "serviceName": "ffs-crack-like",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "ffs-brittle-calculator": {
+    "imageName": "ffs-brittle",
+    "serviceName": "ffs-brittle",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "ffs-misalignment-calculator": {
+    "imageName": "ffs-misalignment",
+    "serviceName": "ffs-misalignment",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "ffs-hydrogen-calculator": {
+    "imageName": "ffs-hydrogen",
+    "serviceName": "ffs-hydrogen",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "ffs-dent-gouge-calculator": {
+    "imageName": "ffs-dent-gouge",
+    "serviceName": "ffs-dent-gouge",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "ffs-laminations-calculator": {
+    "imageName": "ffs-lamination",
+    "serviceName": "ffs-lamination",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "ffs-fire-damage-calculator": {
+    "imageName": "ffs-fire-damage",
+    "serviceName": "ffs-fire-damage",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "lot-centered-analysis-calculator": {
+    "imageName": "creep",
+    "serviceName": "creep",
+    "noSync": true,
+    "deploymentRepo": "eec-kustomize"
+  },
+  "simflex-calculator": {
+    "imageName": "simflex",
+    "serviceName": "simflex",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "omega-calculator": {
+    "imageName": "omega",
+    "serviceName": "omega",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "prd-update-calculator": {
+    "imageName": "prd-update",
+    "serviceName": "prd-update",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "nozzle-calculator": {
+    "imageName": "nozzle",
+    "serviceName": "nozzle",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "tank-thickness-calculator": {
+    "imageName": "tank",
+    "serviceName": "tank",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "tank-settlement-calculator": {
+    "imageName": "tank-settlement",
+    "serviceName": "tank-settlement",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "bijlaard-calculator": {
+    "imageName": "bijlaard",
+    "serviceName": "bijlaard",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "stored-energy-calculator": {
+    "imageName": "stored-energy",
+    "serviceName": "stored-energy",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "sage-x-calculator": {
+    "imageName": "sage-x",
+    "serviceName": "sage-x",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "inspection-report-calculator": {
+    "imageName": "inspection-report",
+    "serviceName": "inspection-report",
+    "noSync": true,
+    "deploymentRepo": "eec-kustomize"
+  },
+  "thermowells-calculator": {
+    "imageName": "thermowell",
+    "serviceName": "thermowell",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "tbreak-calculator": {
+    "imageName": "tbreak",
+    "serviceName": "tbreak",
+    "deploymentRepo": "eec-kustomize",
+    "trame": true
+  },
+  "weld-residual-stress-calculator": {
+    "imageName": "weld-residual-stress",
+    "serviceName": "weld-residual-stress",
+    "deploymentRepo": "can2-kustomize"
+  },
+  "can2-weather-data-calculator": {
+    "imageName": "weather-data",
+    "serviceName": "weather-data",
+    "deploymentRepo": "can2-kustomize"
+  },
+  "deposition-density-calculator": {
+    "imageName": "deposition-density",
+    "serviceName": "deposition-density",
+    "deploymentRepo": "can2-kustomize"
+  },
+  "can2-annual-growth-rate-calculator": {
+    "imageName": "can2-growth-rate",
+    "serviceName": "can2-growth-rate",
+    "deploymentRepo": "can2-kustomize"
+  },
+  "can2-canister-temperature-calculator": {
+    "imageName": "canister-temperature",
+    "serviceName": "canister-temperature",
+    "deploymentRepo": "can2-kustomize"
+  },
+  "can2-decisions-calculator": {
+    "imageName": "can2-decisions",
+    "serviceName": "can2-decisions",
+    "deploymentRepo": "can2-kustomize",
+    "enableBayesContainers": true
+  },
+  "can2-series-calculator": {
+    "imageName": "can2-series",
+    "serviceName": "can2-series",
+    "deploymentRepo": "can2-kustomize"
+  },
+  "pitting-corrosion-rate-calculator": {
+    "imageName": "pitting-corrosion-rate",
+    "serviceName": "pitting-corrosion-rate",
+    "deploymentRepo": "can2-kustomize"
+  },
+  "plume-calculator": {
+    "imageName": "plume",
+    "serviceName": "plume",
+    "deploymentRepo": "eec-kustomize",
+    "trame": true
+  },
+  "cui-calculator": {
+    "imageName": "cui-sight",
+    "serviceName": "cui-sight",
+    "deploymentRepo": "eec-kustomize",
+    "enableBayesContainers": true
+  },
+  "bundle-sight-calculator": {
+    "imageName": "bundle-sight",
+    "serviceName": "bundle-sight",
+    "deploymentRepo": "eec-kustomize",
+    "enableBayesContainers": true
+  },
+  "plausible-profiles-calculator": {
+    "imageName": "plausible-profiles",
+    "serviceName": "plausible-profiles",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "bayes-worker-calculator": {
+    "imageName": "bayes-worker",
+    "serviceName": "bayes-worker",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "bengi-worker-calculator": {
+    "imageName": "bengi-worker",
+    "serviceName": "bengi-worker",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "netica-worker-calculator": {
+    "imageName": "netica-worker",
+    "serviceName": "netica-worker",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "crack-attack-calculator": {
+    "imageName": "crack-attack",
+    "serviceName": "crack-attack",
+    "deploymentRepo": "eec-kustomize",
+    "trame": true
+  },
+  "van-winkle-calculator": {
+    "imageName": "van-winkle",
+    "serviceName": "van-winkle",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "rainflow-calculator": {
+    "imageName": "rainflow",
+    "serviceName": "rainflow",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "ffs-lta-calculator": {
+    "imageName": "ffs-lta",
+    "serviceName": "ffs-lta",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "feature-identification-calculator": {
+    "imageName": "feature-identification",
+    "serviceName": "feature-identification",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "api-1183-calculator": {
+    "imageName": "api-1183",
+    "serviceName": "api1183",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "damage-sight-calculator": {
+    "imageName": "damage-sight",
+    "serviceName": "damage-sight",
+    "deploymentRepo": "eec-kustomize",
+    "enableBayesContainers": true
+  },
+  "circuit-corrosion-calculator": {
+    "imageName": "circuit-corrosion",
+    "serviceName": "circuit-corrosion",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "dent-fea-calculator": {
+    "imageName": "dent-fea",
+    "serviceName": "dent-fea",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "tank-settlement-fea-calculator": {
+    "imageName": "tank-settlement-fea",
+    "serviceName": "tank-settlement-fea",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "large-lta-calculator": {
+    "imageName": "large-lta",
+    "serviceName": "large-lta",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "calculix-worker-calculator": {
+    "imageName": "calculix-worker",
+    "serviceName": "calculix-worker",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "salome-worker-calculator": {
+    "imageName": "salome-worker",
+    "serviceName": "salome-worker",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "fea-visualization-calculator": {
+    "imageName": "fea-visualization",
+    "serviceName": "fea-visualization",
+    "deploymentRepo": "eec-kustomize",
+    "trame": true
+  },
+  "rbi-plus-calculator": {
+    "imageName": "rbi-plus",
+    "serviceName": "rbi-plus",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "sandman-calculator": {
+    "imageName": "sandman",
+    "serviceName": "sandman",
+    "deploymentRepo": "eec-kustomize"
+  },
+  "in-sight-calculator": {
+    "imageName": "in-sight",
+    "serviceName": "in-sight",
+    "deploymentRepo": "eec-kustomize"
+  }
+}
