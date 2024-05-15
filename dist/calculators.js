@@ -449,7 +449,8 @@ var libpyConfig = [
         name: 'simflex',
         repo: 'simflex-calculator.git',
         module: 'SimflexCalc.Calculator',
-        "function": 'submit_calculation_to_simflex'
+        "function": 'submit_calculation_to_simflex',
+        noSync: true
     },
     {
         name: 'omega',

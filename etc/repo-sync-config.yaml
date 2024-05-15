@@ -76,7 +76,6 @@ group:
       e2grnd/sandman-calculator@release/dev
       e2grnd/shell-pt-calculator@release/dev
       e2grnd/shutdown-calculator@release/dev
-      e2grnd/simflex-calculator@release/dev
       e2grnd/smooth-bar-fatigue-life-calculator@release/dev
       e2grnd/stored-energy-calculator@release/dev
       e2grnd/tank-thickness-calculator@release/dev

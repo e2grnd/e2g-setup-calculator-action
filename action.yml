@@ -12,6 +12,8 @@ outputs:
     description: The unique tag name for the generated container
   deploymentRepo:
     description: The kustomize repository that the deployment should be comitted to
+  rawBranchName:
+    description: The raw branch name
 runs:
   using: "node20"
   main: "dist/index.js"
