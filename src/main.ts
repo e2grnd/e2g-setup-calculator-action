@@ -7,6 +7,8 @@ async function run(): Promise<void> {
   try {
     const context = github.context
     core.setOutput('repo', context.repo.repo)
+    const rawBranchName = context.ref.replace('refs/heads/', '')
+    core.setOutput('rawBranchName', rawBranchName)
     const releaseEnv = context.ref.startsWith('refs/heads/release/')
       ? context.ref.toLowerCase().replace('refs/heads/release/', '')
       : undefined
