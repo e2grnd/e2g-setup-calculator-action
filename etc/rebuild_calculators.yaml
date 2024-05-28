@@ -91,6 +91,7 @@ jobs:
           'tank-thickness-calculator',
           'tank-settlement-calculator',
           'tank-settlement-fea-calculator',
+          'tank-sight-calculator',
           'tbreak-calculator',
           'thermowells-calculator',
           'toughness-calculator',

@@ -754,4 +754,9 @@ export const calculators: Record<string, CalcConfig> = {
     serviceName: 'in-sight',
     deploymentRepo: 'eec-kustomize',
   },
+  'tank-sight-calculator': {
+    imageName: 'tank-sight',
+    serviceName: 'tank-sight',
+    deploymentRepo: 'eec-kustomize',
+  },
 }

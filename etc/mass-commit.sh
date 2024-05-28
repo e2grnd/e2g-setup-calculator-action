@@ -335,6 +335,10 @@ echo "
 RD-1630"; git push; cd ~/Projects/all-calculators
 echo "
 
+----- START tank-sight-calculator -----"; cd ~/Projects/all-calculators/tank-sight-calculator; git add .; git commit -m"remove old devcontainer files
+RD-1630"; git push; cd ~/Projects/all-calculators
+echo "
+
 ----- START tbreak-calculator -----"; cd ~/Projects/all-calculators/tbreak-calculator; git add .; git commit -m"remove old devcontainer files
 RD-1630"; git push; cd ~/Projects/all-calculators
 echo "

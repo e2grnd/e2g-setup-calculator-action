@@ -691,4 +691,8 @@ exports.calculators = __assign(__assign({}, calcsByRepo), { 'tbreak-calculator':
         imageName: 'in-sight',
         serviceName: 'in-sight',
         deploymentRepo: 'eec-kustomize'
+    }, 'tank-sight-calculator': {
+        imageName: 'tank-sight',
+        serviceName: 'tank-sight',
+        deploymentRepo: 'eec-kustomize'
     } });

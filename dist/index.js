@@ -687,6 +687,10 @@ exports.calculators = Object.assign(Object.assign({}, calcsByRepo), { 'tbreak-ca
         imageName: 'in-sight',
         serviceName: 'in-sight',
         deploymentRepo: 'eec-kustomize',
+    }, 'tank-sight-calculator': {
+        imageName: 'tank-sight',
+        serviceName: 'tank-sight',
+        deploymentRepo: 'eec-kustomize',
     } });
 
 
