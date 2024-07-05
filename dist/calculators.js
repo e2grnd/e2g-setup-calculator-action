@@ -453,6 +453,13 @@ var libpyConfig = [
         noSync: true
     },
     {
+        name: 'simflex-legacy',
+        repo: 'simflex-legacy-calculator.git',
+        module: 'SimflexCalc.Calculator',
+        "function": 'submit_calculation_to_simflex',
+        noSync: true
+    },
+    {
         name: 'omega',
         repo: 'omega-calculator.git',
         module: 'omegaFitCalculator.omega_plots',

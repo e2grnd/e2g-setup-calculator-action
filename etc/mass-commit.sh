@@ -315,6 +315,10 @@ echo "
 RD-1630"; git push; cd ~/Projects/all-calculators
 echo "
 
+----- START simflex-legacy-calculator -----"; cd ~/Projects/all-calculators/simflex-legacy-calculator; git add .; git commit -m"remove old devcontainer files
+RD-1630"; git push; cd ~/Projects/all-calculators
+echo "
+
 ----- START smooth-bar-fatigue-life-calculator -----"; cd ~/Projects/all-calculators/smooth-bar-fatigue-life-calculator; git add .; git commit -m"remove old devcontainer files
 RD-1630"; git push; cd ~/Projects/all-calculators
 echo "

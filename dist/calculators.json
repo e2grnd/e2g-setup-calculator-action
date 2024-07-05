@@ -238,6 +238,12 @@
     "noSync": true,
     "deploymentRepo": "eec-kustomize"
   },
+  "simflex-legacy-calculator": {
+    "imageName": "simflex-legacy",
+    "serviceName": "simflex-legacy",
+    "noSync": true,
+    "deploymentRepo": "eec-kustomize"
+  },
   "omega-calculator": {
     "imageName": "omega",
     "serviceName": "omega",

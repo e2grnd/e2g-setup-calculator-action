@@ -237,6 +237,9 @@ echo "
 ----- START simflex-calculator -----"; git -C simflex-calculator checkout release/dev || git clone 'git@github.com:e2grnd/simflex-calculator.git' && git -C simflex-calculator pull
 echo "
 
+----- START simflex-legacy-calculator -----"; git -C simflex-legacy-calculator checkout release/dev || git clone 'git@github.com:e2grnd/simflex-legacy-calculator.git' && git -C simflex-legacy-calculator pull
+echo "
+
 ----- START smooth-bar-fatigue-life-calculator -----"; git -C smooth-bar-fatigue-life-calculator checkout release/dev || git clone 'git@github.com:e2grnd/smooth-bar-fatigue-life-calculator.git' && git -C smooth-bar-fatigue-life-calculator pull
 echo "
 

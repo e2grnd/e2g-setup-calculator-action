@@ -213,6 +213,9 @@ echo "
 ----- START simflex-calculator -----"; git -C simflex-calculator checkout release/prod && git -C simflex-calculator pull && git -C simflex-calculator merge -m'prod release' release/stage && git -C simflex-calculator push
 echo "
 
+----- START simflex-legacy-calculator -----"; git -C simflex-legacy-calculator checkout release/prod && git -C simflex-legacy-calculator pull && git -C simflex-legacy-calculator merge -m'prod release' release/stage && git -C simflex-legacy-calculator push
+echo "
+
 ----- START smooth-bar-fatigue-life-calculator -----"; git -C smooth-bar-fatigue-life-calculator checkout release/prod && git -C smooth-bar-fatigue-life-calculator pull && git -C smooth-bar-fatigue-life-calculator merge -m'prod release' release/stage && git -C smooth-bar-fatigue-life-calculator push
 echo "
 

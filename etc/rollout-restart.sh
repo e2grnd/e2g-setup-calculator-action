@@ -77,6 +77,7 @@ kubectl rollout restart -n dev deployment/sandman
 kubectl rollout restart -n dev deployment/shell
 kubectl rollout restart -n dev deployment/shutdown
 kubectl rollout restart -n dev deployment/simflex
+kubectl rollout restart -n dev deployment/simflex-legacy
 kubectl rollout restart -n dev deployment/smooth-bar-fatigue
 kubectl rollout restart -n dev deployment/stored-energy
 kubectl rollout restart -n dev deployment/tank
