@@ -698,6 +698,10 @@ exports.calculators = Object.assign(Object.assign({}, calcsByRepo), { 'tbreak-ca
         imageName: 'tank-sight',
         serviceName: 'tank-sight',
         deploymentRepo: 'eec-kustomize',
+    }, 'simflex-converters-calculator': {
+        imageName: 'simflex-converters',
+        serviceName: 'simflex-converters',
+        deploymentRepo: 'eec-kustomize',
     } });
 
 

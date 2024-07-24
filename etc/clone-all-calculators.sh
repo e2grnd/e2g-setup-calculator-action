@@ -237,6 +237,9 @@ echo "
 ----- START simflex-calculator -----"; git -C simflex-calculator checkout release/dev || git clone 'git@github.com:e2grnd/simflex-calculator.git' && git -C simflex-calculator pull
 echo "
 
+----- START simflex-converters-calculator -----"; git -C simflex-converters-calculator checkout release/dev || git clone 'git@github.com:e2grnd/simflex-converters-calculator.git' && git -C simflex-converters-calculator pull
+echo "
+
 ----- START simflex-legacy-calculator -----"; git -C simflex-legacy-calculator checkout release/dev || git clone 'git@github.com:e2grnd/simflex-legacy-calculator.git' && git -C simflex-legacy-calculator pull
 echo "
 

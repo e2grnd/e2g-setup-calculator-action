@@ -766,4 +766,9 @@ export const calculators: Record<string, CalcConfig> = {
     serviceName: 'tank-sight',
     deploymentRepo: 'eec-kustomize',
   },
+  'simflex-converters-calculator': {
+    imageName: 'simflex-converters',
+    serviceName: 'simflex-converters',
+    deploymentRepo: 'eec-kustomize',
+  },
 }

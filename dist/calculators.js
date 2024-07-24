@@ -702,4 +702,8 @@ exports.calculators = __assign(__assign({}, calcsByRepo), { 'tbreak-calculator':
         imageName: 'tank-sight',
         serviceName: 'tank-sight',
         deploymentRepo: 'eec-kustomize'
+    }, 'simflex-converters-calculator': {
+        imageName: 'simflex-converters',
+        serviceName: 'simflex-converters',
+        deploymentRepo: 'eec-kustomize'
     } });

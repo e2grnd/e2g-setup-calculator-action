@@ -213,6 +213,9 @@ echo "
 ----- START simflex-calculator -----"; git -C simflex-calculator checkout release/prod && git -C simflex-calculator pull && git -C simflex-calculator merge -m'prod release' release/stage && git -C simflex-calculator push
 echo "
 
+----- START simflex-converters-calculator -----"; git -C simflex-converters-calculator checkout release/prod && git -C simflex-converters-calculator pull && git -C simflex-converters-calculator merge -m'prod release' release/stage && git -C simflex-converters-calculator push
+echo "
+
 ----- START simflex-legacy-calculator -----"; git -C simflex-legacy-calculator checkout release/prod && git -C simflex-legacy-calculator pull && git -C simflex-legacy-calculator merge -m'prod release' release/stage && git -C simflex-legacy-calculator push
 echo "
 

@@ -315,6 +315,10 @@ echo "
 RD-1630"; git push; cd ~/Projects/all-calculators
 echo "
 
+----- START simflex-converters-calculator -----"; cd ~/Projects/all-calculators/simflex-converters-calculator; git add .; git commit -m"remove old devcontainer files
+RD-1630"; git push; cd ~/Projects/all-calculators
+echo "
+
 ----- START simflex-legacy-calculator -----"; cd ~/Projects/all-calculators/simflex-legacy-calculator; git add .; git commit -m"remove old devcontainer files
 RD-1630"; git push; cd ~/Projects/all-calculators
 echo "

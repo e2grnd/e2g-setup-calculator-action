@@ -86,6 +86,7 @@ jobs:
           'shell-pt-calculator',
           'shutdown-calculator',
           'simflex-calculator',
+          'simflex-converters-calculator',
           'simflex-legacy-calculator',
           'smooth-bar-fatigue-life-calculator',
           'stored-energy-calculator',
