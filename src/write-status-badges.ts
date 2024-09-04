@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import fsAll from 'fs'
 /* eslint-disable github/array-foreach */
 import {CalcConfig, calculators} from './calculators'
@@ -29,6 +30,19 @@ function tableRow(repoName: string, calcConfig: CalcConfig): string {
 
 async function run(): Promise<void> {
   let md = `# Calculator Repo Publish Action Status
+### Unsynced Calculators
+The following calculators are configured to _NOT_ sync from the central configuration:
+`
+  md += Object.entries(calculators)
+    .filter(([_, calcConfig]) => {
+      return calcConfig.noSync
+    })
+    .map(([repo, calcConfig]) => {
+      return `- ${repo} (${calcConfig.serviceName})`
+    })
+    .join('\n')
+
+  md += `
 
 ## EEC
 
@@ -37,7 +51,6 @@ async function run(): Promise<void> {
   `
   Object.entries(calculators)
     .filter(
-      // eslint-disable-next-line @typescript-eslint/no-unused-vars
       ([repoName, calcConfig]) => calcConfig.deploymentRepo === 'eec-kustomize',
     )
     .sort((a, b) => {
@@ -58,7 +71,6 @@ async function run(): Promise<void> {
   `
   Object.entries(calculators)
     .filter(
-      // eslint-disable-next-line @typescript-eslint/no-unused-vars
       ([repoName, calcConfig]) =>
         calcConfig.deploymentRepo === 'can2-kustomize',
     )
@@ -80,7 +92,6 @@ async function run(): Promise<void> {
   `
   Object.entries(calculators)
     .filter(
-      // eslint-disable-next-line @typescript-eslint/no-unused-vars
       ([repoName, calcConfig]) =>
         calcConfig.deploymentRepo === 'corrsolutions-kustomize',
     )

@@ -1,4 +1,10 @@
 # Calculator Repo Publish Action Status
+### Unsynced Calculators
+The following calculators are configured to _NOT_ sync from the central configuration:
+- lot-centered-analysis-calculator (creep)
+- simflex-calculator (simflex)
+- simflex-legacy-calculator (simflex-legacy)
+- inspection-report-calculator (inspection-report)
 
 ## EEC
 
