@@ -22,6 +22,8 @@ async function run(): Promise<void> {
         dest: .devcontainer/docker-compose.app.yaml
       - source: devcontainer/devcontainer.json
         dest: .devcontainer/devcontainer.json
+      - source: vscode/launch.json
+        dest: .vscode/launch.json
       - source: HELP.md
         dest: HELP.md
 `
@@ -34,6 +36,8 @@ async function run(): Promise<void> {
     files: 
       - source: workflows/publish-trame.yml
         dest: .github/workflows/publish-trame.yml
+      - source: vscode/launch.json
+        dest: .vscode/launch.json
   `
   const src = `group:
 ${standardReposChunk}
