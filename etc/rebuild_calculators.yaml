@@ -11,8 +11,6 @@ jobs:
           'api-1183-calculator',
           'asme-b31g-calculator',
           'bakeout-calculator',
-          'bayes-calculator',
-          'bayes-worker-calculator',
           'bengi-worker-calculator',
           'best-rate-calculator',
           'bijlaard-calculator',

@@ -12,12 +12,6 @@ echo "
 ----- START bakeout-calculator -----"; git -C bakeout-calculator checkout release/prod && git -C bakeout-calculator pull && git -C bakeout-calculator merge -m'prod release' release/stage && git -C bakeout-calculator push
 echo "
 
------ START bayes-calculator -----"; git -C bayes-calculator checkout release/prod && git -C bayes-calculator pull && git -C bayes-calculator merge -m'prod release' release/stage && git -C bayes-calculator push
-echo "
-
------ START bayes-worker-calculator -----"; git -C bayes-worker-calculator checkout release/prod && git -C bayes-worker-calculator pull && git -C bayes-worker-calculator merge -m'prod release' release/stage && git -C bayes-worker-calculator push
-echo "
-
 ----- START bengi-worker-calculator -----"; git -C bengi-worker-calculator checkout release/prod && git -C bengi-worker-calculator pull && git -C bengi-worker-calculator merge -m'prod release' release/stage && git -C bengi-worker-calculator push
 echo "
 

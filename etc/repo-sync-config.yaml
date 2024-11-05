@@ -4,8 +4,6 @@ group:
       e2grnd/api-1183-calculator@release/dev
       e2grnd/asme-b31g-calculator@release/dev
       e2grnd/bakeout-calculator@release/dev
-      e2grnd/bayes-calculator@release/dev
-      e2grnd/bayes-worker-calculator@release/dev
       e2grnd/bengi-worker-calculator@release/dev
       e2grnd/best-rate-calculator@release/dev
       e2grnd/bijlaard-calculator@release/dev

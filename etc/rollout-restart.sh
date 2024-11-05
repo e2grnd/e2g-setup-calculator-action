@@ -2,8 +2,6 @@
 kubectl rollout restart -n dev deployment/api1183
 kubectl rollout restart -n dev deployment/asme-b31g
 kubectl rollout restart -n dev deployment/bakeout
-kubectl rollout restart -n dev deployment/bayes
-kubectl rollout restart -n dev deployment/bayes-worker
 kubectl rollout restart -n dev deployment/bengi-worker
 kubectl rollout restart -n dev deployment/best-rate
 kubectl rollout restart -n dev deployment/bijlaard

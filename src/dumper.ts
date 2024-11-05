@@ -2,8 +2,9 @@
 import {calculators} from './calculators'
 
 console.log(
-  Object.keys(calculators)
-    .sort((a, b) => a.localeCompare(b))
-    .map(repoName => `e2grnd/${repoName}@release/dev`)
+  Object.entries(calculators)
+    .sort(([a], [b]) => a.localeCompare(b))
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    .map(([_, entry]) => `${entry.imageName} \\`)
     .join('\n'),
 )

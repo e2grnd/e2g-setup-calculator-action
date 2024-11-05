@@ -21,11 +21,6 @@
     "deploymentRepo": "eec-kustomize",
     "enableBayesContainers": true
   },
-  "bayes-calculator": {
-    "imageName": "bayes",
-    "serviceName": "bayes",
-    "deploymentRepo": "eec-kustomize"
-  },
   "fast2-calculator": {
     "imageName": "fast2",
     "serviceName": "fast2",
@@ -363,11 +358,6 @@
   "plausible-profiles-calculator": {
     "imageName": "plausible-profiles",
     "serviceName": "plausible-profiles",
-    "deploymentRepo": "eec-kustomize"
-  },
-  "bayes-worker-calculator": {
-    "imageName": "bayes-worker",
-    "serviceName": "bayes-worker",
     "deploymentRepo": "eec-kustomize"
   },
   "bengi-worker-calculator": {

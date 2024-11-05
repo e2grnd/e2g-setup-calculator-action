@@ -12,12 +12,6 @@ echo "
 ----- START bakeout-calculator -----"; git -C bakeout-calculator checkout release/dev || git clone 'git@github.com:e2grnd/bakeout-calculator.git' && git -C bakeout-calculator pull
 echo "
 
------ START bayes-calculator -----"; git -C bayes-calculator checkout release/dev || git clone 'git@github.com:e2grnd/bayes-calculator.git' && git -C bayes-calculator pull
-echo "
-
------ START bayes-worker-calculator -----"; git -C bayes-worker-calculator checkout release/dev || git clone 'git@github.com:e2grnd/bayes-worker-calculator.git' && git -C bayes-worker-calculator pull
-echo "
-
 ----- START bengi-worker-calculator -----"; git -C bengi-worker-calculator checkout release/dev || git clone 'git@github.com:e2grnd/bengi-worker-calculator.git' && git -C bengi-worker-calculator pull
 echo "
 

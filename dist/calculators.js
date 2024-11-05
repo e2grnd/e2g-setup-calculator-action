@@ -45,12 +45,12 @@ var libpyConfig = [
         "function": 'calculateBestRate',
         enableBayesContainers: true
     },
-    {
-        name: 'bayes',
-        repo: 'bayes-calculator.git',
-        module: 'bayesUtilities.Calculator',
-        "function": 'calculate_bayesBuilder'
-    },
+    // {
+    //   name: 'bayes',
+    //   repo: 'bayes-calculator.git',
+    //   module: 'bayesUtilities.Calculator',
+    //   function: 'calculate_bayesBuilder',
+    // },
     {
         name: 'fast2',
         repo: 'fast2-calculator.git',
@@ -615,11 +615,13 @@ exports.calculators = __assign(__assign({}, calcsByRepo), { 'tbreak-calculator':
         imageName: 'plausible-profiles',
         serviceName: 'plausible-profiles',
         deploymentRepo: 'eec-kustomize'
-    }, 'bayes-worker-calculator': {
-        imageName: 'bayes-worker',
-        serviceName: 'bayes-worker',
-        deploymentRepo: 'eec-kustomize'
-    }, 'bengi-worker-calculator': {
+    }, 
+    // 'bayes-worker-calculator': {
+    //   imageName: 'bayes-worker',
+    //   serviceName: 'bayes-worker',
+    //   deploymentRepo: 'eec-kustomize',
+    // },
+    'bengi-worker-calculator': {
         imageName: 'bengi-worker',
         serviceName: 'bengi-worker',
         deploymentRepo: 'eec-kustomize'
