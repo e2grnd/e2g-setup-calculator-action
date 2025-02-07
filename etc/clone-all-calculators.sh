@@ -180,10 +180,16 @@ echo "
 ----- START mixer-calculator -----"; git -C mixer-calculator checkout release/dev || git clone 'git@github.com:e2grnd/mixer-calculator.git' && git -C mixer-calculator pull
 echo "
 
+----- START ncpv-nozzle-fea-calculator -----"; git -C ncpv-nozzle-fea-calculator checkout release/dev || git clone 'git@github.com:e2grnd/ncpv-nozzle-fea-calculator.git' && git -C ncpv-nozzle-fea-calculator pull
+echo "
+
 ----- START netica-worker-calculator -----"; git -C netica-worker-calculator checkout release/dev || git clone 'git@github.com:e2grnd/netica-worker-calculator.git' && git -C netica-worker-calculator pull
 echo "
 
 ----- START nozzle-calculator -----"; git -C nozzle-calculator checkout release/dev || git clone 'git@github.com:e2grnd/nozzle-calculator.git' && git -C nozzle-calculator pull
+echo "
+
+----- START nozzle-fea-calculator -----"; git -C nozzle-fea-calculator checkout release/dev || git clone 'git@github.com:e2grnd/nozzle-fea-calculator.git' && git -C nozzle-fea-calculator pull
 echo "
 
 ----- START omega-calculator -----"; git -C omega-calculator checkout release/dev || git clone 'git@github.com:e2grnd/omega-calculator.git' && git -C omega-calculator pull

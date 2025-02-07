@@ -774,4 +774,14 @@ export const calculators: Record<string, CalcConfig> = {
     serviceName: 'simflex-converters',
     deploymentRepo: 'eec-kustomize',
   },
+  'nozzle-fea-calculator': {
+    imageName: 'nozzle-fea',
+    serviceName: 'nozzle-fea',
+    deploymentRepo: 'eec-kustomize',
+  },
+  'ncpv-nozzle-fea-calculator': {
+    imageName: 'ncpv-nozzle-fea',
+    serviceName: 'ncpv-nozzle-fea',
+    deploymentRepo: 'eec-kustomize',
+  },
 }

@@ -58,8 +58,10 @@ kubectl rollout restart -n dev deployment/insulation
 kubectl rollout restart -n dev deployment/large-lta
 kubectl rollout restart -n dev deployment/material-explorer
 kubectl rollout restart -n dev deployment/mixer
+kubectl rollout restart -n dev deployment/ncpv-nozzle-fea
 kubectl rollout restart -n dev deployment/netica-worker
 kubectl rollout restart -n dev deployment/nozzle
+kubectl rollout restart -n dev deployment/nozzle-fea
 kubectl rollout restart -n dev deployment/omega
 kubectl rollout restart -n dev deployment/pipe
 kubectl rollout restart -n dev deployment/pipe-span

@@ -159,10 +159,16 @@ echo "
 ----- START mixer-calculator -----"; git -C mixer-calculator checkout release/stage && git -C mixer-calculator pull && git -C mixer-calculator merge -m'stage release' release/dev && git -C mixer-calculator push
 echo "
 
+----- START ncpv-nozzle-fea-calculator -----"; git -C ncpv-nozzle-fea-calculator checkout release/stage && git -C ncpv-nozzle-fea-calculator pull && git -C ncpv-nozzle-fea-calculator merge -m'stage release' release/dev && git -C ncpv-nozzle-fea-calculator push
+echo "
+
 ----- START netica-worker-calculator -----"; git -C netica-worker-calculator checkout release/stage && git -C netica-worker-calculator pull && git -C netica-worker-calculator merge -m'stage release' release/dev && git -C netica-worker-calculator push
 echo "
 
 ----- START nozzle-calculator -----"; git -C nozzle-calculator checkout release/stage && git -C nozzle-calculator pull && git -C nozzle-calculator merge -m'stage release' release/dev && git -C nozzle-calculator push
+echo "
+
+----- START nozzle-fea-calculator -----"; git -C nozzle-fea-calculator checkout release/stage && git -C nozzle-fea-calculator pull && git -C nozzle-fea-calculator merge -m'stage release' release/dev && git -C nozzle-fea-calculator push
 echo "
 
 ----- START omega-calculator -----"; git -C omega-calculator checkout release/stage && git -C omega-calculator pull && git -C omega-calculator merge -m'stage release' release/dev && git -C omega-calculator push

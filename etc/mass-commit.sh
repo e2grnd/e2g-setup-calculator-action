@@ -180,10 +180,16 @@ echo "
 ----- START mixer-calculator -----"; cd ~/Projects/all-calculators/mixer-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
 echo "
 
+----- START ncpv-nozzle-fea-calculator -----"; cd ~/Projects/all-calculators/ncpv-nozzle-fea-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
+echo "
+
 ----- START netica-worker-calculator -----"; cd ~/Projects/all-calculators/netica-worker-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
 echo "
 
 ----- START nozzle-calculator -----"; cd ~/Projects/all-calculators/nozzle-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
+echo "
+
+----- START nozzle-fea-calculator -----"; cd ~/Projects/all-calculators/nozzle-fea-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
 echo "
 
 ----- START omega-calculator -----"; cd ~/Projects/all-calculators/omega-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators

@@ -58,8 +58,10 @@ group:
       e2grnd/large-lta-calculator@release/dev
       e2grnd/material-explorer-calculator@release/dev
       e2grnd/mixer-calculator@release/dev
+      e2grnd/ncpv-nozzle-fea-calculator@release/dev
       e2grnd/netica-worker-calculator@release/dev
       e2grnd/nozzle-calculator@release/dev
+      e2grnd/nozzle-fea-calculator@release/dev
       e2grnd/omega-calculator@release/dev
       e2grnd/pipe-pt-calculator@release/dev
       e2grnd/pipe-span-calculator@release/dev
