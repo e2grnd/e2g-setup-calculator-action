@@ -28,6 +28,10 @@ export type CalcConfig = {
    * If true, syncs the trame github action for building the visualization image.
    */
   trame?: boolean
+  /**
+   * If true, syncs the
+   */
+  remoteFEA?: boolean
 }
 
 /**
@@ -696,6 +700,7 @@ export const calculators: Record<string, CalcConfig> = {
     imageName: 'ffs-lta',
     serviceName: 'ffs-lta',
     deploymentRepo: 'eec-kustomize',
+    remoteFEA: true,
   },
   'feature-identification-calculator': {
     imageName: 'feature-identification',
@@ -722,11 +727,13 @@ export const calculators: Record<string, CalcConfig> = {
     imageName: 'dent-fea',
     serviceName: 'dent-fea',
     deploymentRepo: 'eec-kustomize',
+    remoteFEA: true,
   },
   'tank-settlement-fea-calculator': {
     imageName: 'tank-settlement-fea',
     serviceName: 'tank-settlement-fea',
     deploymentRepo: 'eec-kustomize',
+    remoteFEA: true,
   },
   'large-lta-calculator': {
     imageName: 'large-lta',
@@ -778,10 +785,12 @@ export const calculators: Record<string, CalcConfig> = {
     imageName: 'nozzle-fea',
     serviceName: 'nozzle-fea',
     deploymentRepo: 'eec-kustomize',
+    remoteFEA: true,
   },
   'ncpv-nozzle-fea-calculator': {
     imageName: 'ncpv-nozzle-fea',
     serviceName: 'ncpv-nozzle-fea',
     deploymentRepo: 'eec-kustomize',
+    remoteFEA: true,
   },
 }

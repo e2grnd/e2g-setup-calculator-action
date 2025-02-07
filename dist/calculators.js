@@ -645,7 +645,8 @@ exports.calculators = __assign(__assign({}, calcsByRepo), { 'tbreak-calculator':
     }, 'ffs-lta-calculator': {
         imageName: 'ffs-lta',
         serviceName: 'ffs-lta',
-        deploymentRepo: 'eec-kustomize'
+        deploymentRepo: 'eec-kustomize',
+        remoteFEA: true
     }, 'feature-identification-calculator': {
         imageName: 'feature-identification',
         serviceName: 'feature-identification',
@@ -666,11 +667,13 @@ exports.calculators = __assign(__assign({}, calcsByRepo), { 'tbreak-calculator':
     }, 'dent-fea-calculator': {
         imageName: 'dent-fea',
         serviceName: 'dent-fea',
-        deploymentRepo: 'eec-kustomize'
+        deploymentRepo: 'eec-kustomize',
+        remoteFEA: true
     }, 'tank-settlement-fea-calculator': {
         imageName: 'tank-settlement-fea',
         serviceName: 'tank-settlement-fea',
-        deploymentRepo: 'eec-kustomize'
+        deploymentRepo: 'eec-kustomize',
+        remoteFEA: true
     }, 'large-lta-calculator': {
         imageName: 'large-lta',
         serviceName: 'large-lta',
@@ -711,9 +714,11 @@ exports.calculators = __assign(__assign({}, calcsByRepo), { 'tbreak-calculator':
     }, 'nozzle-fea-calculator': {
         imageName: 'nozzle-fea',
         serviceName: 'nozzle-fea',
-        deploymentRepo: 'eec-kustomize'
+        deploymentRepo: 'eec-kustomize',
+        remoteFEA: true
     }, 'ncpv-nozzle-fea-calculator': {
         imageName: 'ncpv-nozzle-fea',
         serviceName: 'ncpv-nozzle-fea',
-        deploymentRepo: 'eec-kustomize'
+        deploymentRepo: 'eec-kustomize',
+        remoteFEA: true
     } });

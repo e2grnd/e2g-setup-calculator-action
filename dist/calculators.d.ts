@@ -26,5 +26,9 @@ export declare type CalcConfig = {
      * If true, syncs the trame github action for building the visualization image.
      */
     trame?: boolean;
+    /**
+     * If true, syncs the
+     */
+    remoteFEA?: boolean;
 };
 export declare const calculators: Record<string, CalcConfig>;
