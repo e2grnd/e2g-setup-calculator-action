@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-import {calculators} from './calculators'
+import { calculators } from './calculators'
 
 console.log(
   Object.entries(calculators)

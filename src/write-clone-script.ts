@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import fsAll from 'fs'
+import fsAll from 'node:fs'
 /* eslint-disable github/array-foreach */
-import {calculators} from './calculators'
+import { calculators } from './calculators'
 
 const fs = fsAll.promises
 
@@ -17,7 +17,7 @@ cd ~/Projects/all-calculators
     .forEach(([repoName, calcConfig]) => {
       scr += `echo "\n\n----- START ${repoName} -----"; git -C ${repoName} checkout release/dev || git clone 'git@github.com:e2grnd/${repoName}.git' && git -C ${repoName} pull\n`
     })
-  await fs.mkdir('etc', {recursive: true})
+  await fs.mkdir('etc', { recursive: true })
   await fs.writeFile('etc/clone-all-calculators.sh', scr)
 }
 
@@ -38,7 +38,7 @@ $(calculators):
 	@echo "----- START $@ -----"
 	@git -C $(REPO_DIR)/$@ checkout release/dev || git clone 'git@github.com:e2grnd/$@.git' $(REPO_DIR)/$@ && git -C $(REPO_DIR)/$@ pull
 `
-  await fs.mkdir('etc', {recursive: true})
+  await fs.mkdir('etc', { recursive: true })
   await fs.writeFile('etc/clone-all-calculators.Makefile', scr)
 }
 

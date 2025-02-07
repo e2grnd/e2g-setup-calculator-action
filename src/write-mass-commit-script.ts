@@ -1,7 +1,5 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
-import fsAll from 'fs'
-/* eslint-disable github/array-foreach */
-import {calculators} from './calculators'
+import fsAll from 'node:fs'
+import { calculators } from './calculators'
 
 const fs = fsAll.promises
 
@@ -17,7 +15,7 @@ cd ~/Projects/all-calculators
     .forEach(([repoName, calcConfig]) => {
       scr += `echo "\n\n----- START ${repoName} -----"; cd ~/Projects/all-calculators/${repoName}; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators\n`
     })
-  await fs.mkdir('etc', {recursive: true})
+  await fs.mkdir('etc', { recursive: true })
   await fs.writeFile('etc/mass-commit.sh', scr)
 }
 

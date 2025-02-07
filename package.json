@@ -18,9 +18,9 @@
     "write:merge-prod": "node lib/write-merge-to-prod.js",
     "write:mass-commit": "node lib/write-mass-commit-script.js",
     "write:calculators-json": "node lib/write-calculators-json.js",
-    "format": "prettier --write '**/*.ts'",
-    "format-check": "prettier --check '**/*.ts'",
-    "lint": "eslint src/**/*.ts",
+    "format": "biome format --write .",
+    "format-check": "biome check .",
+    "lint": "biome lint .",
     "package": "ncc build --source-map --license licenses.txt",
     "all": "yarn lint && yarn clean && yarn build && yarn build:types && yarn run-s \"write:*\" && yarn format && yarn package"
   },
@@ -36,18 +36,12 @@
     "lodash.kebabcase": "^4.1.1"
   },
   "devDependencies": {
+    "@biomejs/biome": "1.9.4",
     "@types/lodash.kebabcase": "^4.1.7",
     "@types/node": "^16.11.65",
-    "@typescript-eslint/eslint-plugin": "^5.40.0",
-    "@typescript-eslint/parser": "^5.40.0",
     "@vercel/ncc": "^0.34.0",
-    "eslint": "^7.32.0",
-    "eslint-plugin-github": "^4.4.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-prettier": "^4.2.1",
     "js-yaml": "^4.1.0",
     "npm-run-all": "^4.1.5",
-    "prettier": "2.7.1",
     "typescript": "^4.8.4"
   },
   "packageManager": "yarn@3.2.3"

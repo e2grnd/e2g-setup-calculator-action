@@ -1,5 +1,5 @@
-import fsAll from 'fs'
-import {calculators} from './calculators'
+import fsAll from 'node:fs'
+import { calculators } from './calculators'
 
 const fs = fsAll.promises
 
@@ -9,9 +9,7 @@ async function run(): Promise<void> {
       return a[1].serviceName.localeCompare(b[1].serviceName)
     })
     .filter(([_repoName, cfg]) => !cfg.noSync) // eslint-disable-line @typescript-eslint/no-unused-vars
-  const standardCalcRepos = sortedCalcs.map(
-    ([repoName]) => `e2grnd/${repoName}@release/dev`,
-  )
+  const standardCalcRepos = sortedCalcs.map(([repoName]) => `e2grnd/${repoName}@release/dev`)
   const standardReposChunk = `  - repos: |
       e2grnd/calculator-template@release/dev
       ${standardCalcRepos.join('\n      ')}
@@ -42,7 +40,7 @@ async function run(): Promise<void> {
   const src = `group:
 ${standardReposChunk}
 ${trameReposChunk}`
-  await fs.mkdir('etc', {recursive: true})
+  await fs.mkdir('etc', { recursive: true })
   await fs.writeFile('etc/repo-sync-config.yaml', src)
 }
 

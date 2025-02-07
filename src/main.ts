@@ -1,7 +1,7 @@
 import * as core from '@actions/core'
 import * as github from '@actions/github'
 
-import {calculators} from './calculators'
+import { calculators } from './calculators'
 
 async function run(): Promise<void> {
   try {
@@ -10,9 +10,7 @@ async function run(): Promise<void> {
     const rawBranchName = context.ref.replace('refs/heads/', '')
     core.setOutput('rawBranchName', rawBranchName)
     core.info(`rawBranchName: "${rawBranchName}"`)
-    const releaseEnv = context.ref.startsWith('refs/heads/release/')
-      ? context.ref.toLowerCase().replace('refs/heads/release/', '')
-      : undefined
+    const releaseEnv = context.ref.startsWith('refs/heads/release/') ? context.ref.toLowerCase().replace('refs/heads/release/', '') : undefined
     core.setOutput('releaseEnv', releaseEnv)
     core.info(`releaseEnv: "${releaseEnv}"`)
     const descriptor = calculators[context.repo.repo]
@@ -27,9 +25,7 @@ async function run(): Promise<void> {
     core.setOutput('imageTag', imageTag)
     core.info(`imageTag: "${imageTag}"`)
     core.notice(`Created tag: ${imageTag}`)
-    core.notice(
-      `View image: https://console.cloud.google.com/gcr/images/sandbox-225221/global/${descriptor.imageName}?authuser=1&project=sandbox-225221`,
-    )
+    core.notice(`View image: https://console.cloud.google.com/gcr/images/sandbox-225221/global/${descriptor.imageName}?authuser=1&project=sandbox-225221`)
     core.info(`deploymentRepo: ${descriptor.deploymentRepo}`)
     core.setOutput('deploymentRepo', descriptor.deploymentRepo)
   } catch (error) {

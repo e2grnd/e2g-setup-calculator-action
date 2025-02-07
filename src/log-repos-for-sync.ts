@@ -1,4 +1,4 @@
-import {calculators} from './calculators'
+import { calculators } from './calculators'
 
 async function run(): Promise<void> {
   const arr = Object.entries(calculators)

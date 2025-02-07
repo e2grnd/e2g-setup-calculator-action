@@ -1,7 +1,5 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
-import fsAll from 'fs'
-/* eslint-disable github/array-foreach */
-import {CalcConfig, calculators} from './calculators'
+import fsAll from 'node:fs'
+import { CalcConfig, calculators } from './calculators'
 
 const fs = fsAll.promises
 
@@ -50,9 +48,7 @@ The following calculators are configured to _NOT_ sync from the central configur
 | ------- | ---- | --- | ----- | ---- |
   `
   Object.entries(calculators)
-    .filter(
-      ([repoName, calcConfig]) => calcConfig.deploymentRepo === 'eec-kustomize',
-    )
+    .filter(([repoName, calcConfig]) => calcConfig.deploymentRepo === 'eec-kustomize')
     .sort((a, b) => {
       return a[1].serviceName.localeCompare(b[1].serviceName)
     })
@@ -70,10 +66,7 @@ The following calculators are configured to _NOT_ sync from the central configur
 | ------- | ---- | --- | ----- | ---- |
   `
   Object.entries(calculators)
-    .filter(
-      ([repoName, calcConfig]) =>
-        calcConfig.deploymentRepo === 'can2-kustomize',
-    )
+    .filter(([repoName, calcConfig]) => calcConfig.deploymentRepo === 'can2-kustomize')
     .sort((a, b) => {
       return a[1].serviceName.localeCompare(b[1].serviceName)
     })
@@ -91,10 +84,7 @@ The following calculators are configured to _NOT_ sync from the central configur
 | ------- | ---- | --- | ----- | ---- |
   `
   Object.entries(calculators)
-    .filter(
-      ([repoName, calcConfig]) =>
-        calcConfig.deploymentRepo === 'corrsolutions-kustomize',
-    )
+    .filter(([repoName, calcConfig]) => calcConfig.deploymentRepo === 'corrsolutions-kustomize')
     .sort((a, b) => {
       return a[1].serviceName.localeCompare(b[1].serviceName)
     })

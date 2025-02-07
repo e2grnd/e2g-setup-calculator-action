@@ -1,6 +1,5 @@
-import fsAll from 'fs'
-/* eslint-disable github/array-foreach */
-import {CalcConfig, calculators} from './calculators'
+import fsAll from 'node:fs'
+import { CalcConfig, calculators } from './calculators'
 
 const fs = fsAll.promises
 

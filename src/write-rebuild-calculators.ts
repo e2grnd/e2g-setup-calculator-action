@@ -1,5 +1,5 @@
-import fsAll from 'fs'
-import {calculators} from './calculators'
+import fsAll from 'node:fs'
+import { calculators } from './calculators'
 
 const fs = fsAll.promises
 
@@ -32,7 +32,7 @@ jobs:
             -d '{"event_type":"rebuild-calculator"}'
 
 `
-  await fs.mkdir('etc', {recursive: true})
+  await fs.mkdir('etc', { recursive: true })
   await fs.writeFile('etc/rebuild_calculators.yaml', src)
 }
 

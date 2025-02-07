@@ -758,9 +758,7 @@ function run() {
             const rawBranchName = context.ref.replace('refs/heads/', '');
             core.setOutput('rawBranchName', rawBranchName);
             core.info(`rawBranchName: "${rawBranchName}"`);
-            const releaseEnv = context.ref.startsWith('refs/heads/release/')
-                ? context.ref.toLowerCase().replace('refs/heads/release/', '')
-                : undefined;
+            const releaseEnv = context.ref.startsWith('refs/heads/release/') ? context.ref.toLowerCase().replace('refs/heads/release/', '') : undefined;
             core.setOutput('releaseEnv', releaseEnv);
             core.info(`releaseEnv: "${releaseEnv}"`);
             const descriptor = calculators_1.calculators[context.repo.repo];

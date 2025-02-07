@@ -568,18 +568,21 @@ const libpyConfig: LibPyConfig[] = [
   },
 ]
 
-const calcsByRepo = libpyConfig.reduce((acc, conf) => {
-  if (conf.deprecated) return acc
-  const repoName = conf.repo.replace(/\.git$/, '')
-  acc[repoName] = {
-    imageName: conf.imageName || kebab(conf.name),
-    serviceName: conf.serviceName || kebab(conf.name),
-    noSync: conf.noSync,
-    deploymentRepo: conf.deploymentRepo || 'eec-kustomize',
-    enableBayesContainers: conf.enableBayesContainers,
-  }
-  return acc
-}, {} as Record<string, CalcConfig>)
+const calcsByRepo = libpyConfig.reduce(
+  (acc, conf) => {
+    if (conf.deprecated) return acc
+    const repoName = conf.repo.replace(/\.git$/, '')
+    acc[repoName] = {
+      imageName: conf.imageName || kebab(conf.name),
+      serviceName: conf.serviceName || kebab(conf.name),
+      noSync: conf.noSync,
+      deploymentRepo: conf.deploymentRepo || 'eec-kustomize',
+      enableBayesContainers: conf.enableBayesContainers,
+    }
+    return acc
+  },
+  {} as Record<string, CalcConfig>,
+)
 
 export const calculators: Record<string, CalcConfig> = {
   ...calcsByRepo,
