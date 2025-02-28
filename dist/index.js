@@ -717,6 +717,10 @@ exports.calculators = Object.assign(Object.assign({}, calcsByRepo), { 'tbreak-ca
         serviceName: 'ncpv-nozzle-fea',
         deploymentRepo: 'eec-kustomize',
         remoteFEA: true,
+    }, 'deep-thought-calculator': {
+        imageName: 'deep-thought',
+        serviceName: 'deep-thought',
+        deploymentRepo: 'eec-kustomize',
     } });
 
 

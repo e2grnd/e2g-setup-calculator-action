@@ -26,6 +26,7 @@ kubectl rollout restart -n dev deployment/creep
 kubectl rollout restart -n dev deployment/creep-life
 kubectl rollout restart -n dev deployment/cui-sight
 kubectl rollout restart -n dev deployment/damage-sight
+kubectl rollout restart -n dev deployment/deep-thought
 kubectl rollout restart -n dev deployment/dent-fea
 kubectl rollout restart -n dev deployment/deposition-density
 kubectl rollout restart -n dev deployment/epri-amp

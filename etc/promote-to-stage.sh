@@ -69,6 +69,9 @@ echo "
 ----- START damage-sight-calculator -----"; git -C damage-sight-calculator checkout release/stage && git -C damage-sight-calculator pull && git -C damage-sight-calculator merge -m'stage release' release/dev && git -C damage-sight-calculator push
 echo "
 
+----- START deep-thought-calculator -----"; git -C deep-thought-calculator checkout release/stage && git -C deep-thought-calculator pull && git -C deep-thought-calculator merge -m'stage release' release/dev && git -C deep-thought-calculator push
+echo "
+
 ----- START dent-fea-calculator -----"; git -C dent-fea-calculator checkout release/stage && git -C dent-fea-calculator pull && git -C dent-fea-calculator merge -m'stage release' release/dev && git -C dent-fea-calculator push
 echo "
 

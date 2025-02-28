@@ -84,6 +84,9 @@ echo "
 ----- START damage-sight-calculator -----"; git -C damage-sight-calculator checkout release/dev || git clone 'git@github.com:e2grnd/damage-sight-calculator.git' && git -C damage-sight-calculator pull
 echo "
 
+----- START deep-thought-calculator -----"; git -C deep-thought-calculator checkout release/dev || git clone 'git@github.com:e2grnd/deep-thought-calculator.git' && git -C deep-thought-calculator pull
+echo "
+
 ----- START dent-fea-calculator -----"; git -C dent-fea-calculator checkout release/dev || git clone 'git@github.com:e2grnd/dent-fea-calculator.git' && git -C dent-fea-calculator pull
 echo "
 

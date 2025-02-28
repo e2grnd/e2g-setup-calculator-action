@@ -84,6 +84,9 @@ echo "
 ----- START damage-sight-calculator -----"; cd ~/Projects/all-calculators/damage-sight-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
 echo "
 
+----- START deep-thought-calculator -----"; cd ~/Projects/all-calculators/deep-thought-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
+echo "
+
 ----- START dent-fea-calculator -----"; cd ~/Projects/all-calculators/dent-fea-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
 echo "
 

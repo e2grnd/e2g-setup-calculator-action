@@ -35,6 +35,7 @@ jobs:
           'creep-life-calculator',
           'cui-calculator',
           'damage-sight-calculator',
+          'deep-thought-calculator',
           'dent-fea-calculator',
           'deposition-density-calculator',
           'epri-amp-calculator',

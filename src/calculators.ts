@@ -793,4 +793,9 @@ export const calculators: Record<string, CalcConfig> = {
     deploymentRepo: 'eec-kustomize',
     remoteFEA: true,
   },
+  'deep-thought-calculator': {
+    imageName: 'deep-thought',
+    serviceName: 'deep-thought',
+    deploymentRepo: 'eec-kustomize',
+  },
 }

@@ -721,4 +721,8 @@ exports.calculators = __assign(__assign({}, calcsByRepo), { 'tbreak-calculator':
         serviceName: 'ncpv-nozzle-fea',
         deploymentRepo: 'eec-kustomize',
         remoteFEA: true
+    }, 'deep-thought-calculator': {
+        imageName: 'deep-thought',
+        serviceName: 'deep-thought',
+        deploymentRepo: 'eec-kustomize'
     } });
