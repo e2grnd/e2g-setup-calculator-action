@@ -20,8 +20,6 @@ async function run(): Promise<void> {
         dest: .devcontainer/docker-compose.app.yaml
       - source: devcontainer/docker-compose.dispatch-override.yaml
         dest: .devcontainer/docker-compose.dispatch-override.yaml
-      - source: devcontainer/devcontainer.json
-        dest: .devcontainer/devcontainer.json
       - source: vscode/launch.json
         dest: .vscode/launch.json
       - source: HELP.md
