@@ -11,10 +11,6 @@ kubectl rollout restart -n dev deployment/branch
 kubectl rollout restart -n dev deployment/bundle-sight
 kubectl rollout restart -n dev deployment/burst-pressure
 kubectl rollout restart -n dev deployment/calculix-worker
-kubectl rollout restart -n dev deployment/can2-decisions
-kubectl rollout restart -n dev deployment/can2-growth-rate
-kubectl rollout restart -n dev deployment/can2-series
-kubectl rollout restart -n dev deployment/canister-temperature
 kubectl rollout restart -n dev deployment/charpy
 kubectl rollout restart -n dev deployment/circuit-corrosion
 kubectl rollout restart -n dev deployment/corr-solutions
@@ -28,8 +24,6 @@ kubectl rollout restart -n dev deployment/cui-sight
 kubectl rollout restart -n dev deployment/damage-sight
 kubectl rollout restart -n dev deployment/deep-thought
 kubectl rollout restart -n dev deployment/dent-fea
-kubectl rollout restart -n dev deployment/deposition-density
-kubectl rollout restart -n dev deployment/epri-amp
 kubectl rollout restart -n dev deployment/exemption
 kubectl rollout restart -n dev deployment/fast2
 kubectl rollout restart -n dev deployment/fatigue
@@ -66,7 +60,6 @@ kubectl rollout restart -n dev deployment/nozzle-fea
 kubectl rollout restart -n dev deployment/omega
 kubectl rollout restart -n dev deployment/pipe
 kubectl rollout restart -n dev deployment/pipe-span
-kubectl rollout restart -n dev deployment/pitting-corrosion-rate
 kubectl rollout restart -n dev deployment/plausible-profiles
 kubectl rollout restart -n dev deployment/plume
 kubectl rollout restart -n dev deployment/prd-update
@@ -90,6 +83,4 @@ kubectl rollout restart -n dev deployment/tbreak
 kubectl rollout restart -n dev deployment/thermowell
 kubectl rollout restart -n dev deployment/toughness
 kubectl rollout restart -n dev deployment/van-winkle
-kubectl rollout restart -n dev deployment/weather-data
-kubectl rollout restart -n dev deployment/weld-residual-stress
 kubectl rollout restart -n dev deployment/welded-joint-fatigue

@@ -16,7 +16,7 @@ export type CalcConfig = {
      * The target deployment repo name
      * @default false
      */
-    deploymentRepo: 'eec-kustomize' | 'can2-kustomize' | 'corrsolutions-kustomize';
+    deploymentRepo: 'eec-kustomize' | 'corrsolutions-kustomize';
     /**
      * Syncs the bayes docker compose configuration in addition to base.
      * @default false

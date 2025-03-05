@@ -60,24 +60,6 @@ The following calculators are configured to _NOT_ sync from the central configur
 
 ---
 
-## CAN2
-
-| Service | Repo | Dev | Stage | Prod | 
-| ------- | ---- | --- | ----- | ---- |
-  `
-  Object.entries(calculators)
-    .filter(([repoName, calcConfig]) => calcConfig.deploymentRepo === 'can2-kustomize')
-    .sort((a, b) => {
-      return a[1].serviceName.localeCompare(b[1].serviceName)
-    })
-    .forEach(([repoName, calcConfig]) => {
-      md += tableRow(repoName, calcConfig)
-    })
-
-  md += `
-
----
-
 ## CorrSolutions
 
 | Service | Repo | Dev | Stage | Prod | 

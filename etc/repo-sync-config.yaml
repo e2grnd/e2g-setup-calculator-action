@@ -13,10 +13,6 @@ group:
       e2grnd/bundle-sight-calculator@release/dev
       e2grnd/burstp-calculator@release/dev
       e2grnd/calculix-worker-calculator@release/dev
-      e2grnd/can2-decisions-calculator@release/dev
-      e2grnd/can2-annual-growth-rate-calculator@release/dev
-      e2grnd/can2-series-calculator@release/dev
-      e2grnd/can2-canister-temperature-calculator@release/dev
       e2grnd/charpy-calculator@release/dev
       e2grnd/circuit-corrosion-calculator@release/dev
       e2grnd/corr-solutions-da-calculator@release/dev
@@ -29,8 +25,6 @@ group:
       e2grnd/damage-sight-calculator@release/dev
       e2grnd/deep-thought-calculator@release/dev
       e2grnd/dent-fea-calculator@release/dev
-      e2grnd/deposition-density-calculator@release/dev
-      e2grnd/epri-amp-calculator@release/dev
       e2grnd/exemption-calculator@release/dev
       e2grnd/fast2-calculator@release/dev
       e2grnd/fatigue-calculator@release/dev
@@ -66,7 +60,6 @@ group:
       e2grnd/omega-calculator@release/dev
       e2grnd/pipe-pt-calculator@release/dev
       e2grnd/pipe-span-calculator@release/dev
-      e2grnd/pitting-corrosion-rate-calculator@release/dev
       e2grnd/plausible-profiles-calculator@release/dev
       e2grnd/plume-calculator@release/dev
       e2grnd/prd-update-calculator@release/dev
@@ -88,8 +81,6 @@ group:
       e2grnd/thermowells-calculator@release/dev
       e2grnd/toughness-calculator@release/dev
       e2grnd/van-winkle-calculator@release/dev
-      e2grnd/can2-weather-data-calculator@release/dev
-      e2grnd/weld-residual-stress-calculator@release/dev
       e2grnd/welded-joint-fatigue-life-calculator@release/dev
     files: 
       - source: workflows/publish.yml
@@ -116,10 +107,6 @@ group:
       e2grnd/bundle-sight-calculator@release/dev
       e2grnd/burstp-calculator@release/dev
       e2grnd/calculix-worker-calculator@release/dev
-      e2grnd/can2-decisions-calculator@release/dev
-      e2grnd/can2-annual-growth-rate-calculator@release/dev
-      e2grnd/can2-series-calculator@release/dev
-      e2grnd/can2-canister-temperature-calculator@release/dev
       e2grnd/charpy-calculator@release/dev
       e2grnd/circuit-corrosion-calculator@release/dev
       e2grnd/corr-solutions-da-calculator@release/dev
@@ -131,8 +118,6 @@ group:
       e2grnd/cui-calculator@release/dev
       e2grnd/damage-sight-calculator@release/dev
       e2grnd/deep-thought-calculator@release/dev
-      e2grnd/deposition-density-calculator@release/dev
-      e2grnd/epri-amp-calculator@release/dev
       e2grnd/exemption-calculator@release/dev
       e2grnd/fast2-calculator@release/dev
       e2grnd/fatigue-calculator@release/dev
@@ -165,7 +150,6 @@ group:
       e2grnd/omega-calculator@release/dev
       e2grnd/pipe-pt-calculator@release/dev
       e2grnd/pipe-span-calculator@release/dev
-      e2grnd/pitting-corrosion-rate-calculator@release/dev
       e2grnd/plausible-profiles-calculator@release/dev
       e2grnd/plume-calculator@release/dev
       e2grnd/prd-update-calculator@release/dev
@@ -186,8 +170,6 @@ group:
       e2grnd/thermowells-calculator@release/dev
       e2grnd/toughness-calculator@release/dev
       e2grnd/van-winkle-calculator@release/dev
-      e2grnd/can2-weather-data-calculator@release/dev
-      e2grnd/weld-residual-stress-calculator@release/dev
       e2grnd/welded-joint-fatigue-life-calculator@release/dev
     files: 
     - source: devcontainer/devcontainer.json

@@ -39,18 +39,6 @@ echo "
 ----- START calculix-worker-calculator -----"; git -C calculix-worker-calculator checkout release/dev || git clone 'git@github.com:e2grnd/calculix-worker-calculator.git' && git -C calculix-worker-calculator pull
 echo "
 
------ START can2-decisions-calculator -----"; git -C can2-decisions-calculator checkout release/dev || git clone 'git@github.com:e2grnd/can2-decisions-calculator.git' && git -C can2-decisions-calculator pull
-echo "
-
------ START can2-annual-growth-rate-calculator -----"; git -C can2-annual-growth-rate-calculator checkout release/dev || git clone 'git@github.com:e2grnd/can2-annual-growth-rate-calculator.git' && git -C can2-annual-growth-rate-calculator pull
-echo "
-
------ START can2-series-calculator -----"; git -C can2-series-calculator checkout release/dev || git clone 'git@github.com:e2grnd/can2-series-calculator.git' && git -C can2-series-calculator pull
-echo "
-
------ START can2-canister-temperature-calculator -----"; git -C can2-canister-temperature-calculator checkout release/dev || git clone 'git@github.com:e2grnd/can2-canister-temperature-calculator.git' && git -C can2-canister-temperature-calculator pull
-echo "
-
 ----- START charpy-calculator -----"; git -C charpy-calculator checkout release/dev || git clone 'git@github.com:e2grnd/charpy-calculator.git' && git -C charpy-calculator pull
 echo "
 
@@ -88,12 +76,6 @@ echo "
 echo "
 
 ----- START dent-fea-calculator -----"; git -C dent-fea-calculator checkout release/dev || git clone 'git@github.com:e2grnd/dent-fea-calculator.git' && git -C dent-fea-calculator pull
-echo "
-
------ START deposition-density-calculator -----"; git -C deposition-density-calculator checkout release/dev || git clone 'git@github.com:e2grnd/deposition-density-calculator.git' && git -C deposition-density-calculator pull
-echo "
-
------ START epri-amp-calculator -----"; git -C epri-amp-calculator checkout release/dev || git clone 'git@github.com:e2grnd/epri-amp-calculator.git' && git -C epri-amp-calculator pull
 echo "
 
 ----- START exemption-calculator -----"; git -C exemption-calculator checkout release/dev || git clone 'git@github.com:e2grnd/exemption-calculator.git' && git -C exemption-calculator pull
@@ -204,9 +186,6 @@ echo "
 ----- START pipe-span-calculator -----"; git -C pipe-span-calculator checkout release/dev || git clone 'git@github.com:e2grnd/pipe-span-calculator.git' && git -C pipe-span-calculator pull
 echo "
 
------ START pitting-corrosion-rate-calculator -----"; git -C pitting-corrosion-rate-calculator checkout release/dev || git clone 'git@github.com:e2grnd/pitting-corrosion-rate-calculator.git' && git -C pitting-corrosion-rate-calculator pull
-echo "
-
 ----- START plausible-profiles-calculator -----"; git -C plausible-profiles-calculator checkout release/dev || git clone 'git@github.com:e2grnd/plausible-profiles-calculator.git' && git -C plausible-profiles-calculator pull
 echo "
 
@@ -274,12 +253,6 @@ echo "
 echo "
 
 ----- START van-winkle-calculator -----"; git -C van-winkle-calculator checkout release/dev || git clone 'git@github.com:e2grnd/van-winkle-calculator.git' && git -C van-winkle-calculator pull
-echo "
-
------ START can2-weather-data-calculator -----"; git -C can2-weather-data-calculator checkout release/dev || git clone 'git@github.com:e2grnd/can2-weather-data-calculator.git' && git -C can2-weather-data-calculator pull
-echo "
-
------ START weld-residual-stress-calculator -----"; git -C weld-residual-stress-calculator checkout release/dev || git clone 'git@github.com:e2grnd/weld-residual-stress-calculator.git' && git -C weld-residual-stress-calculator pull
 echo "
 
 ----- START welded-joint-fatigue-life-calculator -----"; git -C welded-joint-fatigue-life-calculator checkout release/dev || git clone 'git@github.com:e2grnd/welded-joint-fatigue-life-calculator.git' && git -C welded-joint-fatigue-life-calculator pull

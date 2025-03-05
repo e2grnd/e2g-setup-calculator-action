@@ -39,18 +39,6 @@ echo "
 ----- START calculix-worker-calculator -----"; cd ~/Projects/all-calculators/calculix-worker-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
 echo "
 
------ START can2-decisions-calculator -----"; cd ~/Projects/all-calculators/can2-decisions-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
-echo "
-
------ START can2-annual-growth-rate-calculator -----"; cd ~/Projects/all-calculators/can2-annual-growth-rate-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
-echo "
-
------ START can2-series-calculator -----"; cd ~/Projects/all-calculators/can2-series-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
-echo "
-
------ START can2-canister-temperature-calculator -----"; cd ~/Projects/all-calculators/can2-canister-temperature-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
-echo "
-
 ----- START charpy-calculator -----"; cd ~/Projects/all-calculators/charpy-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
 echo "
 
@@ -88,12 +76,6 @@ echo "
 echo "
 
 ----- START dent-fea-calculator -----"; cd ~/Projects/all-calculators/dent-fea-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
-echo "
-
------ START deposition-density-calculator -----"; cd ~/Projects/all-calculators/deposition-density-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
-echo "
-
------ START epri-amp-calculator -----"; cd ~/Projects/all-calculators/epri-amp-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
 echo "
 
 ----- START exemption-calculator -----"; cd ~/Projects/all-calculators/exemption-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
@@ -204,9 +186,6 @@ echo "
 ----- START pipe-span-calculator -----"; cd ~/Projects/all-calculators/pipe-span-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
 echo "
 
------ START pitting-corrosion-rate-calculator -----"; cd ~/Projects/all-calculators/pitting-corrosion-rate-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
-echo "
-
 ----- START plausible-profiles-calculator -----"; cd ~/Projects/all-calculators/plausible-profiles-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
 echo "
 
@@ -274,12 +253,6 @@ echo "
 echo "
 
 ----- START van-winkle-calculator -----"; cd ~/Projects/all-calculators/van-winkle-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
-echo "
-
------ START can2-weather-data-calculator -----"; cd ~/Projects/all-calculators/can2-weather-data-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
-echo "
-
------ START weld-residual-stress-calculator -----"; cd ~/Projects/all-calculators/weld-residual-stress-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
 echo "
 
 ----- START welded-joint-fatigue-life-calculator -----"; cd ~/Projects/all-calculators/welded-joint-fatigue-life-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators

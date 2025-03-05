@@ -27,26 +27,12 @@ const libpyConfig = [
         deploymentRepo: 'corrsolutions-kustomize',
     },
     {
-        name: 'epriAmp',
-        repo: 'epri-amp-calculator.git',
-        module: 'epriAmpCalc.Calculator',
-        function: 'calculateEpriAmp',
-        deploymentRepo: 'can2-kustomize',
-        enableBayesContainers: true,
-    },
-    {
         name: 'best-rate',
         repo: 'best-rate-calculator.git',
         module: 'bestRateCalc.Calculator',
         function: 'calculateBestRate',
         enableBayesContainers: true,
     },
-    // {
-    //   name: 'bayes',
-    //   repo: 'bayes-calculator.git',
-    //   module: 'bayesUtilities.Calculator',
-    //   function: 'calculate_bayesBuilder',
-    // },
     {
         name: 'fast2',
         repo: 'fast2-calculator.git',
@@ -559,39 +545,6 @@ exports.calculators = Object.assign(Object.assign({}, calcsByRepo), { 'tbreak-ca
         imageName: 'idinterp',
         serviceName: 'idinterp',
         deploymentRepo: 'eec-kustomize',
-    }, 'weld-residual-stress-calculator': {
-        imageName: 'weld-residual-stress',
-        serviceName: 'weld-residual-stress',
-        deploymentRepo: 'can2-kustomize',
-    }, 'can2-weather-data-calculator': {
-        imageName: 'weather-data',
-        serviceName: 'weather-data',
-        deploymentRepo: 'can2-kustomize',
-    }, 'deposition-density-calculator': {
-        imageName: 'deposition-density',
-        serviceName: 'deposition-density',
-        deploymentRepo: 'can2-kustomize',
-    }, 'can2-annual-growth-rate-calculator': {
-        imageName: 'can2-growth-rate',
-        serviceName: 'can2-growth-rate',
-        deploymentRepo: 'can2-kustomize',
-    }, 'can2-canister-temperature-calculator': {
-        imageName: 'canister-temperature',
-        serviceName: 'canister-temperature',
-        deploymentRepo: 'can2-kustomize',
-    }, 'can2-decisions-calculator': {
-        imageName: 'can2-decisions',
-        serviceName: 'can2-decisions',
-        deploymentRepo: 'can2-kustomize',
-        enableBayesContainers: true,
-    }, 'can2-series-calculator': {
-        imageName: 'can2-series',
-        serviceName: 'can2-series',
-        deploymentRepo: 'can2-kustomize',
-    }, 'pitting-corrosion-rate-calculator': {
-        imageName: 'pitting-corrosion-rate',
-        serviceName: 'pitting-corrosion-rate',
-        deploymentRepo: 'can2-kustomize',
     }, 'plume-calculator': {
         imageName: 'plume',
         serviceName: 'plume',
