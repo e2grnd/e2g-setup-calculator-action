@@ -14,6 +14,8 @@ outputs:
     description: The kustomize repository that the deployment should be comitted to
   rawBranchName:
     description: The raw branch name
+  platforms:
+    description: The platforms to build the image for
 runs:
   using: "node20"
   main: "dist/index.js"

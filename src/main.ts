@@ -28,6 +28,10 @@ async function run(): Promise<void> {
     core.notice(`View image: https://console.cloud.google.com/gcr/images/sandbox-225221/global/${descriptor.imageName}?authuser=1&project=sandbox-225221`)
     core.info(`deploymentRepo: ${descriptor.deploymentRepo}`)
     core.setOutput('deploymentRepo', descriptor.deploymentRepo)
+
+    const platforms = descriptor.notArmCompatible ? ['linux/amd64'] : ['linux/amd64', 'linux/arm64']
+    core.info(`platforms: ${platforms.join(',')}`)
+    core.setOutput('platforms', platforms.join(','))
   } catch (error) {
     if (error instanceof Error) core.setFailed(error.message)
   }

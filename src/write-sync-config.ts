@@ -38,7 +38,7 @@ async function run(): Promise<void> {
   const standardDevcontainerCalcsChunk = `  - repos: |
       ${standardDevcontainerCalcs.join('\n      ')}
     files: 
-    - source: devcontainer/devcontainer.fea.json
+    - source: devcontainer/devcontainer.json
       dest: .devcontainer/devcontainer.json
 `
 

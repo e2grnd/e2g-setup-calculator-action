@@ -32,6 +32,11 @@ export type CalcConfig = {
    * If true, syncs the
    */
   remoteFEA?: boolean
+
+  /**
+   * If true, an arm64 container image will not be built for this calculator.
+   */
+  notArmCompatible?: boolean
 }
 
 /**
@@ -701,6 +706,7 @@ export const calculators: Record<string, CalcConfig> = {
     serviceName: 'ffs-lta',
     deploymentRepo: 'eec-kustomize',
     remoteFEA: true,
+    notArmCompatible: true,
   },
   'feature-identification-calculator': {
     imageName: 'feature-identification',
@@ -728,12 +734,14 @@ export const calculators: Record<string, CalcConfig> = {
     serviceName: 'dent-fea',
     deploymentRepo: 'eec-kustomize',
     remoteFEA: true,
+    notArmCompatible: true,
   },
   'tank-settlement-fea-calculator': {
     imageName: 'tank-settlement-fea',
     serviceName: 'tank-settlement-fea',
     deploymentRepo: 'eec-kustomize',
     remoteFEA: true,
+    notArmCompatible: true,
   },
   'large-lta-calculator': {
     imageName: 'large-lta',
@@ -744,17 +752,20 @@ export const calculators: Record<string, CalcConfig> = {
     imageName: 'calculix-worker',
     serviceName: 'calculix-worker',
     deploymentRepo: 'eec-kustomize',
+    notArmCompatible: true,
   },
   'salome-worker-calculator': {
     imageName: 'salome-worker',
     serviceName: 'salome-worker',
     deploymentRepo: 'eec-kustomize',
+    notArmCompatible: true,
   },
   'fea-visualization-calculator': {
     imageName: 'fea-visualization',
     serviceName: 'fea-visualization',
     deploymentRepo: 'eec-kustomize',
     trame: true,
+    notArmCompatible: true,
   },
   'rbi-plus-calculator': {
     imageName: 'rbi-plus',
@@ -786,12 +797,14 @@ export const calculators: Record<string, CalcConfig> = {
     serviceName: 'nozzle-fea',
     deploymentRepo: 'eec-kustomize',
     remoteFEA: true,
+    notArmCompatible: true,
   },
   'ncpv-nozzle-fea-calculator': {
     imageName: 'ncpv-nozzle-fea',
     serviceName: 'ncpv-nozzle-fea',
     deploymentRepo: 'eec-kustomize',
     remoteFEA: true,
+    notArmCompatible: true,
   },
   'deep-thought-calculator': {
     imageName: 'deep-thought',

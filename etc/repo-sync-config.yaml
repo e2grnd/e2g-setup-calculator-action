@@ -192,7 +192,7 @@ group:
       e2grnd/weld-residual-stress-calculator@release/dev
       e2grnd/welded-joint-fatigue-life-calculator@release/dev
     files: 
-    - source: devcontainer/devcontainer.fea.json
+    - source: devcontainer/devcontainer.json
       dest: .devcontainer/devcontainer.json
 
   - repos: |

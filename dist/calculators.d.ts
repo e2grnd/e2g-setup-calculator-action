@@ -1,4 +1,4 @@
-export declare type CalcConfig = {
+export type CalcConfig = {
     /**
      * The name of the container image in the registry
      */
@@ -30,5 +30,9 @@ export declare type CalcConfig = {
      * If true, syncs the
      */
     remoteFEA?: boolean;
+    /**
+     * If true, an arm64 container image will not be built for this calculator.
+     */
+    notArmCompatible?: boolean;
 };
 export declare const calculators: Record<string, CalcConfig>;
