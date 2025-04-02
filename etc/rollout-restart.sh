@@ -13,6 +13,7 @@ kubectl rollout restart -n dev deployment/burst-pressure
 kubectl rollout restart -n dev deployment/calculix-worker
 kubectl rollout restart -n dev deployment/charpy
 kubectl rollout restart -n dev deployment/circuit-corrosion
+kubectl rollout restart -n dev deployment/coke-drum-fea
 kubectl rollout restart -n dev deployment/corr-solutions
 kubectl rollout restart -n dev deployment/corroding-pipe-life
 kubectl rollout restart -n dev deployment/cp-design

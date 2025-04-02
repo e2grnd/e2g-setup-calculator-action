@@ -437,6 +437,7 @@ var libpyConfig = [
         module: 'SimflexCalc.Calculator',
         function: 'submit_calculation_to_simflex',
         noSync: true,
+        notArmCompatible: true,
     },
     {
         name: 'simflex-legacy',
@@ -686,4 +687,10 @@ exports.calculators = __assign(__assign({}, calcsByRepo), { 'tbreak-calculator':
         imageName: 'deep-thought',
         serviceName: 'deep-thought',
         deploymentRepo: 'eec-kustomize',
+    }, 'coke-drum-fea-calculator': {
+        imageName: 'coke-drum-fea',
+        serviceName: 'coke-drum-fea',
+        deploymentRepo: 'eec-kustomize',
+        remoteFEA: true,
+        notArmCompatible: true,
     } });

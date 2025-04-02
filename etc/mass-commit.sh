@@ -45,6 +45,9 @@ echo "
 ----- START circuit-corrosion-calculator -----"; cd ~/Projects/all-calculators/circuit-corrosion-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
 echo "
 
+----- START coke-drum-fea-calculator -----"; cd ~/Projects/all-calculators/coke-drum-fea-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
+echo "
+
 ----- START corr-solutions-da-calculator -----"; cd ~/Projects/all-calculators/corr-solutions-da-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
 echo "
 

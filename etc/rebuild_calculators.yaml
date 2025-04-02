@@ -22,6 +22,7 @@ jobs:
           'calculix-worker-calculator',
           'charpy-calculator',
           'circuit-corrosion-calculator',
+          'coke-drum-fea-calculator',
           'corr-solutions-da-calculator',
           'corroding-pipe-life-calculator',
           'cp-design-calculator',

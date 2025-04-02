@@ -45,6 +45,9 @@ echo "
 ----- START circuit-corrosion-calculator -----"; git -C circuit-corrosion-calculator checkout release/stage && git -C circuit-corrosion-calculator pull && git -C circuit-corrosion-calculator merge -m'stage release' release/dev && git -C circuit-corrosion-calculator push
 echo "
 
+----- START coke-drum-fea-calculator -----"; git -C coke-drum-fea-calculator checkout release/stage && git -C coke-drum-fea-calculator pull && git -C coke-drum-fea-calculator merge -m'stage release' release/dev && git -C coke-drum-fea-calculator push
+echo "
+
 ----- START corroding-pipe-life-calculator -----"; git -C corroding-pipe-life-calculator checkout release/stage && git -C corroding-pipe-life-calculator pull && git -C corroding-pipe-life-calculator merge -m'stage release' release/dev && git -C corroding-pipe-life-calculator push
 echo "
 

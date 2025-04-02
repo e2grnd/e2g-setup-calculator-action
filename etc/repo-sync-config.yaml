@@ -15,6 +15,7 @@ group:
       e2grnd/calculix-worker-calculator@release/dev
       e2grnd/charpy-calculator@release/dev
       e2grnd/circuit-corrosion-calculator@release/dev
+      e2grnd/coke-drum-fea-calculator@release/dev
       e2grnd/corr-solutions-da-calculator@release/dev
       e2grnd/corroding-pipe-life-calculator@release/dev
       e2grnd/cp-design-calculator@release/dev
@@ -176,6 +177,7 @@ group:
       dest: .devcontainer/devcontainer.json
 
   - repos: |
+      e2grnd/coke-drum-fea-calculator@release/dev
       e2grnd/dent-fea-calculator@release/dev
       e2grnd/ffs-lta-calculator@release/dev
       e2grnd/ncpv-nozzle-fea-calculator@release/dev

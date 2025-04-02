@@ -448,5 +448,12 @@
     "imageName": "deep-thought",
     "serviceName": "deep-thought",
     "deploymentRepo": "eec-kustomize"
+  },
+  "coke-drum-fea-calculator": {
+    "imageName": "coke-drum-fea",
+    "serviceName": "coke-drum-fea",
+    "deploymentRepo": "eec-kustomize",
+    "remoteFEA": true,
+    "notArmCompatible": true
   }
 }
