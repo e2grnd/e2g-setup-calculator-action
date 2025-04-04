@@ -7,7 +7,8 @@
   "corr-solutions-da-calculator": {
     "imageName": "corr-solutions",
     "serviceName": "corr-solutions",
-    "deploymentRepo": "corrsolutions-kustomize"
+    "deploymentRepo": "corrsolutions-kustomize",
+    "notArmCompatible": true
   },
   "best-rate-calculator": {
     "imageName": "best-rate",
@@ -225,7 +226,8 @@
     "imageName": "simflex",
     "serviceName": "simflex",
     "noSync": true,
-    "deploymentRepo": "eec-kustomize"
+    "deploymentRepo": "eec-kustomize",
+    "notArmCompatible": true
   },
   "simflex-legacy-calculator": {
     "imageName": "simflex-legacy",

@@ -29,6 +29,7 @@ var libpyConfig = [
         module: 'pyDaEecCalculator.Calculator',
         function: 'calculateCorrSolutions',
         deploymentRepo: 'corrsolutions-kustomize',
+        notArmCompatible: true,
     },
     {
         name: 'best-rate',
@@ -538,6 +539,7 @@ var calcsByRepo = libpyConfig.reduce(function (acc, conf) {
         noSync: conf.noSync,
         deploymentRepo: conf.deploymentRepo || 'eec-kustomize',
         enableBayesContainers: conf.enableBayesContainers,
+        notArmCompatible: conf.notArmCompatible,
     };
     return acc;
 }, {});
