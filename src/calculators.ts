@@ -766,4 +766,10 @@ export const calculators: Record<string, CalcConfig> = {
     remoteFEA: true,
     notArmCompatible: true,
   },
+  'van-winkgo-calculator': {
+    imageName: 'van-winkgo',
+    serviceName: 'van-winkgo',
+    deploymentRepo: 'eec-kustomize',
+    noSync: true,
+  },
 }

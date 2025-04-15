@@ -255,6 +255,9 @@ echo "
 ----- START toughness-calculator -----"; cd ~/Projects/all-calculators/toughness-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
 echo "
 
+----- START van-winkgo-calculator -----"; cd ~/Projects/all-calculators/van-winkgo-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
+echo "
+
 ----- START van-winkle-calculator -----"; cd ~/Projects/all-calculators/van-winkle-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
 echo "
 

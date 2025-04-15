@@ -92,6 +92,7 @@ jobs:
           'tbreak-calculator',
           'thermowells-calculator',
           'toughness-calculator',
+          'van-winkgo-calculator',
           'van-winkle-calculator',
           'welded-joint-fatigue-life-calculator',
         ]

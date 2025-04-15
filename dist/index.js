@@ -691,6 +691,11 @@ exports.calculators = Object.assign(Object.assign({}, calcsByRepo), { 'tbreak-ca
         deploymentRepo: 'eec-kustomize',
         remoteFEA: true,
         notArmCompatible: true,
+    }, 'van-winkgo-calculator': {
+        imageName: 'van-winkgo',
+        serviceName: 'van-winkgo',
+        deploymentRepo: 'eec-kustomize',
+        noSync: true,
     } });
 
 

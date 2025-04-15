@@ -83,5 +83,6 @@ kubectl rollout restart -n dev deployment/tank-sight
 kubectl rollout restart -n dev deployment/tbreak
 kubectl rollout restart -n dev deployment/thermowell
 kubectl rollout restart -n dev deployment/toughness
+kubectl rollout restart -n dev deployment/van-winkgo
 kubectl rollout restart -n dev deployment/van-winkle
 kubectl rollout restart -n dev deployment/welded-joint-fatigue

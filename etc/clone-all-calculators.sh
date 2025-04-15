@@ -255,6 +255,9 @@ echo "
 ----- START toughness-calculator -----"; git -C toughness-calculator checkout release/dev || git clone 'git@github.com:e2grnd/toughness-calculator.git' && git -C toughness-calculator pull
 echo "
 
+----- START van-winkgo-calculator -----"; git -C van-winkgo-calculator checkout release/dev || git clone 'git@github.com:e2grnd/van-winkgo-calculator.git' && git -C van-winkgo-calculator pull
+echo "
+
 ----- START van-winkle-calculator -----"; git -C van-winkle-calculator checkout release/dev || git clone 'git@github.com:e2grnd/van-winkle-calculator.git' && git -C van-winkle-calculator pull
 echo "
 

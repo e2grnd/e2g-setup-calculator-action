@@ -695,4 +695,9 @@ exports.calculators = __assign(__assign({}, calcsByRepo), { 'tbreak-calculator':
         deploymentRepo: 'eec-kustomize',
         remoteFEA: true,
         notArmCompatible: true,
+    }, 'van-winkgo-calculator': {
+        imageName: 'van-winkgo',
+        serviceName: 'van-winkgo',
+        deploymentRepo: 'eec-kustomize',
+        noSync: true,
     } });
