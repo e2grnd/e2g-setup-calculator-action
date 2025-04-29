@@ -313,7 +313,8 @@
   "plausible-profiles-calculator": {
     "imageName": "plausible-profiles",
     "serviceName": "plausible-profiles",
-    "deploymentRepo": "eec-kustomize"
+    "deploymentRepo": "eec-kustomize",
+    "notArmCompatible": true
   },
   "bengi-worker-calculator": {
     "imageName": "bengi-worker",

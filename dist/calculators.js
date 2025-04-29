@@ -571,6 +571,7 @@ exports.calculators = __assign(__assign({}, calcsByRepo), { 'tbreak-calculator':
         imageName: 'plausible-profiles',
         serviceName: 'plausible-profiles',
         deploymentRepo: 'eec-kustomize',
+        notArmCompatible: true,
     }, 
     // 'bayes-worker-calculator': {
     //   imageName: 'bayes-worker',
