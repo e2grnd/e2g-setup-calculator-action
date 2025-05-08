@@ -790,8 +790,8 @@ function run() {
             const platforms = descriptor.notArmCompatible ? ['linux/amd64'] : ['linux/amd64', 'linux/arm64'];
             core.info(`platforms: ${platforms.join(',')}`);
             core.setOutput('platforms', platforms.join(','));
-            core.info(`deployAzure: ${descriptor.deployAzure}`);
-            core.setOutput('deployAzure', descriptor.deployAzure);
+            core.info(`deployAzure: ${descriptor.deployAzure || false}`);
+            core.setOutput('deployAzure', descriptor.deployAzure || false);
         }
         catch (error) {
             if (error instanceof Error)
