@@ -34,5 +34,9 @@ export type CalcConfig = {
      * If true, an arm64 container image will not be built for this calculator.
      */
     notArmCompatible?: boolean;
+    /**
+     * If true, the calc will also be deployed to the azure branch
+     */
+    deployAzure?: boolean;
 };
 export declare const calculators: Record<string, CalcConfig>;

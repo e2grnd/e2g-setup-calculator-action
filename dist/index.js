@@ -601,6 +601,7 @@ exports.calculators = Object.assign(Object.assign({}, calcsByRepo), { 'tbreak-ca
         deploymentRepo: 'eec-kustomize',
         remoteFEA: true,
         notArmCompatible: true,
+        deployAzure: true,
     }, 'feature-identification-calculator': {
         imageName: 'feature-identification',
         serviceName: 'feature-identification',
@@ -624,12 +625,14 @@ exports.calculators = Object.assign(Object.assign({}, calcsByRepo), { 'tbreak-ca
         deploymentRepo: 'eec-kustomize',
         remoteFEA: true,
         notArmCompatible: true,
+        deployAzure: true,
     }, 'tank-settlement-fea-calculator': {
         imageName: 'tank-settlement-fea',
         serviceName: 'tank-settlement-fea',
         deploymentRepo: 'eec-kustomize',
         remoteFEA: true,
         notArmCompatible: true,
+        deployAzure: true,
     }, 'large-lta-calculator': {
         imageName: 'large-lta',
         serviceName: 'large-lta',
@@ -650,6 +653,7 @@ exports.calculators = Object.assign(Object.assign({}, calcsByRepo), { 'tbreak-ca
         deploymentRepo: 'eec-kustomize',
         trame: true,
         notArmCompatible: true,
+        deployAzure: true,
     }, 'rbi-plus-calculator': {
         imageName: 'rbi-plus',
         serviceName: 'rbi-plus',
@@ -786,6 +790,8 @@ function run() {
             const platforms = descriptor.notArmCompatible ? ['linux/amd64'] : ['linux/amd64', 'linux/arm64'];
             core.info(`platforms: ${platforms.join(',')}`);
             core.setOutput('platforms', platforms.join(','));
+            core.info(`deployAzure: ${descriptor.deployAzure}`);
+            core.setOutput('deployAzure', descriptor.deployAzure);
         }
         catch (error) {
             if (error instanceof Error)

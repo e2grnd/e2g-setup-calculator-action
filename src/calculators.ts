@@ -37,6 +37,11 @@ export type CalcConfig = {
    * If true, an arm64 container image will not be built for this calculator.
    */
   notArmCompatible?: boolean
+
+  /**
+   * If true, the calc will also be deployed to the azure branch
+   */
+  deployAzure?: boolean
 }
 
 /**
@@ -656,6 +661,7 @@ export const calculators: Record<string, CalcConfig> = {
     deploymentRepo: 'eec-kustomize',
     remoteFEA: true,
     notArmCompatible: true,
+    deployAzure: true,
   },
   'feature-identification-calculator': {
     imageName: 'feature-identification',
@@ -684,6 +690,7 @@ export const calculators: Record<string, CalcConfig> = {
     deploymentRepo: 'eec-kustomize',
     remoteFEA: true,
     notArmCompatible: true,
+    deployAzure: true,
   },
   'tank-settlement-fea-calculator': {
     imageName: 'tank-settlement-fea',
@@ -691,6 +698,7 @@ export const calculators: Record<string, CalcConfig> = {
     deploymentRepo: 'eec-kustomize',
     remoteFEA: true,
     notArmCompatible: true,
+    deployAzure: true,
   },
   'large-lta-calculator': {
     imageName: 'large-lta',
@@ -715,6 +723,7 @@ export const calculators: Record<string, CalcConfig> = {
     deploymentRepo: 'eec-kustomize',
     trame: true,
     notArmCompatible: true,
+    deployAzure: true,
   },
   'rbi-plus-calculator': {
     imageName: 'rbi-plus',

@@ -32,6 +32,9 @@ async function run(): Promise<void> {
     const platforms = descriptor.notArmCompatible ? ['linux/amd64'] : ['linux/amd64', 'linux/arm64']
     core.info(`platforms: ${platforms.join(',')}`)
     core.setOutput('platforms', platforms.join(','))
+
+    core.info(`deployAzure: ${descriptor.deployAzure}`)
+    core.setOutput('deployAzure', descriptor.deployAzure)
   } catch (error) {
     if (error instanceof Error) core.setFailed(error.message)
   }

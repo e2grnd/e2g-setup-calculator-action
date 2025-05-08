@@ -15,7 +15,9 @@ outputs:
   rawBranchName:
     description: The raw branch name
   platforms:
-    description: The platforms to build the image for
+    description: Sting. Comma-separated list of platforms to build the image for (to be passed to buildx)
+  deployAzure:
+    description: Bool. Whether to deploy to Azure on build
 runs:
   using: "node20"
   main: "dist/index.js"
