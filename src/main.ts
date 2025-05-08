@@ -33,8 +33,8 @@ async function run(): Promise<void> {
     core.info(`platforms: ${platforms.join(',')}`)
     core.setOutput('platforms', platforms.join(','))
 
-    core.info(`deployAzure: ${descriptor.deployAzure}`)
-    core.setOutput('deployAzure', descriptor.deployAzure)
+    core.info(`deployAzure: ${descriptor.deployAzure || false}`)
+    core.setOutput('deployAzure', descriptor.deployAzure || false)
   } catch (error) {
     if (error instanceof Error) core.setFailed(error.message)
   }
