@@ -9,6 +9,9 @@ echo "
 ----- START asme-b31g-calculator -----"; cd ~/Projects/all-calculators/asme-b31g-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
 echo "
 
+----- START asset-batch-jobs-calculator -----"; cd ~/Projects/all-calculators/asset-batch-jobs-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
+echo "
+
 ----- START bakeout-calculator -----"; cd ~/Projects/all-calculators/bakeout-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
 echo "
 

@@ -1,6 +1,7 @@
 #!/bin/bash
 kubectl rollout restart -n dev deployment/api1183
 kubectl rollout restart -n dev deployment/asme-b31g
+kubectl rollout restart -n dev deployment/asset-batch-jobs
 kubectl rollout restart -n dev deployment/bakeout
 kubectl rollout restart -n dev deployment/bengi-worker
 kubectl rollout restart -n dev deployment/best-rate

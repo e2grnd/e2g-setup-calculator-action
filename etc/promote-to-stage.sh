@@ -9,6 +9,9 @@ echo "
 ----- START asme-b31g-calculator -----"; git -C asme-b31g-calculator checkout release/stage && git -C asme-b31g-calculator pull && git -C asme-b31g-calculator merge -m'stage release' release/dev && git -C asme-b31g-calculator push
 echo "
 
+----- START asset-batch-jobs-calculator -----"; git -C asset-batch-jobs-calculator checkout release/stage && git -C asset-batch-jobs-calculator pull && git -C asset-batch-jobs-calculator merge -m'stage release' release/dev && git -C asset-batch-jobs-calculator push
+echo "
+
 ----- START bakeout-calculator -----"; git -C bakeout-calculator checkout release/stage && git -C bakeout-calculator pull && git -C bakeout-calculator merge -m'stage release' release/dev && git -C bakeout-calculator push
 echo "
 

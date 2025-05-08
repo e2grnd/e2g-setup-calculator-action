@@ -3,6 +3,7 @@ group:
       e2grnd/calculator-template@release/dev
       e2grnd/api-1183-calculator@release/dev
       e2grnd/asme-b31g-calculator@release/dev
+      e2grnd/asset-batch-jobs-calculator@release/dev
       e2grnd/bakeout-calculator@release/dev
       e2grnd/bengi-worker-calculator@release/dev
       e2grnd/best-rate-calculator@release/dev
@@ -98,6 +99,7 @@ group:
   - repos: |
       e2grnd/api-1183-calculator@release/dev
       e2grnd/asme-b31g-calculator@release/dev
+      e2grnd/asset-batch-jobs-calculator@release/dev
       e2grnd/bakeout-calculator@release/dev
       e2grnd/bengi-worker-calculator@release/dev
       e2grnd/best-rate-calculator@release/dev

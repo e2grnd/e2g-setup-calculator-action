@@ -773,4 +773,9 @@ export const calculators: Record<string, CalcConfig> = {
     deploymentRepo: 'eec-kustomize',
     noSync: true,
   },
+  'asset-batch-jobs-calculator': {
+    imageName: 'asset-batch-jobs',
+    serviceName: 'asset-batch-jobs',
+    deploymentRepo: 'eec-kustomize',
+  },
 }

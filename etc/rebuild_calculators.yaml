@@ -10,6 +10,7 @@ jobs:
         target_repo: [
           'api-1183-calculator',
           'asme-b31g-calculator',
+          'asset-batch-jobs-calculator',
           'bakeout-calculator',
           'bengi-worker-calculator',
           'best-rate-calculator',

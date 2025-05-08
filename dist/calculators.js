@@ -701,4 +701,8 @@ exports.calculators = __assign(__assign({}, calcsByRepo), { 'tbreak-calculator':
         serviceName: 'van-winkgo',
         deploymentRepo: 'eec-kustomize',
         noSync: true,
+    }, 'asset-batch-jobs-calculator': {
+        imageName: 'asset-batch-jobs',
+        serviceName: 'asset-batch-jobs',
+        deploymentRepo: 'eec-kustomize',
     } });

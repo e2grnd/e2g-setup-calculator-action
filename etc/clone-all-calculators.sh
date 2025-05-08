@@ -9,6 +9,9 @@ echo "
 ----- START asme-b31g-calculator -----"; git -C asme-b31g-calculator checkout release/dev || git clone 'git@github.com:e2grnd/asme-b31g-calculator.git' && git -C asme-b31g-calculator pull
 echo "
 
+----- START asset-batch-jobs-calculator -----"; git -C asset-batch-jobs-calculator checkout release/dev || git clone 'git@github.com:e2grnd/asset-batch-jobs-calculator.git' && git -C asset-batch-jobs-calculator pull
+echo "
+
 ----- START bakeout-calculator -----"; git -C bakeout-calculator checkout release/dev || git clone 'git@github.com:e2grnd/bakeout-calculator.git' && git -C bakeout-calculator pull
 echo "
 
