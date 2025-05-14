@@ -7,7 +7,7 @@
   "corr-solutions-da-calculator": {
     "imageName": "corr-solutions",
     "serviceName": "corr-solutions",
-    "deploymentRepo": "corrsolutions-kustomize",
+    "deploymentRepo": "eec-kustomize",
     "notArmCompatible": true
   },
   "best-rate-calculator": {

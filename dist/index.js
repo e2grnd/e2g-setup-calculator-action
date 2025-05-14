@@ -24,7 +24,7 @@ const libpyConfig = [
         repo: 'corr-solutions-da-calculator.git',
         module: 'pyDaEecCalculator.Calculator',
         function: 'calculateCorrSolutions',
-        deploymentRepo: 'corrsolutions-kustomize',
+        // deploymentRepo: 'corrsolutions-kustomize',
         notArmCompatible: true,
     },
     {
