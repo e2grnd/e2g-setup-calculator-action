@@ -16,6 +16,8 @@ async function run(): Promise<void> {
     files: 
       - source: workflows/publish.yml
         dest: .github/workflows/publish.yml
+      - source: workflows/test.yml
+        dest: .github/workflows/test.yml
       - source: devcontainer/docker-compose.app.yaml
         dest: .devcontainer/docker-compose.app.yaml
       - source: devcontainer/docker-compose.dispatch-override.yaml
