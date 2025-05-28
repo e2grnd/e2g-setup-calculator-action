@@ -24,6 +24,8 @@ async function run(): Promise<void> {
         dest: .devcontainer/docker-compose.dispatch-override.yaml
       - source: vscode/launch.json
         dest: .vscode/launch.json
+      - source: pyproject.toml
+        dest: pyproject.toml
       - source: HELP.md
         dest: HELP.md
 `
