@@ -234,6 +234,9 @@ echo "
 ----- START smooth-bar-fatigue-life-calculator -----"; cd ~/Projects/all-calculators/smooth-bar-fatigue-life-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
 echo "
 
+----- START snooze-fest-calculator -----"; cd ~/Projects/all-calculators/snooze-fest-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
+echo "
+
 ----- START stored-energy-calculator -----"; cd ~/Projects/all-calculators/stored-energy-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
 echo "
 

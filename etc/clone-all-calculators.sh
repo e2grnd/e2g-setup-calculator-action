@@ -234,6 +234,9 @@ echo "
 ----- START smooth-bar-fatigue-life-calculator -----"; git -C smooth-bar-fatigue-life-calculator checkout release/dev || git clone 'git@github.com:e2grnd/smooth-bar-fatigue-life-calculator.git' && git -C smooth-bar-fatigue-life-calculator pull
 echo "
 
+----- START snooze-fest-calculator -----"; git -C snooze-fest-calculator checkout release/dev || git clone 'git@github.com:e2grnd/snooze-fest-calculator.git' && git -C snooze-fest-calculator pull
+echo "
+
 ----- START stored-energy-calculator -----"; git -C stored-energy-calculator checkout release/dev || git clone 'git@github.com:e2grnd/stored-energy-calculator.git' && git -C stored-energy-calculator pull
 echo "
 

@@ -76,6 +76,7 @@ kubectl rollout restart -n dev deployment/simflex
 kubectl rollout restart -n dev deployment/simflex-converters
 kubectl rollout restart -n dev deployment/simflex-legacy
 kubectl rollout restart -n dev deployment/smooth-bar-fatigue
+kubectl rollout restart -n dev deployment/snooze-fest
 kubectl rollout restart -n dev deployment/stored-energy
 kubectl rollout restart -n dev deployment/tank
 kubectl rollout restart -n dev deployment/tank-settlement

@@ -74,6 +74,7 @@ group:
       e2grnd/shutdown-calculator@release/dev
       e2grnd/simflex-converters-calculator@release/dev
       e2grnd/smooth-bar-fatigue-life-calculator@release/dev
+      e2grnd/snooze-fest-calculator@release/dev
       e2grnd/stored-energy-calculator@release/dev
       e2grnd/tank-thickness-calculator@release/dev
       e2grnd/tank-settlement-calculator@release/dev
@@ -169,6 +170,7 @@ group:
       e2grnd/shutdown-calculator@release/dev
       e2grnd/simflex-converters-calculator@release/dev
       e2grnd/smooth-bar-fatigue-life-calculator@release/dev
+      e2grnd/snooze-fest-calculator@release/dev
       e2grnd/stored-energy-calculator@release/dev
       e2grnd/tank-thickness-calculator@release/dev
       e2grnd/tank-settlement-calculator@release/dev

@@ -787,4 +787,9 @@ export const calculators: Record<string, CalcConfig> = {
     serviceName: 'asset-batch-jobs',
     deploymentRepo: 'eec-kustomize',
   },
+  'snooze-fest-calculator': {
+    imageName: 'snooze-fest',
+    serviceName: 'snooze-fest',
+    deploymentRepo: 'eec-kustomize',
+  },
 }

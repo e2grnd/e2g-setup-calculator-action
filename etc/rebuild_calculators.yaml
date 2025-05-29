@@ -85,6 +85,7 @@ jobs:
           'simflex-converters-calculator',
           'simflex-legacy-calculator',
           'smooth-bar-fatigue-life-calculator',
+          'snooze-fest-calculator',
           'stored-energy-calculator',
           'tank-thickness-calculator',
           'tank-settlement-calculator',

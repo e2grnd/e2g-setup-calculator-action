@@ -234,6 +234,9 @@ echo "
 ----- START smooth-bar-fatigue-life-calculator -----"; git -C smooth-bar-fatigue-life-calculator checkout release/stage && git -C smooth-bar-fatigue-life-calculator pull && git -C smooth-bar-fatigue-life-calculator merge -m'stage release' release/dev && git -C smooth-bar-fatigue-life-calculator push
 echo "
 
+----- START snooze-fest-calculator -----"; git -C snooze-fest-calculator checkout release/stage && git -C snooze-fest-calculator pull && git -C snooze-fest-calculator merge -m'stage release' release/dev && git -C snooze-fest-calculator push
+echo "
+
 ----- START stored-energy-calculator -----"; git -C stored-energy-calculator checkout release/stage && git -C stored-energy-calculator pull && git -C stored-energy-calculator merge -m'stage release' release/dev && git -C stored-energy-calculator push
 echo "
 

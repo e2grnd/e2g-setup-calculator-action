@@ -705,6 +705,10 @@ exports.calculators = Object.assign(Object.assign({}, calcsByRepo), { 'tbreak-ca
         imageName: 'asset-batch-jobs',
         serviceName: 'asset-batch-jobs',
         deploymentRepo: 'eec-kustomize',
+    }, 'snooze-fest-calculator': {
+        imageName: 'snooze-fest',
+        serviceName: 'snooze-fest',
+        deploymentRepo: 'eec-kustomize',
     } });
 
 

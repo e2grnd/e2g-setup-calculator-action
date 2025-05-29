@@ -709,4 +709,8 @@ exports.calculators = __assign(__assign({}, calcsByRepo), { 'tbreak-calculator':
         imageName: 'asset-batch-jobs',
         serviceName: 'asset-batch-jobs',
         deploymentRepo: 'eec-kustomize',
+    }, 'snooze-fest-calculator': {
+        imageName: 'snooze-fest',
+        serviceName: 'snooze-fest',
+        deploymentRepo: 'eec-kustomize',
     } });
