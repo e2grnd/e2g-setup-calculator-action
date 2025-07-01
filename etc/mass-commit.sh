@@ -207,6 +207,9 @@ echo "
 ----- START rbi-plus-calculator -----"; cd ~/Projects/all-calculators/rbi-plus-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
 echo "
 
+----- START sage-api-worker-calculator -----"; cd ~/Projects/all-calculators/sage-api-worker-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
+echo "
+
 ----- START sage-x-calculator -----"; cd ~/Projects/all-calculators/sage-x-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
 echo "
 

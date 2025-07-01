@@ -207,6 +207,9 @@ echo "
 ----- START rbi-plus-calculator -----"; git -C rbi-plus-calculator checkout release/dev || git clone 'git@github.com:e2grnd/rbi-plus-calculator.git' && git -C rbi-plus-calculator pull
 echo "
 
+----- START sage-api-worker-calculator -----"; git -C sage-api-worker-calculator checkout release/dev || git clone 'git@github.com:e2grnd/sage-api-worker-calculator.git' && git -C sage-api-worker-calculator pull
+echo "
+
 ----- START sage-x-calculator -----"; git -C sage-x-calculator checkout release/dev || git clone 'git@github.com:e2grnd/sage-x-calculator.git' && git -C sage-x-calculator pull
 echo "
 

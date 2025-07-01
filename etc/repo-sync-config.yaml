@@ -67,6 +67,7 @@ group:
       e2grnd/prd-update-calculator@release/dev
       e2grnd/rainflow-calculator@release/dev
       e2grnd/rbi-plus-calculator@release/dev
+      e2grnd/sage-api-worker-calculator@release/dev
       e2grnd/sage-x-calculator@release/dev
       e2grnd/salome-worker-calculator@release/dev
       e2grnd/sandman-calculator@release/dev
@@ -163,6 +164,7 @@ group:
       e2grnd/prd-update-calculator@release/dev
       e2grnd/rainflow-calculator@release/dev
       e2grnd/rbi-plus-calculator@release/dev
+      e2grnd/sage-api-worker-calculator@release/dev
       e2grnd/sage-x-calculator@release/dev
       e2grnd/salome-worker-calculator@release/dev
       e2grnd/sandman-calculator@release/dev

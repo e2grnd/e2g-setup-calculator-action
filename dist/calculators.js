@@ -713,4 +713,8 @@ exports.calculators = __assign(__assign({}, calcsByRepo), { 'tbreak-calculator':
         imageName: 'snooze-fest',
         serviceName: 'snooze-fest',
         deploymentRepo: 'eec-kustomize',
+    }, 'sage-api-worker-calculator': {
+        imageName: 'sage-api-worker',
+        serviceName: 'sage-api-worker',
+        deploymentRepo: 'eec-kustomize',
     } });

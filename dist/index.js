@@ -709,6 +709,10 @@ exports.calculators = Object.assign(Object.assign({}, calcsByRepo), { 'tbreak-ca
         imageName: 'snooze-fest',
         serviceName: 'snooze-fest',
         deploymentRepo: 'eec-kustomize',
+    }, 'sage-api-worker-calculator': {
+        imageName: 'sage-api-worker',
+        serviceName: 'sage-api-worker',
+        deploymentRepo: 'eec-kustomize',
     } });
 
 

@@ -207,6 +207,9 @@ echo "
 ----- START rbi-plus-calculator -----"; git -C rbi-plus-calculator checkout release/stage && git -C rbi-plus-calculator pull && git -C rbi-plus-calculator merge -m'stage release' release/dev && git -C rbi-plus-calculator push
 echo "
 
+----- START sage-api-worker-calculator -----"; git -C sage-api-worker-calculator checkout release/stage && git -C sage-api-worker-calculator pull && git -C sage-api-worker-calculator merge -m'stage release' release/dev && git -C sage-api-worker-calculator push
+echo "
+
 ----- START sage-x-calculator -----"; git -C sage-x-calculator checkout release/stage && git -C sage-x-calculator pull && git -C sage-x-calculator merge -m'stage release' release/dev && git -C sage-x-calculator push
 echo "
 

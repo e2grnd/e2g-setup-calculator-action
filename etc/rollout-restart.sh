@@ -67,6 +67,7 @@ kubectl rollout restart -n dev deployment/plume
 kubectl rollout restart -n dev deployment/prd-update
 kubectl rollout restart -n dev deployment/rainflow
 kubectl rollout restart -n dev deployment/rbi-plus
+kubectl rollout restart -n dev deployment/sage-api-worker
 kubectl rollout restart -n dev deployment/sage-x
 kubectl rollout restart -n dev deployment/salome-worker
 kubectl rollout restart -n dev deployment/sandman
