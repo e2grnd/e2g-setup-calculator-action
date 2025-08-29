@@ -33,8 +33,9 @@ async function run(): Promise<void> {
     core.info(`platforms: ${platforms.join(',')}`)
     core.setOutput('platforms', platforms.join(','))
 
-    core.info(`deployAzure: ${descriptor.deployAzure || false}`)
-    core.setOutput('deployAzure', descriptor.deployAzure || false)
+    const deployAzure = process.env.BUILD_AZURE === 'true' && descriptor.deployAzure
+    core.info(`deployAzure: ${deployAzure}`)
+    core.setOutput('deployAzure', deployAzure)
   } catch (error) {
     if (error instanceof Error) core.setFailed(error.message)
   }
