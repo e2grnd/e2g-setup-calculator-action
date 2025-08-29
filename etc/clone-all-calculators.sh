@@ -240,6 +240,9 @@ echo "
 ----- START snooze-fest-calculator -----"; git -C snooze-fest-calculator checkout release/dev || git clone 'git@github.com:e2grnd/snooze-fest-calculator.git' && git -C snooze-fest-calculator pull
 echo "
 
+----- START sphere-legs-fea-calculator -----"; git -C sphere-legs-fea-calculator checkout release/dev || git clone 'git@github.com:e2grnd/sphere-legs-fea-calculator.git' && git -C sphere-legs-fea-calculator pull
+echo "
+
 ----- START stored-energy-calculator -----"; git -C stored-energy-calculator checkout release/dev || git clone 'git@github.com:e2grnd/stored-energy-calculator.git' && git -C stored-energy-calculator pull
 echo "
 

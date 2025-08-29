@@ -240,6 +240,9 @@ echo "
 ----- START snooze-fest-calculator -----"; cd ~/Projects/all-calculators/snooze-fest-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
 echo "
 
+----- START sphere-legs-fea-calculator -----"; cd ~/Projects/all-calculators/sphere-legs-fea-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
+echo "
+
 ----- START stored-energy-calculator -----"; cd ~/Projects/all-calculators/stored-energy-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
 echo "
 

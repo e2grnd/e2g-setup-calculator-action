@@ -87,6 +87,7 @@ jobs:
           'simflex-legacy-calculator',
           'smooth-bar-fatigue-life-calculator',
           'snooze-fest-calculator',
+          'sphere-legs-fea-calculator',
           'stored-energy-calculator',
           'tank-thickness-calculator',
           'tank-settlement-calculator',

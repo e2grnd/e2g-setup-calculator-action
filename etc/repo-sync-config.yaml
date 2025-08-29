@@ -76,6 +76,7 @@ group:
       e2grnd/simflex-converters-calculator@release/dev
       e2grnd/smooth-bar-fatigue-life-calculator@release/dev
       e2grnd/snooze-fest-calculator@release/dev
+      e2grnd/sphere-legs-fea-calculator@release/dev
       e2grnd/stored-energy-calculator@release/dev
       e2grnd/tank-thickness-calculator@release/dev
       e2grnd/tank-settlement-calculator@release/dev
@@ -192,6 +193,7 @@ group:
       e2grnd/ffs-lta-calculator@release/dev
       e2grnd/ncpv-nozzle-fea-calculator@release/dev
       e2grnd/nozzle-fea-calculator@release/dev
+      e2grnd/sphere-legs-fea-calculator@release/dev
       e2grnd/tank-settlement-fea-calculator@release/dev
     files: 
       - source: devcontainer/devcontainer.fea.json

@@ -717,4 +717,10 @@ exports.calculators = __assign(__assign({}, calcsByRepo), { 'tbreak-calculator':
         imageName: 'sage-api-worker',
         serviceName: 'sage-api-worker',
         deploymentRepo: 'eec-kustomize',
+    }, 'sphere-legs-fea-calculator': {
+        imageName: 'sphere-legs-fea',
+        serviceName: 'sphere-legs-fea',
+        deploymentRepo: 'eec-kustomize',
+        remoteFEA: true,
+        notArmCompatible: true,
     } });

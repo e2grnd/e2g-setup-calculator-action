@@ -240,6 +240,9 @@ echo "
 ----- START snooze-fest-calculator -----"; git -C snooze-fest-calculator checkout release/stage && git -C snooze-fest-calculator pull && git -C snooze-fest-calculator merge -m'stage release' release/dev && git -C snooze-fest-calculator push
 echo "
 
+----- START sphere-legs-fea-calculator -----"; git -C sphere-legs-fea-calculator checkout release/stage && git -C sphere-legs-fea-calculator pull && git -C sphere-legs-fea-calculator merge -m'stage release' release/dev && git -C sphere-legs-fea-calculator push
+echo "
+
 ----- START stored-energy-calculator -----"; git -C stored-energy-calculator checkout release/stage && git -C stored-energy-calculator pull && git -C stored-energy-calculator merge -m'stage release' release/dev && git -C stored-energy-calculator push
 echo "
 
