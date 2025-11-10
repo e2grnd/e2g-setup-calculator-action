@@ -51,9 +51,6 @@ echo "
 ----- START coke-drum-fea-calculator -----"; git -C coke-drum-fea-calculator checkout release/prod && git -C coke-drum-fea-calculator pull && git -C coke-drum-fea-calculator merge -m'prod release' release/stage && git -C coke-drum-fea-calculator push
 echo "
 
------ START corr-solutions-da-calculator -----"; git -C corr-solutions-da-calculator checkout release/prod && git -C corr-solutions-da-calculator pull && git -C corr-solutions-da-calculator merge -m'prod release' release/stage && git -C corr-solutions-da-calculator push
-echo "
-
 ----- START corroding-pipe-life-calculator -----"; git -C corroding-pipe-life-calculator checkout release/prod && git -C corroding-pipe-life-calculator pull && git -C corroding-pipe-life-calculator merge -m'prod release' release/stage && git -C corroding-pipe-life-calculator push
 echo "
 
