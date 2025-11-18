@@ -51,6 +51,9 @@ echo "
 ----- START coke-drum-fea-calculator -----"; git -C coke-drum-fea-calculator checkout release/dev || git clone 'git@github.com:e2grnd/coke-drum-fea-calculator.git' && git -C coke-drum-fea-calculator pull
 echo "
 
+----- START corr-solutions-da-calculator -----"; git -C corr-solutions-da-calculator checkout release/dev || git clone 'git@github.com:e2grnd/corr-solutions-da-calculator.git' && git -C corr-solutions-da-calculator pull
+echo "
+
 ----- START corroding-pipe-life-calculator -----"; git -C corroding-pipe-life-calculator checkout release/dev || git clone 'git@github.com:e2grnd/corroding-pipe-life-calculator.git' && git -C corroding-pipe-life-calculator pull
 echo "
 

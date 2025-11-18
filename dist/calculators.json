@@ -4,6 +4,12 @@
     "serviceName": "idinterp",
     "deploymentRepo": "eec-kustomize"
   },
+  "corr-solutions-da-calculator": {
+    "imageName": "corr-solutions",
+    "serviceName": "corr-solutions",
+    "deploymentRepo": "eec-kustomize",
+    "notArmCompatible": true
+  },
   "best-rate-calculator": {
     "imageName": "best-rate",
     "serviceName": "best-rate",
