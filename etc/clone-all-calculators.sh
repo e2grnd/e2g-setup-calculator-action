@@ -201,6 +201,9 @@ echo "
 ----- START prd-update-calculator -----"; git -C prd-update-calculator checkout release/dev || git clone 'git@github.com:e2grnd/prd-update-calculator.git' && git -C prd-update-calculator pull
 echo "
 
+----- START pvelite-converter-calculator -----"; git -C pvelite-converter-calculator checkout release/dev || git clone 'git@github.com:e2grnd/pvelite-converter-calculator.git' && git -C pvelite-converter-calculator pull
+echo "
+
 ----- START rainflow-calculator -----"; git -C rainflow-calculator checkout release/dev || git clone 'git@github.com:e2grnd/rainflow-calculator.git' && git -C rainflow-calculator pull
 echo "
 

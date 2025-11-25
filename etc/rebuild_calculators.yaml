@@ -74,6 +74,7 @@ jobs:
           'plausible-profiles-calculator',
           'plume-calculator',
           'prd-update-calculator',
+          'pvelite-converter-calculator',
           'rainflow-calculator',
           'rbi-plus-calculator',
           'sage-api-worker-calculator',

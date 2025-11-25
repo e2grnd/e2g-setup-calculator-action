@@ -201,6 +201,9 @@ echo "
 ----- START prd-update-calculator -----"; cd ~/Projects/all-calculators/prd-update-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
 echo "
 
+----- START pvelite-converter-calculator -----"; cd ~/Projects/all-calculators/pvelite-converter-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
+echo "
+
 ----- START rainflow-calculator -----"; cd ~/Projects/all-calculators/rainflow-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
 echo "
 

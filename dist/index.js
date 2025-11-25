@@ -19,6 +19,12 @@ const libpyConfig = [
         module: 'IDInterp_calculator',
         function: 'calculate_IDInterp',
     },
+    // {
+    //   name: 'pvelite-converter',
+    //   repo: 'pvelite-converter-calculator.git',
+    //   module: 'PVEliteConvertor',
+    //   function: 'submit_to_pv_elite_convertor',
+    // },
     {
         name: 'corrSolutions',
         repo: 'corr-solutions-da-calculator.git',
@@ -546,6 +552,10 @@ exports.calculators = Object.assign(Object.assign({}, calcsByRepo), { 'tbreak-ca
     }, 'idinterp-calculator': {
         imageName: 'idinterp',
         serviceName: 'idinterp',
+        deploymentRepo: 'eec-kustomize',
+    }, 'pvelite-converter-calculator': {
+        imageName: 'pvelite-converter',
+        serviceName: 'pvelite-converter',
         deploymentRepo: 'eec-kustomize',
     }, 'plume-calculator': {
         imageName: 'plume',

@@ -292,6 +292,11 @@
     "deploymentRepo": "eec-kustomize",
     "trame": true
   },
+  "pvelite-converter-calculator": {
+    "imageName": "pvelite-converter",
+    "serviceName": "pvelite-converter",
+    "deploymentRepo": "eec-kustomize"
+  },
   "plume-calculator": {
     "imageName": "plume",
     "serviceName": "plume",

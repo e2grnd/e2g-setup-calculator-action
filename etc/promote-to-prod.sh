@@ -201,6 +201,9 @@ echo "
 ----- START prd-update-calculator -----"; git -C prd-update-calculator checkout release/prod && git -C prd-update-calculator pull && git -C prd-update-calculator merge -m'prod release' release/stage && git -C prd-update-calculator push
 echo "
 
+----- START pvelite-converter-calculator -----"; git -C pvelite-converter-calculator checkout release/prod && git -C pvelite-converter-calculator pull && git -C pvelite-converter-calculator merge -m'prod release' release/stage && git -C pvelite-converter-calculator push
+echo "
+
 ----- START rainflow-calculator -----"; git -C rainflow-calculator checkout release/prod && git -C rainflow-calculator pull && git -C rainflow-calculator merge -m'prod release' release/stage && git -C rainflow-calculator push
 echo "
 

@@ -65,6 +65,7 @@ kubectl rollout restart -n dev deployment/pipe-span
 kubectl rollout restart -n dev deployment/plausible-profiles
 kubectl rollout restart -n dev deployment/plume
 kubectl rollout restart -n dev deployment/prd-update
+kubectl rollout restart -n dev deployment/pvelite-converter
 kubectl rollout restart -n dev deployment/rainflow
 kubectl rollout restart -n dev deployment/rbi-plus
 kubectl rollout restart -n dev deployment/sage-api-worker

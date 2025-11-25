@@ -65,6 +65,7 @@ group:
       e2grnd/plausible-profiles-calculator@release/dev
       e2grnd/plume-calculator@release/dev
       e2grnd/prd-update-calculator@release/dev
+      e2grnd/pvelite-converter-calculator@release/dev
       e2grnd/rainflow-calculator@release/dev
       e2grnd/rbi-plus-calculator@release/dev
       e2grnd/sage-api-worker-calculator@release/dev
@@ -163,6 +164,7 @@ group:
       e2grnd/plausible-profiles-calculator@release/dev
       e2grnd/plume-calculator@release/dev
       e2grnd/prd-update-calculator@release/dev
+      e2grnd/pvelite-converter-calculator@release/dev
       e2grnd/rainflow-calculator@release/dev
       e2grnd/rbi-plus-calculator@release/dev
       e2grnd/sage-api-worker-calculator@release/dev
