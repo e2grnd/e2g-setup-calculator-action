@@ -31,6 +31,8 @@ const libpyConfig = [
         module: 'pyDaEecCalculator.Calculator',
         function: 'calculateCorrSolutions',
         notArmCompatible: true,
+        serviceName: 'corr-solutions-da',
+        imageName: 'corrs-solutions-da',
     },
     {
         name: 'best-rate',

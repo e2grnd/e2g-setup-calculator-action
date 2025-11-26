@@ -5,8 +5,8 @@
     "deploymentRepo": "eec-kustomize"
   },
   "corr-solutions-da-calculator": {
-    "imageName": "corr-solutions",
-    "serviceName": "corr-solutions",
+    "imageName": "corrs-solutions-da",
+    "serviceName": "corr-solutions-da",
     "deploymentRepo": "eec-kustomize",
     "notArmCompatible": true
   },
