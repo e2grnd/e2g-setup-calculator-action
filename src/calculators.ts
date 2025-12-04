@@ -816,4 +816,9 @@ export const calculators: Record<string, CalcConfig> = {
     remoteFEA: true,
     notArmCompatible: true,
   },
+  'tank-bottom-optimization-calculator': {
+    imageName: 'tank-bottom-optimization',
+    serviceName: 'tank-bottom-optimization',
+    deploymentRepo: 'eec-kustomize',
+  },
 }

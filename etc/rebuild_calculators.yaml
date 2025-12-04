@@ -91,6 +91,7 @@ jobs:
           'sphere-legs-fea-calculator',
           'stored-energy-calculator',
           'tank-thickness-calculator',
+          'tank-bottom-optimization-calculator',
           'tank-settlement-calculator',
           'tank-settlement-fea-calculator',
           'tank-sight-calculator',

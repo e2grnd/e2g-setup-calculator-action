@@ -252,6 +252,9 @@ echo "
 ----- START tank-thickness-calculator -----"; git -C tank-thickness-calculator checkout release/dev || git clone 'git@github.com:e2grnd/tank-thickness-calculator.git' && git -C tank-thickness-calculator pull
 echo "
 
+----- START tank-bottom-optimization-calculator -----"; git -C tank-bottom-optimization-calculator checkout release/dev || git clone 'git@github.com:e2grnd/tank-bottom-optimization-calculator.git' && git -C tank-bottom-optimization-calculator pull
+echo "
+
 ----- START tank-settlement-calculator -----"; git -C tank-settlement-calculator checkout release/dev || git clone 'git@github.com:e2grnd/tank-settlement-calculator.git' && git -C tank-settlement-calculator pull
 echo "
 

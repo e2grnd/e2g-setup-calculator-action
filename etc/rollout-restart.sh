@@ -82,6 +82,7 @@ kubectl rollout restart -n dev deployment/snooze-fest
 kubectl rollout restart -n dev deployment/sphere-legs-fea
 kubectl rollout restart -n dev deployment/stored-energy
 kubectl rollout restart -n dev deployment/tank
+kubectl rollout restart -n dev deployment/tank-bottom-optimization
 kubectl rollout restart -n dev deployment/tank-settlement
 kubectl rollout restart -n dev deployment/tank-settlement-fea
 kubectl rollout restart -n dev deployment/tank-sight

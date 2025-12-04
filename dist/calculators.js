@@ -734,4 +734,8 @@ exports.calculators = __assign(__assign({}, calcsByRepo), { 'tbreak-calculator':
         deploymentRepo: 'eec-kustomize',
         remoteFEA: true,
         notArmCompatible: true,
+    }, 'tank-bottom-optimization-calculator': {
+        imageName: 'tank-bottom-optimization',
+        serviceName: 'tank-bottom-optimization',
+        deploymentRepo: 'eec-kustomize',
     } });

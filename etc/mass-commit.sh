@@ -252,6 +252,9 @@ echo "
 ----- START tank-thickness-calculator -----"; cd ~/Projects/all-calculators/tank-thickness-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
 echo "
 
+----- START tank-bottom-optimization-calculator -----"; cd ~/Projects/all-calculators/tank-bottom-optimization-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
+echo "
+
 ----- START tank-settlement-calculator -----"; cd ~/Projects/all-calculators/tank-settlement-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
 echo "
 

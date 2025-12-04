@@ -80,6 +80,7 @@ group:
       e2grnd/sphere-legs-fea-calculator@release/dev
       e2grnd/stored-energy-calculator@release/dev
       e2grnd/tank-thickness-calculator@release/dev
+      e2grnd/tank-bottom-optimization-calculator@release/dev
       e2grnd/tank-settlement-calculator@release/dev
       e2grnd/tank-settlement-fea-calculator@release/dev
       e2grnd/tank-sight-calculator@release/dev
@@ -178,6 +179,7 @@ group:
       e2grnd/snooze-fest-calculator@release/dev
       e2grnd/stored-energy-calculator@release/dev
       e2grnd/tank-thickness-calculator@release/dev
+      e2grnd/tank-bottom-optimization-calculator@release/dev
       e2grnd/tank-settlement-calculator@release/dev
       e2grnd/tank-sight-calculator@release/dev
       e2grnd/tbreak-calculator@release/dev

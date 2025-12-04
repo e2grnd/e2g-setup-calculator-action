@@ -252,6 +252,9 @@ echo "
 ----- START tank-thickness-calculator -----"; git -C tank-thickness-calculator checkout release/stage && git -C tank-thickness-calculator pull && git -C tank-thickness-calculator merge -m'stage release' release/dev && git -C tank-thickness-calculator push
 echo "
 
+----- START tank-bottom-optimization-calculator -----"; git -C tank-bottom-optimization-calculator checkout release/stage && git -C tank-bottom-optimization-calculator pull && git -C tank-bottom-optimization-calculator merge -m'stage release' release/dev && git -C tank-bottom-optimization-calculator push
+echo "
+
 ----- START tank-settlement-calculator -----"; git -C tank-settlement-calculator checkout release/stage && git -C tank-settlement-calculator pull && git -C tank-settlement-calculator merge -m'stage release' release/dev && git -C tank-settlement-calculator push
 echo "
 

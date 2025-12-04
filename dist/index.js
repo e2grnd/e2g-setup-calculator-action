@@ -730,6 +730,10 @@ exports.calculators = Object.assign(Object.assign({}, calcsByRepo), { 'tbreak-ca
         deploymentRepo: 'eec-kustomize',
         remoteFEA: true,
         notArmCompatible: true,
+    }, 'tank-bottom-optimization-calculator': {
+        imageName: 'tank-bottom-optimization',
+        serviceName: 'tank-bottom-optimization',
+        deploymentRepo: 'eec-kustomize',
     } });
 
 
