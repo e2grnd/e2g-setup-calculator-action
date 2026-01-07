@@ -8,6 +8,7 @@ group:
       e2grnd/bengi-worker-calculator@release/dev
       e2grnd/best-rate-calculator@release/dev
       e2grnd/bijlaard-calculator@release/dev
+      e2grnd/boar-calculator@release/dev
       e2grnd/boiler-tube-calculator@release/dev
       e2grnd/buried-pipelines-calculator@release/dev
       e2grnd/branch-calculator@release/dev
@@ -17,7 +18,6 @@ group:
       e2grnd/charpy-calculator@release/dev
       e2grnd/circuit-corrosion-calculator@release/dev
       e2grnd/coke-drum-fea-calculator@release/dev
-      e2grnd/corr-solutions-da-calculator@release/dev
       e2grnd/corroding-pipe-life-calculator@release/dev
       e2grnd/cp-design-calculator@release/dev
       e2grnd/cp-design-offshore-calculator@release/dev
@@ -113,6 +113,7 @@ group:
       e2grnd/bengi-worker-calculator@release/dev
       e2grnd/best-rate-calculator@release/dev
       e2grnd/bijlaard-calculator@release/dev
+      e2grnd/boar-calculator@release/dev
       e2grnd/boiler-tube-calculator@release/dev
       e2grnd/buried-pipelines-calculator@release/dev
       e2grnd/branch-calculator@release/dev
@@ -121,7 +122,6 @@ group:
       e2grnd/calculix-worker-calculator@release/dev
       e2grnd/charpy-calculator@release/dev
       e2grnd/circuit-corrosion-calculator@release/dev
-      e2grnd/corr-solutions-da-calculator@release/dev
       e2grnd/corroding-pipe-life-calculator@release/dev
       e2grnd/cp-design-calculator@release/dev
       e2grnd/cp-design-offshore-calculator@release/dev

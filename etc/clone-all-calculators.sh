@@ -24,6 +24,9 @@ echo "
 ----- START bijlaard-calculator -----"; git -C bijlaard-calculator checkout release/dev || git clone 'git@github.com:e2grnd/bijlaard-calculator.git' && git -C bijlaard-calculator pull
 echo "
 
+----- START boar-calculator -----"; git -C boar-calculator checkout release/dev || git clone 'git@github.com:e2grnd/boar-calculator.git' && git -C boar-calculator pull
+echo "
+
 ----- START boiler-tube-calculator -----"; git -C boiler-tube-calculator checkout release/dev || git clone 'git@github.com:e2grnd/boiler-tube-calculator.git' && git -C boiler-tube-calculator pull
 echo "
 
@@ -49,9 +52,6 @@ echo "
 echo "
 
 ----- START coke-drum-fea-calculator -----"; git -C coke-drum-fea-calculator checkout release/dev || git clone 'git@github.com:e2grnd/coke-drum-fea-calculator.git' && git -C coke-drum-fea-calculator pull
-echo "
-
------ START corr-solutions-da-calculator -----"; git -C corr-solutions-da-calculator checkout release/dev || git clone 'git@github.com:e2grnd/corr-solutions-da-calculator.git' && git -C corr-solutions-da-calculator pull
 echo "
 
 ----- START corroding-pipe-life-calculator -----"; git -C corroding-pipe-life-calculator checkout release/dev || git clone 'git@github.com:e2grnd/corroding-pipe-life-calculator.git' && git -C corroding-pipe-life-calculator pull

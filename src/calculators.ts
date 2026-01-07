@@ -70,13 +70,11 @@ const libpyConfig: LibPyConfig[] = [
   //   function: 'submit_to_pv_elite_convertor',
   // },
   {
-    name: 'corrSolutions',
-    repo: 'corr-solutions-da-calculator.git',
-    module: 'pyDaEecCalculator.Calculator',
-    function: 'calculateCorrSolutions',
+    name: 'boar',
+    repo: 'boar-calculator.git',
     notArmCompatible: true,
-    serviceName: 'corr-solutions-da',
-    imageName: 'corrs-solutions-da',
+    serviceName: 'boar',
+    imageName: 'boar',
   },
   {
     name: 'best-rate',

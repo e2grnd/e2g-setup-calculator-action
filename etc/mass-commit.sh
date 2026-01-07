@@ -24,6 +24,9 @@ echo "
 ----- START bijlaard-calculator -----"; cd ~/Projects/all-calculators/bijlaard-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
 echo "
 
+----- START boar-calculator -----"; cd ~/Projects/all-calculators/boar-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
+echo "
+
 ----- START boiler-tube-calculator -----"; cd ~/Projects/all-calculators/boiler-tube-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
 echo "
 
@@ -49,9 +52,6 @@ echo "
 echo "
 
 ----- START coke-drum-fea-calculator -----"; cd ~/Projects/all-calculators/coke-drum-fea-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
-echo "
-
------ START corr-solutions-da-calculator -----"; cd ~/Projects/all-calculators/corr-solutions-da-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators
 echo "
 
 ----- START corroding-pipe-life-calculator -----"; cd ~/Projects/all-calculators/corroding-pipe-life-calculator; git add .; git commit -m"pip list during container build"; git push; cd ~/Projects/all-calculators

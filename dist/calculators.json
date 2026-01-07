@@ -4,9 +4,9 @@
     "serviceName": "idinterp",
     "deploymentRepo": "eec-kustomize"
   },
-  "corr-solutions-da-calculator": {
-    "imageName": "corrs-solutions-da",
-    "serviceName": "corr-solutions-da",
+  "boar-calculator": {
+    "imageName": "boar",
+    "serviceName": "boar",
     "deploymentRepo": "eec-kustomize",
     "notArmCompatible": true
   },

@@ -6,6 +6,7 @@ kubectl rollout restart -n dev deployment/bakeout
 kubectl rollout restart -n dev deployment/bengi-worker
 kubectl rollout restart -n dev deployment/best-rate
 kubectl rollout restart -n dev deployment/bijlaard
+kubectl rollout restart -n dev deployment/boar
 kubectl rollout restart -n dev deployment/boiler-tube
 kubectl rollout restart -n dev deployment/bpc
 kubectl rollout restart -n dev deployment/branch
@@ -15,7 +16,6 @@ kubectl rollout restart -n dev deployment/calculix-worker
 kubectl rollout restart -n dev deployment/charpy
 kubectl rollout restart -n dev deployment/circuit-corrosion
 kubectl rollout restart -n dev deployment/coke-drum-fea
-kubectl rollout restart -n dev deployment/corr-solutions-da
 kubectl rollout restart -n dev deployment/corroding-pipe-life
 kubectl rollout restart -n dev deployment/cp-design
 kubectl rollout restart -n dev deployment/cp-design-offshore
