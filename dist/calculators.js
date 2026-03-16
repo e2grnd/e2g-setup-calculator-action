@@ -566,6 +566,7 @@ exports.calculators = __assign(__assign({}, calcsByRepo), { 'tbreak-calculator':
         serviceName: 'plume',
         deploymentRepo: 'eec-kustomize',
         trame: true,
+        notArmCompatible: true,
     }, 'cui-calculator': {
         imageName: 'cui-sight',
         serviceName: 'cui-sight',
